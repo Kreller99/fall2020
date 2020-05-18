@@ -59,9 +59,9 @@ html_static_path = ['_static']
 
 html_logo = '_static/logo.png'
 html_show_sourcelink = False
-github_url = 'https://github.com/python-elective-kea/fall2020'
 
 
 html_context = {
     "display_github": True,
+    "github_url" : "https://github.com/python-elective-kea/fall2020"
 }
