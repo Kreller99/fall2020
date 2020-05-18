@@ -10,7 +10,7 @@ Or **view local** by cloning this repository
   git clone https://github.com/python-elective-kea/fall2020.git
 
 ````
-Open the index.html page and use the website.
+Open the index.html page in the "sphinx -> build" folder and use the website.
 
 
 ## Working with the source files
@@ -24,9 +24,7 @@ If you want to work with the source files
 
 ````
 
-And read the documantations here:
-
-https://www.sphinx-doc.org/en/master/contents.html  
+And read the documantations here: https://www.sphinx-doc.org/en/master/contents.html  
 
 The source files can be found in "sphinx -> source" folder.
 
