@@ -10,7 +10,7 @@ Introduction to python fall 2020
 
 .. raw:: html
 
-        <img src="_static/59936081.png" style="float:right">
+        <img src="_static/59936081.png" style="float:right; margin-top: -62px">
 
 Elective website for the "Introduction to python fall 2020" at KEA, Copenhagen School of Design and Technology.
 
