@@ -4,8 +4,13 @@
    contain the root `toctree` directive.
 
 
+
 Introduction to python fall 2020
 ================================
+
+.. raw:: html
+
+        <img src="_static/59936081.png" style="float:right">
 
 Elective website for the "Introduction to python fall 2020" at KEA, Copenhagen School of Design and Technology.
 
