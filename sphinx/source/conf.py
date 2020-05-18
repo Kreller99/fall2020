@@ -71,6 +71,6 @@ html_context = {
     #https://github.com/runawayhorse001/SphinxGithub/blob/master/doc/index.rst
     'github_user': 'python-elective-kea',
     'github_repo': 'fall2020',
-    'github_version': 'master/source/' ,
+    'github_version': 'master/sphinx/source/' ,
 
 }
