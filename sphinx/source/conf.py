@@ -63,5 +63,14 @@ html_show_sourcelink = False
 
 html_context = {
     "display_github": True,
-    "github_url" : "https://github.com/python-elective-kea/fall2020"
+    "github_url" : "https://github.com/python-elective-kea/fall2020",
+
+    # Set the following variables to generate the resulting github URL for each page. 
+    # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}
+    #/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
+    #https://github.com/runawayhorse001/SphinxGithub/blob/master/doc/index.rst
+    'github_user': 'runawayhorse001',
+    'github_repo': 'SphinxGithub',
+    'github_version': 'master/doc/' ,
+
 }
