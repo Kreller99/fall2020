@@ -57,4 +57,11 @@ html_theme = "sphinx_rtd_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_logo = '_static/logo.png'
+html_show_sourcelink = False
+github_url = 'https://github.com/python-elective-kea/fall2020'
 
+
+html_context = {
+    "display_github": True,
+}
