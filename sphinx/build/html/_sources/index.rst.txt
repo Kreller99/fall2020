@@ -103,6 +103,7 @@ The first link should cover what is needed for this elective.
    :caption: Contents:
    :hidden:
 
+   exam
    week35
    week08
    week09
@@ -118,4 +119,3 @@ The first link should cover what is needed for this elective.
    week20
    week21
    week22
-   exam
