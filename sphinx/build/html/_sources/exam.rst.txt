@@ -1,6 +1,8 @@
 Exam
 ====
-At the end of this semester you will have an exam. The exam is evaluated based on the 7 step scale and you are evaluated on how good you have accuired the following learning goals:
+In this document you can find all information about the exam at the end of this semester. 
+
+The exam is evaluated based on the 7 step scale and you are evaluated on how good you have accuired the following learning goals:
 
 .. include:: goals/overall.rst
 
