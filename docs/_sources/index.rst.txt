@@ -31,4 +31,3 @@ Elective website for the "Introduction to python fall 2020" at KEA, Copenhagen S
    week19
    week20
    week21
-   week22

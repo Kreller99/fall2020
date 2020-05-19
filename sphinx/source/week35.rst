@@ -1,5 +1,5 @@
 Week 35 - Introduction to python
-===============================
+================================
 
 
 .. sidebar:: Learning goals
@@ -18,8 +18,8 @@ In the second part you will get an overview of the python language and you will 
 
 Materials
 ---------
-* `Installations <https://github.com/python-elective-fall-2020/Lesson-01-intro-to-python/blob/master/materials/installation.md>`_
-* `Unix commands and file system <https://github.com/python-elective-fall-2020/Lesson-01-intro-to-python/blob/master/materials/unix_commands.md>`_
+* `Installations <notebooks/installation.md>`_
+* `Unix commands and file system <notebooks/unix_commands.md>`_
 * `Is Python interpreted or compiled? Yes. <https://nedbatchelder.com/blog/201803/is_python_interpreted_or_compiled_yes.html>`_
 * `Strings and Character Data in Python <https://realpython.com/python-strings/>`_
 * `if Statements <https://docs.python.org/3/tutorial/controlflow.html#if-statements>`_
