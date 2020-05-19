@@ -63,6 +63,38 @@ Sessions Workflow
 12:30 - 14:00 Exercises in class, Homework, Q&A
 
 
+Software Needed for the Course
+------------------------------
+* Terminal
+
+  * Best is Git Bash, but any shell will work. 
+
+* Git
+
+* Jupyter Notebook
+
+* Any text editor or ide of your own choise will do.
+
+Course materials
+----------------
+
+The litterature to support the learning outcome of this elective can be found on this website:
+
+* https://realpython.com/
+
+An exelent book (but somehow more advanced) about the python language are::
+
+    Fluent Python: Clear, Concise, and Effective Programming, First Edition  
+    Luciano Ramalho  
+    O'Reilly, August 2015  
+    ISBN 978-1-491-9-46008  
+
+The first link should cover what is needed for this elective.  
+
+
+
+
+
 
 
 
@@ -71,9 +103,6 @@ Sessions Workflow
    :caption: Contents:
    :hidden:
 
-   about
-   mandatory
-   exam
    week35
    week08
    week09
@@ -89,3 +118,4 @@ Sessions Workflow
    week20
    week21
    week22
+   exam
