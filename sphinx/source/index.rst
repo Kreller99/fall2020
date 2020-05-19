@@ -14,6 +14,9 @@ Introduction to python fall 2020
 
 Elective website for the "Introduction to python fall 2020" at KEA, Copenhagen School of Design and Technology.
 
+
+.. include:: about.rst
+
 About this elective
 -------------------
 
@@ -103,6 +106,7 @@ The first link should cover what is needed for this elective.
    :caption: Contents:
    :hidden:
 
+   about
    exam
    week35
    week08

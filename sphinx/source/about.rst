@@ -44,11 +44,6 @@ Sessions Workflow
 
 12:30 - 14:00 Exercises in class, Homework, Q&A
 
-
-
-
-
-
 Software Needed for the Course
 ------------------------------
 * Terminal
@@ -61,6 +56,26 @@ Software Needed for the Course
 
 * Any text editor or ide of your own choise will do.
 
-.. include::  materials.rst
+Course materials
+----------------
+
+The litterature to support the learning outcome of this elective can be found on this website:
+
+* https://realpython.com/
+
+An exelent book (but somehow more advanced) about the python language are::
+
+    Fluent Python: Clear, Concise, and Effective Programming, First Edition  
+    Luciano Ramalho  
+    O'Reilly, August 2015  
+    ISBN 978-1-491-9-46008  
+
+The first link should cover what is needed for this elective.  
+
+
+
+
+
+
 
 
