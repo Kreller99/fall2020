@@ -1,0 +1,334 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Python Elective at KEA CS spring 2020 &mdash; Introduction to python 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Introduction to python
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about.html">About this elective</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exam.html">Exam</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week35.html">Week 35 - Introduction to python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week08.html">Week 8 - Data structures and functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week09.html">Week 9 - Utilities and Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week10.html">Week 10 - OOP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week11.html">Week 11 - Encapsulation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week12.html">Week 12 - The python datamodel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week13.html">Week 13 - Decorators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week14.html">Week 14 - Comprehensions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week16.html">Week 16 - Recap Week</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week17.html">Week 17 - Generators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week18.html">Week 18 - Context Managers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week19.html">Week 19</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week20.html">Week 20</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../week21.html">Week 21 &amp; 22 - Exam preperation</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Introduction to python</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Python Elective at KEA CS spring 2020</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/python-elective-kea/fall2020/blob/master/sphinx/source/notebooks/installation.md" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="python-elective-at-kea-cs-spring-2020">
+<h1>Python Elective at KEA CS spring 2020<a class="headerlink" href="#python-elective-at-kea-cs-spring-2020" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<ol class="simple">
+<li><p>Install Python, VS Code, Git and create a GitHub account.</p></li>
+</ol>
+<div class="section" id="python">
+<h2>1. Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="download-and-install-python">
+<h3>Download and install Python<a class="headerlink" href="#download-and-install-python" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Download and install Python from the following source</p>
+<ul>
+<li><p>https://www.python.org/downloads/</p></li>
+</ul>
+</li>
+<li><p>During instalation on Windows, make sure to <code class="docutils literal notranslate"><span class="pre">√</span></code> the option <code class="docutils literal notranslate"><span class="pre">Add</span> <span class="pre">Python</span> <span class="pre">3.7</span> <span class="pre">to</span> <span class="pre">PATH</span></code></p></li>
+</ul>
+<div class="section" id="check-if-everything-is-installed">
+<h4>Check if everything is installed<a class="headerlink" href="#check-if-everything-is-installed" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Open you Terminal (mac) PowerShell (windows) and type in the following</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="o">--</span><span class="n">version</span>
+</pre></div>
+</div>
+<p>When pressing enter, you should now see the following</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="o">--</span><span class="n">version</span>
+<span class="n">Python</span> <span class="mf">3.7</span><span class="o">.</span><span class="mi">4</span>
+</pre></div>
+</div>
+<p>If you see something else, python is not installed correct, and you should try again.</p>
+<p>On Windows (if you did not previously install python) you will be able to type <code class="docutils literal notranslate"><span class="pre">python</span></code> instead of <code class="docutils literal notranslate"><span class="pre">python3</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>  <span class="n">python</span> <span class="o">--</span><span class="n">version</span>
+  <span class="n">Python</span> <span class="mf">3.7</span><span class="o">.</span><span class="mi">4</span>
+</pre></div>
+</div>
+<p>On Mac you will have to follow these steps in order for it to work:<br /><a class="reference internal" href="mac_alias.html"><span class="doc">Special for Mac OS: Create an alias python/python3</span></a></p>
+</div>
+</div>
+</div>
+<div class="section" id="vs-code">
+<h2>2. VS Code<a class="headerlink" href="#vs-code" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="download-and-install-the-text-editor-vs-code">
+<h3>Download and install the text editor VS Code<a class="headerlink" href="#download-and-install-the-text-editor-vs-code" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Download and install VS Code from the following source</p>
+<ul>
+<li><p>https://code.visualstudio.com/</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="git-github">
+<h2>3. Git &amp; Github<a class="headerlink" href="#git-github" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="download-and-install-git">
+<h3>Download and install Git<a class="headerlink" href="#download-and-install-git" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>If you do not already have git installed on your computer you should do this before we meet. https://git-scm.com/</p></li>
+</ul>
+<p><em>If you are on <strong>Windows</strong> be sure to install the “Git Bash” (this is an option you can choose during the installation process.)</em></p>
+<div class="section" id="id1">
+<h4>Check if everything is installed<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Open you terminal and type in the following</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="o">--</span><span class="n">version</span>
+</pre></div>
+</div>
+<p>When pressing enter, you should now see the following</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="o">--</span><span class="n">version</span>
+<span class="n">git</span> <span class="n">version</span> <span class="mf">2.10</span><span class="o">.</span><span class="mi">1</span>  <span class="o">//</span> <span class="ow">or</span> <span class="n">some</span> <span class="n">other</span> <span class="n">version</span> <span class="n">number</span>
+</pre></div>
+</div>
+<p>If you see something else, Git is not installed correct, and you should try again.</p>
+</div>
+</div>
+</div>
+<div class="section" id="create-a-github-account">
+<h2>4. Create a Github Account<a class="headerlink" href="#create-a-github-account" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>If you do not already have a GitHub account, you should create one now.</p>
+<ul>
+<li><p>Go to https://github.com/ and create an account</p></li>
+<li><p>Get a <a class="reference external" href="https://education.github.com/">Github Education Account</a> (Here you get free private repositories)</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="installation-help">
+<h2>Installation help<a class="headerlink" href="#installation-help" title="Permalink to this headline">¶</a></h2>
+<p>In most cases the installation process is straight forward. In some cases the <code class="docutils literal notranslate"><span class="pre">--vesion</span></code> on git and python3 could fail if the path is not set correct.</p>
+<p>You can find some help here:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/">Windows</a></p></li>
+<li><p><a class="reference external" href="http://osxdaily.com/2014/08/14/add-new-path-to-path-command-line/">Mac</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Claus Bove
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
