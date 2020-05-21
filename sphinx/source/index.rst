@@ -18,8 +18,8 @@ Elective website for the "Introduction to python fall 2020" at KEA, Copenhagen S
    about
    exam
    week35
-   week08
-   week09
+   week36
+   week37
    week10
    week11
    week12
