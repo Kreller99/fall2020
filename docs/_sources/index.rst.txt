@@ -23,11 +23,12 @@ Elective website for the "Introduction to python fall 2020" at KEA, Copenhagen S
    week10
    week11
    week12
+   week40
    week13
-   week14
-   week16
    week17
    week18
+   week14
+   week16
    week19
    week20
    week21
