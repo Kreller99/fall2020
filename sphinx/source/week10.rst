@@ -25,7 +25,12 @@ Materials
 * `Python args and kwargs: Demystified <https://realpython.com/python-kwargs-and-args/>`_
 * `Notebook on classes <notebooks/class_notes.ipynb>`_
 * `Code from teachings <https://github.com/python-elective-kea/fall2020/tree/master/code_from_teachings/week35/>`_
-* `Code from teachings 2 <code/>`_ 
+
+
+.. include:: code/script.py
+
+
+
 Exercises
 ---------
 
