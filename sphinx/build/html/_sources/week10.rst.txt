@@ -24,7 +24,7 @@ Materials
 * `Object-Oriented Programming (OOP) in Python 3 <https://realpython.com/python3-object-oriented-programming/>`_
 * `Python args and kwargs: Demystified <https://realpython.com/python-kwargs-and-args/>`_
 * `Notebook on classes <notebooks/class_notes.ipynb>`_
-* `Code from teachings <code_from_teachings/week10>`_
+* `Code from teachings <https://github.com/python-elective-kea/fall2020/tree/master/code_from_teachings/week35/>`_
 Exercises
 ---------
 
