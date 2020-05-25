@@ -27,7 +27,7 @@ Materials
 * `Code from teachings <https://github.com/python-elective-kea/fall2020/tree/master/code_from_teachings/week35/>`_
 
 
-.. literalinclude:: code/script.py
+.. literalinclude:: code/
 
 
 
