@@ -87,7 +87,10 @@
 <li class="toctree-l1"><a class="reference internal" href="about.html">About this elective</a></li>
 <li class="toctree-l1"><a class="reference internal" href="exam.html">Exam</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Week 35 - Introduction to python</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#materials">Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#materials">Materials</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#code-examples-from-teachings">Code examples from teachings</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a></li>
 </ul>
 </li>
@@ -228,8 +231,72 @@
 <li><p><a class="reference external" href="https://nedbatchelder.com/blog/201803/is_python_interpreted_or_compiled_yes.html">Is Python interpreted or compiled? Yes.</a></p></li>
 <li><p><a class="reference external" href="https://realpython.com/python-strings/">Strings and Character Data in Python</a></p></li>
 <li><p><a class="reference external" href="https://docs.python.org/3/tutorial/controlflow.html#if-statements">if Statements</a></p></li>
-<li><p><a class="reference external" href="https://github.com/python-elective-fall-2020/Lesson-01-intro-to-python/tree/master/code_from_today/monday">Code examples from today</a></p></li>
 </ul>
+<div class="section" id="code-examples-from-teachings">
+<h3>Code examples from teachings<a class="headerlink" href="#code-examples-from-teachings" title="Permalink to this headline">¶</a></h3>
+<p>This is code done in the Interpretor:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Python 3.7.7 (default, Mar 10 2020, 15:43:33) 
+n 3.7.7 (default, Mar 10 2020, 15:43:33) 
+[Clang 11.0.0 (clang-1100.0.33.17)] on darwin
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&gt;&gt;&gt; s = &#39;Hello world&#39;
+&gt;&gt;&gt; s
+&#39;Hello world&#39;
+&gt;&gt;&gt; type(s)
+&lt;class &#39;str&#39;&gt;
+&gt;&gt;&gt; s2 = &#39;i am hungry&#39;
+&gt;&gt;&gt; s+s2
+&#39;Hello worldi am hungry&#39;
+&gt;&gt;&gt; s[1:3]
+&#39;el&#39;
+&gt;&gt;&gt; s[-1:-4]
+&#39;&#39;
+&gt;&gt;&gt; s[-4:-1]
+&#39;orl&#39;
+&gt;&gt;&gt; s[-4:-]
+  File &quot;&lt;stdin&gt;&quot;, line 1
+      s[-4:-]
+                ^
+                SyntaxError: invalid syntax
+                &gt;&gt;&gt; s[-4:]
+                &#39;orld&#39;
+                &gt;&gt;&gt; s[-4:-0]
+                &#39;&#39;
+                &gt;&gt;&gt; s[-4:]
+                &#39;orld&#39;
+                &gt;&gt;&gt; 
+[Clang 11.0.0 (clang-1100.0.33.17)] on darwin
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&gt;&gt;&gt; s = &#39;Hello world&#39;
+&gt;&gt;&gt; s
+&#39;Hello world&#39;
+&gt;&gt;&gt; type(s)
+&lt;class &#39;str&#39;&gt;
+&gt;&gt;&gt; s2 = &#39;i am hungry&#39;
+&gt;&gt;&gt; s+s2
+&#39;Hello worldi am hungry&#39;
+&gt;&gt;&gt; s[1:3]
+&#39;el&#39;
+&gt;&gt;&gt; s[-1:-4]
+&#39;&#39;
+&gt;&gt;&gt; s[-4:-1]
+&#39;orl&#39;
+&gt;&gt;&gt; s[-4:-]
+  File &quot;&lt;stdin&gt;&quot;, line 1
+    s[-4:-]
+          ^
+SyntaxError: invalid syntax
+&gt;&gt;&gt; s[-4:]
+&#39;orld&#39;
+&gt;&gt;&gt; s[-4:-0]
+&#39;&#39;
+&gt;&gt;&gt; s[-4:]
+&#39;orld&#39;
+&gt;&gt;&gt; 
+</pre></div>
+</div>
+<p>This is the <strong>script.py</strong> file:</p>
+</div>
 </div>
 <div class="section" id="exercises">
 <h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>

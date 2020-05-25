@@ -1,69 +1,49 @@
 --------------
 Learning goals
 --------------
-The overall goal of this elective is to make you a better, and a more clear thinking programmer, and that you will be able to use python for this.
+The goal of this elective is to make you a better, and a more clear thinking programmer, and to make you able to be so using python as your programming language.
 
-It is further more the goal to give you the competencies requred to perform in a job situation where python is needed. 
+All in all you should at the end of this semester have aquired the compentencies required to perform in a job situation where python is needed. 
 
 The more formal learning goals 
 ******************************
 
-*****
-Viden
-*****
+*********
+Knowledge
+*********
 
-Du vil efter dette valgfag er gennemført have viden om:
+After completing this elective, you will have knowledge of:
 
-* Hvor og i hvilke situationer python bliver brugt.
-* En vifte af for python relevante udviklingsværktøjer.
-* Forskellige pythoniske udviklingsmetoder.
-* Forskelle mellem scripting og kompilerede sprog.
-* Hvad AI, Data Science og Machine Learning er, og hvor og hvordan du vil kunne arbejde med dette i fremtiden.
-* Emnerne fra de tidligere semestre på din uddannelse, men med en dybere forståelse.
+* Where and in what situations python is used.
+* A range of python-relevant development tools. 
+* Different Pythonic development methods. 
+* Differences between scripting and compiled languages.
+* What AI, Data Science and Machine Learning are and where and how you will be able to work with this in the future. 
+* The topics from the previous semesters of your education, but with a deeper understanding. 
+
+******
+Skills
+******
+
+After completing this elective, you will be able to:
+
+* Make use of simple and advanced elements of the language.
+* Be able to explain and make use of Python's Data Model and its protocols.
+* Program via a pythonic programming style.
+* Use a variety of language specific development tools. 
+* Develop using python related development methods.
+* Solve abstract problems using python and a pythonic programming style. 
+* Control your computer through a bash terminal.
+* Refactor code to become "pythonic". 
+* Refactoring code to make the code more efficient. 
+* Analyzes error messages and find solutions to the problem. 
 
 ***********
-Færdigheder
+Competences
 ***********
 
-Du vil efter dette valgfag er gennemført kunne:
+After completing this elective, you will:
 
-* Bruge python som programmeringssprog.
-* Gøre brug af simple og avancerede elementer fra sproget.
-* Kunne forklare og gøre brug af Pythons Data Model og dets protokoller.
-* Programmerne via en pythonisk programmeringsstil.
-* Bruge en vifte af udviklingsværktøjer tilknyttet sproget.
-* Udvikle ved hjælp af python relaterede udviklingsmetoder.
-* Løse abstrakte problemstillinger vha. af python og en pythonic programeringsstil.
-* Kontrollerer din computer gennem en bash terminal.
-* Refakturere kode så koden bliver "pythonic".
-* Refakturere kode så koden eksekveres mere effektiv.
-* Analyserer fejlbeskeder og finde løsninger på problemet.
+* Be able to independently familiarize yourself with new topics and conduct literature searches and find solutions to problems encountered. 
+* Be able to perspective and relate to what you learned earlier in the study (especially in relation to the difference between Python and Java).
 
-************
-Kompentencer
-************
-
-Du vil efter dette valgfag er gennemført: 
-
-* Være i stand til selvstændigt at sætte dig ind i nye emner og foretage litteratursøgninger og finde løsninger på opståede problemer.
-* Være i stand til at perspektiverer og relaterer til hvad du har lært tidligere på studiet (specielt i forhold til forskellen mellem Python og Java).
-
-
-
-
-
-
-
-So at the end of this semester:
-
-* You will be able to solve practical problems using python. 
-* You will be able to explain and use basic python concepts and some advanced ones.
-* You will be able to write pythonic code. 
-* You will be able to explain the difference between pythonic code and what you know from Java programming.
-* You will have knowledge about where and for what python is used.
-
-* You will be able to independently study new topics related to python theory and practice.
-* You will be able to perform litterature searches related to the topic.  
-* You will be able to analyse the error messages given to you, and solve the problems related to the errors
-* You will have the skills needed in jobs where python is a requrement,
-* You will have improved you logic thinking abillities.

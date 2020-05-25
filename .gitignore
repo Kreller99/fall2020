@@ -1,3 +1,5 @@
 teacher
 .DS_Store
 
+# exercise solutions
+/sphinx/build/html/exercises/solution/oop/*

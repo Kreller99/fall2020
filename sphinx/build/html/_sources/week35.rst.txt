@@ -21,7 +21,19 @@ Materials
 * `Is Python interpreted or compiled? Yes. <https://nedbatchelder.com/blog/201803/is_python_interpreted_or_compiled_yes.html>`_
 * `Strings and Character Data in Python <https://realpython.com/python-strings/>`_
 * `if Statements <https://docs.python.org/3/tutorial/controlflow.html#if-statements>`_
-* `Code examples from today <https://github.com/python-elective-fall-2020/Lesson-01-intro-to-python/tree/master/code_from_today/monday>`_
+
+
+----------------------------
+Code examples from teachings
+----------------------------
+
+This is code done in the Interpretor:
+
+.. literalinclude:: code/week35/interpretor.py
+
+This is the **script.py** file:
+
+.. literalinclude:: code/week35/script.py
 
 Exercises
 ---------
