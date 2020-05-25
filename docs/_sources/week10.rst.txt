@@ -26,6 +26,9 @@ Materials
 * `Notebook on classes <notebooks/class_notes.ipynb>`_
 * `Code from teachings <https://github.com/python-elective-kea/fall2020/tree/master/code_from_teachings/week35/>`_
 
+----------------------------
+Code examples from teachings
+----------------------------
 
 .. literalinclude:: code/script.py
 
