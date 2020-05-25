@@ -30,7 +30,7 @@ Materials
 Code examples from teachings
 ----------------------------
 
-* `Code from teachings <exercises/solutions/oop/solution.rst>`_
+* `Code from teachings <exercises/solution/oop/solution.rst>`_
 
 
 Exercises
