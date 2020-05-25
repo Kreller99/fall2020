@@ -23,13 +23,13 @@ Materials
 * `How to Use sorted() and sort() in Python <https://realpython.com/python-sort/>`_
 * `Sorting key parameter explained <https://github.com/python-elective-fall-2019/Lesson-02-Data-structures/blob/master/img/sorted.png>`_
 * `Reading and Writing Files in Python (Guide) <https://realpython.com/read-write-files-python/>`_
-* `Code examples from today <https://github.com/python-elective-spring-2020/Lesson-02-Data-structures/tree/master/code_from_today>`_
+* `Code examples from today <code_from_teachings/foo.rst>`_
 
 
 Exercises
 ---------
 * `This weeks exercises <../week08/exercises/>`_
-* Solutions
+
 
 ------
 quizes

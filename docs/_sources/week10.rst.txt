@@ -2,13 +2,18 @@ Week 10 - OOP
 =============
 
 .. sidebar:: Learning goals
-    :subtitle: After having worked with these topics you will be able to:
+   :subtitle: After having worked with these topics you will be able to:
       
-      - create Classes, Objects, instance and class variables, methods and initializer methods. 
-      - make use of single and multiple inheritance.   
-      - explain when and why to use classes and objects instead of procedural style. 
-      - relate the pythonic OOP style to other languages  (Java e.g) 
-      - create doctests for your python code.
+   - create Classes, Objects, instance and class variables, methods and initializer methods. 
+   - make use of single and multiple inheritance.   
+   - explain when and why to use classes and objects instead of procedural style. 
+   - relate the pythonic OOP style to other languages  (Java e.g) 
+   - create doctests for your python code.
+
+.. note:: Homework
+   
+   Before this class you should have read and understood this text `Object-Oriented Programming (OOP) in Python 3 <https://realpython.com/python3-object-oriented-programming/>`_. These are basic OOP concepts, which you have already woorked with in the forst part of your education. You just need to be up to date with how this is done, and how the syntax is done in python.
+
 
 
 Today we will work with the basics of Object oriented programming in python. You will learn how to include tests in you applications, and you will have exercises that deals with Bank accounts, Angry birds. 
@@ -18,7 +23,6 @@ Materials
 ---------
 * `Object-Oriented Programming (OOP) in Python 3 <https://realpython.com/python3-object-oriented-programming/>`_
 * `Python args and kwargs: Demystified <https://realpython.com/python-kwargs-and-args/>`_
-* `doctest — Test interactive Python examples <https://docs.python.org/3/library/doctest.html>`_
 * `Notebook on classes <notebooks/class_notes.ipynb>`_
 * `Code from teachings <../week10/code_from_today/>`_
 Exercises

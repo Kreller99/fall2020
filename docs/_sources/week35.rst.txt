@@ -4,17 +4,15 @@ Week 35 - Introduction to python
 
 .. sidebar:: Learning goals
     :subtitle: After this week you will:
-              
-        Have an understanding of how this semester's teachings and learning process are going to be, and of how the exam will proceed. You will be able to use a terminal to control your computer. 
         
-        You will have a basic understanding of a python development environment will look like and how to use it (interpreter and editor). 
-        
-        You will be able to use and talk about strings, conditions, basics about functions, run a python program from the command line and use the python interpreter. 
-
+    - Have an understanding of how this elective is structured.
+    - Have a basic understanding of a python development enviroment 
+    - Be able to control your computer through its command line
+    - Be able to work with strings, conditions and functions.      
 
 The first part of today will be an "overview" and "installation" day. We need to be on the same level before we start. You will furthermore get an introduction to the unix filesystem and commandline and you will have exercises in controling your computer through the commandline.  
 
-In the second part you will get an overview of the python language and you will start to get familiar with the language and the development enviroment. We will focus this first lesson on strings and string manipulations.
+In the second part you will get an overview of the python language and you will start to get familiar with the language and the development enviroment. We will focus this first lesson on strings and string manipulations. 
 
 Materials
 ---------
@@ -27,9 +25,11 @@ Materials
 
 Exercises
 ---------
-* `This weeks Exercises <https://github.com/Python-Elective-Spring-2020/Lesson-01-intro-to-python/tree/master/exercises>`_
-* Solutions
+Exercise 1: Unix Commands
 
+.. include:: _static/unix_commands/README.rst
+
+* `unix_command <_static/unix_commands/>`_ 
 ------
 Quizes
 ------
