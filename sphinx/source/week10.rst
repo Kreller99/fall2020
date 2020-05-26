@@ -46,7 +46,7 @@ Exercises
 EX 1: Bank Exercise 
 -------------------
 
-`Solution <../week10/exercises/solution/bank.py>`_
+.. `Solution <exercises/solution/oop/solution.rst#bank-exercise>`_
 
 Create a Bank, an Account, and a Customer class.
 
@@ -78,7 +78,7 @@ When you are done you should hand in you solution on fronter. You should after t
 Ex 2: Angry Bird
 ----------------
 
-`Solution <../week10/exercises/solution/angry_bird.py>`_
+.. `Solution <exercises/solution/oop/solution.rst#angry-bird-exercise>`_
 
 In this exercises you are going to create a simple terminal version of this `Angry Bird online coding teaching tool for kids <https://studio.code.org/hoc/1>`_ .
 

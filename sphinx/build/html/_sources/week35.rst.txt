@@ -37,11 +37,10 @@ This is the **script.py** file:
 
 Exercises
 ---------
-Exercise 1: Unix Commands
 
-.. include:: _static/unix_commands/README.rst
+`Exercise 1: Unix Commands <exercises/unix_commands/unix_commands.md>`_
 
-* `unix_command <_static/unix_commands/>`_ 
+
 ------
 Quizes
 ------
