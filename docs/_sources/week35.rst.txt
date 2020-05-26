@@ -27,7 +27,7 @@ Materials
 Code examples from teachings
 ----------------------------
 
-This is code done in the Interpretor:
+This is the code we did in the Interpretor:
 
 .. literalinclude:: code/week35/interpretor.py
 
@@ -38,8 +38,8 @@ This is the **script.py** file:
 Exercises
 ---------
 
-`Exercise 1: Unix Commands <exercises/unix_commands/unix_commands.md>`_
-
+* `Exercise 1: Unix Commands <exercises/unix_commands/unix_commands.md>`_
+* `Exercise 2: Strings1 & Strings2 <exercises/strings/strings.rst>`_
 
 ------
 Quizes

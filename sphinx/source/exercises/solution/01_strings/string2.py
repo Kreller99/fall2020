@@ -98,4 +98,5 @@ def main():
   test(front_back('abcde', 'xyz'), 'abcxydez')
   test(front_back('Kitten', 'Donut'), 'KitDontenut')
 
-main()
+if __name__ == '__main__':
+  main()

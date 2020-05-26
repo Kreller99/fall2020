@@ -70,12 +70,6 @@ def fix_start(s):
 #   'dog', 'dinner' -> 'dig donner'
 # Assume a and b are length 2 or more.
 def mix_up(a, b):
-  
-  # 1. solution
-  return f'{b[:2]}{a[2:]} {a[:2]}{b[2:]}'
-
-
-  # 2. solution
   # get first 2 letters of a and b
   afirst = a[:2]
   bfirst = b[:2]
@@ -84,12 +78,15 @@ def mix_up(a, b):
   blast = b[2:]
   # concatenate a and b
   ab = f'{bfirst}{alast} {afirst}{blast}'
-  #return ab
+  return ab
 
-  # 3. solution
+  # solution google
   a_swapped = b[:2] + a[2:]
   b_swapped = a[:2] + b[2:]
   #return a_swapped + ' ' + b_swapped
+
+  # 3 solution
+  # return b[:2] + a[2:] + ' ' + a[:2] + b[2:]
 
 
 # Provided simple test() function used in main() to print
@@ -134,4 +131,7 @@ def main():
   test(mix_up('gnash', 'sport'), 'spash gnort')
   test(mix_up('pezzy', 'firm'), 'fizzy perm')
 
-main()
+
+# Standard boilerplate to call the main() function.
+if __name__ == '__main__':
+  main()
