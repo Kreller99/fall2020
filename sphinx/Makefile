@@ -21,11 +21,11 @@ help:
 
 
 github:
-	@rm -r build/html/
-	@rm -r ../docs
+	@rm -r /docs/sphinx/build/html/
+	@rm -r /docs/docs/
 	@make html
-	@cp -a build/html/ ../docs
-	@touch ../docs/.nojekyll
+	@cp -a /docs/sphinx/build/html/ ../docs
+	@touch /docs/docs/.nojekyll
 	
 # @git -C ../ add . 
 # @git -C ../ commit -m "new"
