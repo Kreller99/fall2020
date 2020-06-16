@@ -26,6 +26,6 @@ github:
 	@make html
 	@cp -a build/html/ ../docs
 	@touch ../docs/.nojekyll
-	@git -C /Users/clbo/Google/python/repos/fall2020/ add .
-	@git -C /Users/clbo/Google/python/repos/fall2020 commit -m "from makefile"
-	@git -C /Users/clbo/Google/python/repos/fall2020 push origin master
+	@git -C ../ add . 
+	@git -C ../ commit -m "new"
+	@git -C ../ push origin master
