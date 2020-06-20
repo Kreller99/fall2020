@@ -1,4 +1,9 @@
-CheatSheet
-==========
+Elective Cheatsheet
+===================
 
-This sis a test
+
+.. code::
+   
+   $ docker run --rm -v ${PWD}:/docs sphinx /bin/sh -c 'cd sphinx/; make html'
+
+

@@ -27,6 +27,6 @@ github:
 	@cp -a build/html/ ../docs
 	@touch ../docs/.nojekyll
 	
-# @git -C ../ add . 
-# @git -C ../ commit -m "new"
+	@git -C ../ add . 
+	@git -C ../ commit -m "new 19-06"
 # @git -C ../ push origin master
