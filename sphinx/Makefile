@@ -28,5 +28,5 @@ github:
 	@touch ../docs/.nojekyll
 	
 	@git -C ../ add . 
-	@git -C ../ commit -m "new 19-06"
-# @git -C ../ push origin master
+	@git -C ../ commit -m "new 20-06"
+	@git -C ../ push origin master
