@@ -17,6 +17,14 @@ Open the index.html page in the "sphinx -> build" folder and use the website.
 
 If you want to work with the source files
 
+### Run in dacker container
+
+````
+
+	$ docker run --rm -v /path/to/document:/docs sphinxdoc/sphinx make htm
+
+````
+
 ### Install Sphinx
 
 ````
