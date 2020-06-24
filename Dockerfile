@@ -28,4 +28,5 @@ RUN apt-get update \
 
 # set up authendication for your github account
 # token, user, repo arguments should be set at container creation time
-RUN git clone https://$token:x-oauth-basic@github.com/$user/$repo.git
+RUN git config --global url."https://$token@github.com/".insteadOf "https://github.com/"
+# RUN git clone https://$token:x-oauth-basic@github.com/$user/$repo.git
