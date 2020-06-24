@@ -1,13 +1,26 @@
-# Python Elective at KEA CS spring 2020
+# Installations
+This document will describe what you should install in order to follow this elective. 
+You will not install python dirrectly on your computer, but instead throughout this semester run docker containers build opon different kinds of python images.
 
-# Installation
-1. Install Python, VS Code, Git and create a GitHub account.
+You probably already have installed some of the following applications, but if you do not you should now install:
 
-## 1. Python
-### Download and install Python
-* Download and install Python from the following source 
-    * https://www.python.org/downloads/
-* During instalation on Windows, make sure to ``` √ ``` the option ``` Add Python 3.7 to PATH ```  
+1. Docker desktop 
+2. Some kind of text editor.
+3. Git 
+4. Create a GitHub account.
+
+## 1. Docker Desktop
+### Download and install Docker Desktop
+
+Navigate to the Docker website and download and install Docker Desktop for your operating system.
+
+https://www.docker.com/products/docker-desktop
+
+
+
+#### Check if everything is installed
+
+
 #### Check if everything is installed
 * Open you Terminal (mac) PowerShell (windows) and type in the following
 
