@@ -14,7 +14,6 @@ You probably already have installed some of the following applications, but if y
 
 Navigate to the Docker website and download and install Docker Desktop for your operating system.
 
-https://www.docker.com/products/docker-desktop
 
 
 
