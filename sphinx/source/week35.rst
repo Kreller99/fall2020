@@ -7,6 +7,7 @@ The first part of today will be an "overview" and "installation" day. We need to
 
 In the second part you will get an overview of the python language and you will start to get familiar with the language and the development enviroment. We will focus this first lesson on strings and string manipulations. 
 
+...
 
 Learning goals
 --------------
