@@ -1,18 +1,24 @@
 Week 35 - Introduction to python
 ================================
 
+This first week of this elective will be used for introducing this elective and making sure that you all have the software needed to follow along.
 
-.. sidebar:: Learning goals
-    :subtitle: After this week you will:
+The first part of today will be an "overview" and "installation" day. We need to be on the same level before we start. You will furthermore get an introduction to the unix filesystem and commandline and you will have exercises in controling your computer through the commandline.  
+
+In the second part you will get an overview of the python language and you will start to get familiar with the language and the development enviroment. We will focus this first lesson on strings and string manipulations. 
+
+
+Learning goals
+--------------
+
+After this week you will:
         
     - Have an understanding of how this elective is structured.
     - Have a basic understanding of a python development enviroment 
     - Be able to control your computer through its command line
     - Be able to work with strings, conditions and functions.      
 
-The first part of today will be an "overview" and "installation" day. We need to be on the same level before we start. You will furthermore get an introduction to the unix filesystem and commandline and you will have exercises in controling your computer through the commandline.  
 
-In the second part you will get an overview of the python language and you will start to get familiar with the language and the development enviroment. We will focus this first lesson on strings and string manipulations. 
 
 Materials
 ---------

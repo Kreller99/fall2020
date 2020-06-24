@@ -7,7 +7,7 @@ Introduction to python fall 2020
 
 Elective website for the "Introduction to python fall 2020" at KEA, Copenhagen School of Design and Technology.
 
-These pages contains everything you need af materials for this elective. A few resources, like literature with copyright can be founc on Fronter, but will be linked to from these pages. 
+These pages contains everything you need for this elective. A few resources, like literature with copyright can be found on Fronter, but will be linked to from these pages. 
 
 Underneath you can see a content overview about this site, and you will by following the menu on the left side be able to access all materials too.
 
@@ -17,7 +17,6 @@ Underneath you can see a content overview about this site, and you will by follo
 
    about
    exam
-   cheatsheet
    week35
    week36
    week37
