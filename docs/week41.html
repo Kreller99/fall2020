@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Week 37 - Utilities and Modules &mdash; Introduction to python 1.0.0 documentation</title>
+  <title>Week 41 - Data Structures: Dicts &amp; Sets &mdash; Introduction to python 1.0.0 documentation</title>
   
 
   
@@ -38,8 +38,8 @@
     <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Week 38 - OOP" href="week38.html" />
-    <link rel="prev" title="Week 36 - Data Structures: Sequences &amp; comprehensions" href="week36.html" /> 
+    <link rel="next" title="Week 42 - Functions &amp; Decorators" href="week42.html" />
+    <link rel="prev" title="Week 40 - The python datamodel" href="week40.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -90,18 +90,11 @@
 <li class="toctree-l1"><a class="reference internal" href="exam.html">Exam</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week35.html">Week 35 - Introduction to python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week36.html">Week 36 - Data Structures: Sequences &amp; comprehensions</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 37 - Utilities and Modules</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#materials">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#quizes">quizes</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="week37.html">Week 37 - Utilities and Modules</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week38.html">Week 38 - OOP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week39.html">Week 39 - Encapsulation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week40.html">Week 40 - The python datamodel</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week41.html">Week 41 - Data Structures: Dicts &amp; Sets</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 41 - Data Structures: Dicts &amp; Sets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week42.html">Week 42 - Functions &amp;  Decorators</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week43.html">Week 43 - Generators</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week44.html">Week 44 - Introduction to AI</a></li>
@@ -153,14 +146,14 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Week 37 - Utilities and Modules</li>
+      <li>Week 41 - Data Structures: Dicts &amp; Sets</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
             
-              <a href="https://github.com/python-elective-kea/fall2020/blob/master/sphinx/source/week37.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/python-elective-kea/fall2020/blob/master/sphinx/source/week41.rst" class="fa fa-github"> Edit on GitHub</a>
             
           
         
@@ -198,63 +191,8 @@
     text-align: unset;
 }
 </style>
-<div class="section" id="week-37-utilities-and-modules">
-<h1>Week 37 - Utilities and Modules<a class="headerlink" href="#week-37-utilities-and-modules" title="Permalink to this headline">¶</a></h1>
-<div class="sidebar">
-<p class="sidebar-title">Learning goals</p>
-<p class="sidebar-subtitle">After this week you will be able to:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>Create your own modules.</p></li>
-<li><p>Use python build in modules.</p></li>
-<li><p>Find and use 3rd party modules.</p></li>
-<li><p>Use the requests module to fetch website data.</p></li>
-<li><p>search a document for patterns.</p></li>
-<li><p>Work with the module BeautifullSoup for webscrabing.</p></li>
-</ul>
-</div></blockquote>
-</div>
-<p>Today we will work with modules in python. You will build your own modules and use them, and you will learn how to use pythons build in modules, and how to use 3rd party modules.</p>
-<p>You will furthermore be able to create a simple web crawler, and to search a document for patterns.</p>
-<p>You will on the practical level today work with 4 modules, the:</p>
-<ul class="simple">
-<li><p>Os module</p></li>
-<li><p>Subprocesses module</p></li>
-<li><p>Requests module</p></li>
-<li><p>BeautifullSoup module</p></li>
-</ul>
-<div class="section" id="materials">
-<h2>Materials<a class="headerlink" href="#materials" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><a class="reference external" href="https://realpython.com/python-modules-packages/">Python Modules and Packages</a></p></li>
-<li><p><a class="reference external" href="https://docs.python.org/3/library/os.html">Miscellaneous operating system interfaces</a></p></li>
-<li><p><a class="reference external" href="https://docs.python.org/3.7/library/subprocess.html#module-subprocess">Subprocess management</a></p></li>
-<li><p><a class="reference external" href="https://realpython.com/python-requests/">Python’s Requests Library</a></p></li>
-<li><p><a class="reference external" href="https://www.codementor.io/aviaryan/downloading-files-from-urls-in-python-77q3bs0un">Downloading Files from URLs in Python</a></p></li>
-<li><p><a class="reference external" href="https://www.youtube.com/watch?v=ohr6O78jGzs">How to Learn Python in Five Minutes</a></p></li>
-</ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ohr6O78jGzs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><ul class="simple">
-<li><p><a class="reference external" href="../week09/code_from_today">Code examples from today</a></p></li>
-</ul>
-</div>
-<div class="section" id="exercises">
-<h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><a class="reference external" href="../week09/exercises/">This weeks exercises</a></p></li>
-<li><p><a class="reference external" href="https://realpython.com/beautiful-soup-web-scraper-python/">Build a Web Scraper With Python</a></p>
-<ul>
-<li><p>When this is done, extend your solution with the ability to download all images (logos) from the Monster website you just worked with.</p></li>
-</ul>
-</li>
-<li><p><a class="reference external" href="https://realpython.com/command-line-interfaces-python-argparse/">How to Build Command Line Interfaces in Python With argparse</a></p></li>
-</ul>
-<div class="section" id="quizes">
-<h3>quizes<a class="headerlink" href="#quizes" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://realpython.com/quizzes/python-requests/">HTTP Requests With the “requests” Library Quiz</a></p></li>
-</ul>
-</div>
-</div>
+<div class="section" id="week-41-data-structures-dicts-sets">
+<h1>Week 41 - Data Structures: Dicts &amp; Sets<a class="headerlink" href="#week-41-data-structures-dicts-sets" title="Permalink to this headline">¶</a></h1>
 </div>
 
 
@@ -265,10 +203,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="week38.html" class="btn btn-neutral float-right" title="Week 38 - OOP" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="week42.html" class="btn btn-neutral float-right" title="Week 42 - Functions &amp; Decorators" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="week36.html" class="btn btn-neutral float-left" title="Week 36 - Data Structures: Sequences &amp; comprehensions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="week40.html" class="btn btn-neutral float-left" title="Week 40 - The python datamodel" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
