@@ -7,19 +7,15 @@ The first part of today will be an "overview" and "installation" day. We need to
 
 In the second part you will get an overview of the python language and you will start to get familiar with the language and the development enviroment. We will focus this first lesson on strings and string manipulations. 
 
-...
-
 Learning goals
 --------------
 
 After this week you will:
         
-    - Have an understanding of how this elective is structured.
-    - Have a basic understanding of a python development enviroment 
-    - Be able to control your computer through its command line
-    - Be able to work with strings, conditions and functions.      
-
-
+    - Have an overview of how this elective is structured, and what you can expeted to learn during this semester.
+    - Have a basic understanding of a python development enviroment, and know how to use it.
+    - Be able to control your computer through its command line.
+    - Be able to work with python strings, conditions and functions.      
 
 Materials
 ---------

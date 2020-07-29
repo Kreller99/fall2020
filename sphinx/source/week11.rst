@@ -1,16 +1,19 @@
 Week 11 - Encapsulation
 =======================
 
-.. sidebar:: Learning goals
-    :subtitle: After this week you will be able to:
+In todays lectures we will deal with private and public attributes of classes, and how to encasulate data. To solve this in python you will need to use properties.  
+
+The pythonic approach starts out with the quite bold statement that all attributes are public, and unless specificly needed there are not any reason to make them anything else but public. If you think on back on your java development times, it is in reality seldome that you do some coding tasks that could not have been done with public attributes instead of privates with connected getters and setters. The pythonic approach to this problem is: make everything public, and if at some point you need to encapsulate, decorate your attributes and change it into a property. Today we will work with this approach in mind.  
+
+Learning goals
+--------------
+After this week you will be able to:
         
-        - Use private and public attributes in your code
-        - Explain what is meant by private in python 
-        - Work with properties to use encapsulation.
-        - And explain the pros and cons of properties compared to Java´s getters and setters. 
-
-In todays lectures we will deal with private and public attributes, and how to encasulate data. To solve this in python yu will need to use properties.  
-
+- Understand the pythonic approach to encapsulation. 
+- Use private and public attributes in your code
+- Explain what is meant by private in python 
+- Work with properties to use encapsulation.
+- And explain the pros and cons of properties and public attributes compared to Java´s private attributes with getters and setters. 
 
 Materials
 ---------
