@@ -1,4 +1,4 @@
-Week 41 - Functions &  Decorators  
+Week 42 - Functions &  Decorators  
 =================================
 
 .. sidebar:: Learning goals
