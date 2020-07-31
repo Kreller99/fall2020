@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Week 44 - Context Managers &mdash; Introduction to python 1.0.0 documentation</title>
+  <title>Week 47 - Tensorflow &mdash; Introduction to python 1.0.0 documentation</title>
   
 
   
@@ -37,7 +37,8 @@
     
     <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Week 46 - Data Science &amp; Machine Learning" href="week46.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -83,7 +84,7 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="about.html">About this elective</a></li>
 <li class="toctree-l1"><a class="reference internal" href="exam.html">Exam</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week35.html">Week 35 - Introduction to python</a></li>
@@ -95,9 +96,10 @@
 <li class="toctree-l1"><a class="reference internal" href="week41.html">Week 41 - Data Structures: Dicts &amp; Sets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week42.html">Week 42 - Functions &amp;  Decorators</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week43.html">Week 43 - Generators</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week44.html">Week 44 - Introduction to AI</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week45.html">Week 45 - Data Science &amp; Machine Learning</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week46.html">Week 46 - Tensorflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week44.html">Week 44 - Context Managers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week45.html">Week 45 - Introduction to AI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week46.html">Week 46 - Data Science &amp; Machine Learning</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 47 - Tensorflow</a></li>
 </ul>
 
             
@@ -144,14 +146,14 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Week 44 - Context Managers</li>
+      <li>Week 47 - Tensorflow</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
             
-              <a href="https://github.com/python-elective-kea/fall2020/blob/master/sphinx/source/week18.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/python-elective-kea/fall2020/blob/master/sphinx/source/week47.rst" class="fa fa-github"> Edit on GitHub</a>
             
           
         
@@ -189,62 +191,8 @@
     text-align: unset;
 }
 </style>
-<div class="section" id="week-44-context-managers">
-<h1>Week 44 - Context Managers<a class="headerlink" href="#week-44-context-managers" title="Permalink to this headline">¶</a></h1>
-<div class="sidebar">
-<p class="sidebar-title">Learning goals</p>
-<ul class="simple">
-<li><p>Setup and run a Virtual Enviroment</p></li>
-<li><p>Install and use Jupyter Notebook</p></li>
-<li><p>Being able to use a Context Manager</p></li>
-<li><p>Creating your own Context Managers</p></li>
-<li><p>Working with JSON files</p></li>
-<li><p>Working with the Pickles Module</p></li>
-<li><p>Working with CSV files</p></li>
-<li><p>Working with Pandas</p></li>
-<li><p>Working with SQlite database</p></li>
-</ul>
-</div>
-<p>Today we will work with context managers. Context managers can in short be described as something that takes care of the related tasks of a specific task. An example of this could be when opening a file, the context manager takes care of automaticly closing the file when we are finished using it.</p>
-<p>You will make your own context managers and use already created ones.</p>
-<p>We start out by introducing a new development environment, the Jupyter Notebook. And we will in connection with this look at what a virtual environment is, and how to use it.</p>
-<div class="section" id="materials">
-<h2>Materials<a class="headerlink" href="#materials" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><a class="reference internal" href="notebooks/virtual_env_setup.html"><span class="doc">Virtual Enviroment Setup Guide</span></a></p></li>
-<li><p><a class="reference internal" href="notebooks/jupyter_notebook.html"><span class="doc">Getting started with Jupyter Notebook</span></a></p></li>
-<li><p><a class="reference external" href="https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46">Getting Started With Jupyter Notebook for Python</a></p></li>
-<li><p><a class="reference internal" href="notebooks/Context-managers.html"><span class="doc">Context Managers notebook</span></a></p></li>
-<li><p><a class="reference internal" href="notebooks/JSON.html"><span class="doc">JSON notebook</span></a></p></li>
-<li><p><a class="reference internal" href="notebooks/Pickle-Pythonobjectserialization.html"><span class="doc">Pickle notebook</span></a></p></li>
-<li><p><a class="reference internal" href="notebooks/csv.html"><span class="doc">CSV notebook</span></a></p></li>
-<li><p><a class="reference internal" href="notebooks/Sqlite.html"><span class="doc">Sqlite notebook</span></a></p></li>
-</ul>
-</div>
-<div class="section" id="exercises">
-<h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><a class="reference external" href="https://realpython.com/quizzes/python-csv/">CSV Quiz</a></p></li>
-<li><dl class="simple">
-<dt><a class="reference external" href="notebooks/JSON.html#10-minutes-exercise">JSON 10 minutes exer</a></dt><dd><ul>
-<li><p><a class="reference internal" href="notebooks/JSONSolution.html"><span class="doc">Solution</span></a></p></li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><p><a class="reference external" href="notebooks/Sqlite.html#10-minutes-exercise">SQlite 10 minutes exer</a></p></li>
-<li><p><a class="reference internal" href="notebooks/ConvertCSVtoJSON.html"><span class="doc">ConvertCSVtoJSON</span></a></p></li>
-<li><p><a class="reference internal" href="notebooks/Assignment_Decorator_Context_Manager.html"><span class="doc">Decorator / Context Manager</span></a></p></li>
-</ul>
-<div class="section" id="follow-these-tutorials">
-<h3>Follow these tutorials:<a class="headerlink" href="#follow-these-tutorials" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://stackabuse.com/python-context-managers/">Python Context Managers</a></p></li>
-<li><p><a class="reference external" href="https://realpython.com/python-json/">Working With JSON Data in Python</a></p></li>
-<li><p><a class="reference external" href="https://realpython.com/python-csv/">Reading and Writing CSV Files in Python</a></p></li>
-</ul>
-</div>
-</div>
+<div class="section" id="week-47-tensorflow">
+<h1>Week 47 - Tensorflow<a class="headerlink" href="#week-47-tensorflow" title="Permalink to this headline">¶</a></h1>
 </div>
 
 
@@ -252,6 +200,13 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="week46.html" class="btn btn-neutral float-left" title="Week 46 - Data Science &amp; Machine Learning" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

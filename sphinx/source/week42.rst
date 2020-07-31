@@ -13,7 +13,10 @@ Week 42 - Functions &  Decorators
         - Decorator classes 
 
 
-This week will be about decorators. You have already used decorators in your code. A :code:`@property` is an example of this, but today you will be making your own decorators.
+Decorators in python are widely used to add new functionallity to already existing code.
+You have already used decorators in your code. A :code:`@property` is an example of this. Here you anotate a method with 'something' to make it able to do 'more' than the method in it self can do. You also know the concept from the Spring Framework you worked with previous in your education. Here you would add some more functionality (more code) to your already existing code by anotating it with :code:`@Controler` or :code:`@Autowired`. In both cases you add extra code to your code and get some new functionality.   
+
+:code:`@property` is a python build in decorator, but today you will be making your own decorators.
 
 The boilerplate syntax of a decorator is like this:
 
