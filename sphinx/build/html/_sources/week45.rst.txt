@@ -24,4 +24,4 @@ Materials
 
 Exercises
 ---------
-* `(Podcast) Tic-Tac-Toe the Hard Way <https://pair.withgoogle.com/thehardway/> `_
+* `(Podcast) Tic-Tac-Toe the Hard Way <https://pair.withgoogle.com/thehardway/>`_
