@@ -30,8 +30,4 @@ Underneath you can see a content overview about this site, and you will by follo
    week45
    week46
    week47
-   week48
-   week49
    week50
-   week51
-   week52
