@@ -38,9 +38,9 @@ Run the following command in your termianl to download the image and run a conta
 ````
 With:   
 
-* **-it** you specify to run the container in interactive mode (you can use its terminal).
-* **--rm** you specify that the container should be deleted when you exit the terminal.
-* **ubuntu** is the name of the image
+* ** -it **: you specify to run the container in interactive mode (you can use its terminal).
+* ** --rm **: you specify that the container should be deleted when you exit the terminal.
+* ** ubuntu ** : is the name of the image
  
 After downloading has finnished, and run has executed you should see something like this in your terminal.
 
@@ -65,10 +65,10 @@ Run the following command in your termianl to download the image and run a conta
 
 With:   
 
-* **-it** you specify to run the container in interactive mode (you can use its terminal).
-* **--rm** you specify that the container should be deleted when you exit the terminal.
-* **python** is the name of the image.
-* **bash** specifies that you want to start the container with a terminal gui (bash) 
+* ** -it **: you specify to run the container in interactive mode (you can use its terminal).
+* ** --rm **: you specify that the container should be deleted when you exit the terminal.
+* ** python **: is the name of the image.
+* ** bash **: specifies that you want to start the container with a terminal gui (bash) 
 
 After downloading has finnished, and run has executed you should see something like this in your terminal.
 
@@ -97,14 +97,14 @@ Download and install a text editor. There are many good ones, and you need at le
 
 A good option is VS Code. You can download it from the following source: 
 
-* https://code.visualstudio.com/
+* [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 
 ## 3. Git & Github
 ### Download and install Git
 * If you do not already have git installed on your computer you should do this now. 
 
-* https://git-scm.com/ 
+* [https://git-scm.com/](https://git-scm.com/) 
 
 _If you are on **Windows** be sure to install the "Git Bash" (this is an option you can choose during the installation process.)_
 

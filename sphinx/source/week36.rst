@@ -24,7 +24,7 @@ Materials
 * `Sorting key parameter explained <https://github.com/python-elective-fall-2019/Lesson-02-Data-structures/blob/master/img/sorted.png>`_
 * `Reading and Writing Files in Python (Guide) <https://realpython.com/read-write-files-python/>`_
 * `Code examples from today <code_from_teachings/foo.rst>`_
-
+* `Docker commands from today <cheatsheet.rst#week-36-data-structures-sequences-comprehensions>`_
 
 Exercises
 ---------

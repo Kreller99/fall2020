@@ -1,5 +1,6 @@
 # UNIX Commands Exercises
-Before doing these exercises be sure to read "[CommandLineCrashCourse.pdf](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=707190)". 
+
+Before doing these exercises be sure to read "[CommandLineCrashCourse.pdf](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=772484).   
 
 Necessary files to complete this exercise.
 

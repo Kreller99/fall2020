@@ -20,41 +20,24 @@ Course Workload
 * 20 weeks (until your exam)
 * 14 hours a week
   
-  * 5,5 hours teachings
-  * 8,5 hours homework
+  * 3 hours teachings
+  * 11 hours homework
     
-**It is important that you attend class – reading the material is not enough.**
-
-* Take notes! (Many of the things i will show you will not directly be in the reading materials.)
-
-
 Sessions Workflow
 -----------------
-8:30 - 9:30 repetition 
 
-* Student presentation of exercises
-* Q&A exercises and last weeks topic
-* Recap of last weeks topic
-
-9:30 - 11:45 - New stuff
-
-* new stuff
-* small exercises
-* new stuff
-
-12:30 - 14:00 Exercises in class, Homework, Q&A
+12:15 - 12:45 : Feedback on the exercises from last week    
+12:45 - 13:15 : New stuff & Small exercises (ping pong)    
+13:15 - 13:30 : Break    
+13:30 - 15:00 : New stuff & Small exercises (ping pong)    
+15:00 - 15:30 : Recap and what to do until next time talk.    
 
 Software Needed for the Course
 ------------------------------
-* Terminal
-
-  * Best is Git Bash, but any shell will work. 
-
+* Terminal / Powershell
 * Git
-
-* Jupyter Notebook
-
-* Any text editor or ide of your own choise will do.
+* Docker 
+* A text editor or IDE
 
 Course materials
 ----------------
