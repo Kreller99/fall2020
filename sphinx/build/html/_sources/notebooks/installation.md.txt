@@ -12,55 +12,104 @@ You probably already have installed some of the following applications, but if y
 ## 1. Docker Desktop
 ### Download and install Docker Desktop
 
-Navigate to the Docker website and download and install Docker Desktop for your operating system.
+Navigate to the Docker website and download and install Docker Desktop for your operating system.   
 
-https://www.docker.com/products/docker-deskto://www.docker.com/products/docker-desktop 
-
-
-
-
-
+[Docker Desktop download](https://www.docker.com/products/docker-desktop)    
 
 #### Check if everything is installed
-* Open you Terminal (mac) PowerShell (windows) and type in the following
+In your terminal or powershell you should type ``` docker --version ``` and get the following result.
 
 ````
-python3 --version
+	$ docker --version
+	Docker version 19.03.8, build afacb8b
+
+````
+If you do not see this, get an error or like, then you still de not have docker installed on your system.
+
+### Run your first Docker container (Ubuntu). 
+
+The first Image you should create a container from is a basic Ubuntu image.    
+
+Run the following command in your termianl to download the image and run a container.
+
+
+````
+	$ docker run -it --rm ubuntu
+````
+With:   
+
+* **-it** you specify to run the container in interactive mode (you can use its terminal).
+* **--rm** you specify that the container should be deleted when you exit the terminal.
+* **ubuntu** is the name of the image
+ 
+After downloading has finnished, and run has executed you should see something like this in your terminal.
+
+````
+	$ docker run -it --rm ubuntu
+	root@710ef1a882be:/#
+````
+
+Now you have a ubuntu operating system running on your computer (in a docker container).
+
+
+### Run your Second Docker container (Python). 
+
+The second Image you should create a container from is an official python docker image.    
+
+Run the following command in your termianl to download the image and run a container.
+
+
+````
+	$ docker run -it --rm python bash
+````
+
+With:   
+
+* **-it** you specify to run the container in interactive mode (you can use its terminal).
+* **--rm** you specify that the container should be deleted when you exit the terminal.
+* **python** is the name of the image.
+* **bash** specifies that you want to start the container with a terminal gui (bash) 
+
+After downloading has finnished, and run has executed you should see something like this in your terminal.
+
+````
+	$ docker run -it --rm python bash
+	root@a7991e5db4cd:/#
+````
+
+Now you have an linux operating system running on your computer with some version of python installed in it (in a docker container).   
+
+In the terminal you now have open type in the following:    
+
+````
+python --version
 ````
 
 When pressing enter, you should now see the following
 
 ````
-python3 --version
-Python 3.7.4
+python --version
+Python 3.8.2
 ````
-If you see something else, python is not installed correct, and you should try again.  
 
-On Windows (if you did not previously install python) you will be able to type ``` python ``` instead of ``` python3 ```.
+## 2. Download and install a text editor (VS Code)
+Download and install a text editor. There are many good ones, and you need at least one, but you decide which one.   
 
-````
-  python --version
-  Python 3.7.4
-````
-On Mac you will have to follow these steps in order for it to work:    
-[Special for Mac OS: Create an alias python/python3](mac_alias.md)  
+A good option is VS Code. You can download it from the following source: 
 
-
-## 2. VS Code
-### Download and install the text editor VS Code
-* Download and install VS Code from the following source 
-    * https://code.visualstudio.com/
+* https://code.visualstudio.com/
 
 
 ## 3. Git & Github
 ### Download and install Git
-* If you do not already have git installed on your computer you should do this before we meet. https://git-scm.com/ 
+* If you do not already have git installed on your computer you should do this now. 
+
+* https://git-scm.com/ 
 
 _If you are on **Windows** be sure to install the "Git Bash" (this is an option you can choose during the installation process.)_
 
 #### Check if everything is installed
 * Open you terminal and type in the following
-
 
 ````
 git --version
@@ -78,14 +127,5 @@ If you see something else, Git is not installed correct, and you should try agai
 ## 4. Create a Github Account
 * If you do not already have a GitHub account, you should create one now. 
     * Go to https://github.com/ and create an account 
-    * Get a [Github Education Account](https://education.github.com/) (Here you get free private repositories)
-
-## Installation help
-In most cases the installation process is straight forward. In some cases the ``` --vesion ``` on git and python3 could fail if the path is not set correct. 
-
-You can find some help here:
-
-* [Windows](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
-* [Mac](http://osxdaily.com/2014/08/14/add-new-path-to-path-command-line/)
 
 
