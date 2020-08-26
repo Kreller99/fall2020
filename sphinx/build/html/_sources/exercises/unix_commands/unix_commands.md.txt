@@ -12,6 +12,16 @@ You can play around with these files as much as you like. If you change or destr
 
 Note: All the following actions should be done through the terminal. It is not all commands that have been covered in class or the reading material, so you will have to search for how to solve some of the problems. You are welcome to work together but you all have to do the exercises individually.   
 
+## Setup
+In order to do these exercises you need to download the files above. CD into the directory with the downloaded files, and then run the following docker command to start up a container with the exercises files included in that container. 
+
+````
+	$ docker run -it --rm -v ${PWD}:/docs ubuntu
+
+````
+
+In the Ubuntu instance you now have access to through your terminal you should see the exercises files in the docs folder. 
+
 ## Exercises
 1. Start by creating a directory (folder) where all the exercise files will be placed. You decide where, but a good place would be on your desktop, or in your document directory.
 1. Create a file with the name to_be_deleted.txt
