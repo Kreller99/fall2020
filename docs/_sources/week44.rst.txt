@@ -1,8 +1,15 @@
 Week 44 - Context Managers 
 ==========================
 
-.. sidebar:: Learning goals
-        
+Today we will work with context managers. Context managers can in short be described as something that takes care of the related tasks of a specific task. An example of this could be when opening a file, the context manager takes care of automaticly closing the file when we are finished using it.
+
+You will make your own context managers and use already created ones. 
+
+We start out by introducing a new development environment, the Jupyter Notebook. And we will in connection with this look at what a virtual environment is, and how to use it. 
+
+Learning goals
+--------------
+
         - Setup and run a Virtual Enviroment
         - Install and use Jupyter Notebook
         - Being able to use a Context Manager
@@ -13,16 +20,9 @@ Week 44 - Context Managers
         - Working with Pandas
         - Working with SQlite database
 
-Today we will work with context managers. Context managers can in short be described as something that takes care of the related tasks of a specific task. An example of this could be when opening a file, the context manager takes care of automaticly closing the file when we are finished using it.
-
-You will make your own context managers and use already created ones. 
-
-We start out by introducing a new development environment, the Jupyter Notebook. And we will in connection with this look at what a virtual environment is, and how to use it. 
-
 Materials
 ---------
 
-* `Virtual Enviroment Setup Guide <notebooks/virtual_env_setup.md>`_
 * `Getting started with Jupyter Notebook <notebooks/jupyter_notebook.md>`_
 * `Getting Started With Jupyter Notebook for Python <https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46>`_ 
 * `Context Managers notebook <notebooks/Context-managers.ipynb>`_
@@ -38,7 +38,6 @@ Exercises
 * `CSV Quiz <https://realpython.com/quizzes/python-csv/>`_
 
 * `JSON 10 minutes exer <notebooks/JSON.html#10-minutes-exercise>`_
-        * `Solution <notebooks/JSONSolution.ipynb>`_
 
 * `SQlite 10 minutes exer <notebooks/Sqlite.html#10-minutes-exercise>`_
 * `ConvertCSVtoJSON <notebooks/ConvertCSVtoJSON.ipynb>`_

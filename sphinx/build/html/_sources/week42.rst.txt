@@ -1,18 +1,6 @@
 Week 42 - Functions &  Decorators  
 =================================
 
-.. sidebar:: Learning goals
-    :subtitle: After this week you will know about:
-
-    Decorators in python that are widely used to add new functionallity to already existing code, and you will be able to understand and explain the inner stucture (implementation)
-
-    More specific you will learn about:
-        - First class functions 
-        - Inner functions
-        - Decorator functions
-        - Decorator classes 
-
-
 Decorators in python are widely used to add new functionallity to already existing code.
 You have already used decorators in your code. A :code:`@property` is an example of this. Here you anotate a method with 'something' to make it able to do 'more' than the method in it self can do. You also know the concept from the Spring Framework you worked with previous in your education. Here you would add some more functionality (more code) to your already existing code by anotating it with :code:`@Controler` or :code:`@Autowired`. In both cases you add extra code to your code and get some new functionality.   
 
@@ -44,13 +32,28 @@ And if you want to use it you will do like so:
 
 By reading the texts in the materials section, doing the 3 exercises, and follow the teachings, you will be able to explain what a decorator is, when to use it, and how the inner parts of a decorator function is made up, and you will be able to create your own, and use others already made decorators. 
 
+Learning goals
+--------------
+After this week you will know about:
+
+        - First class functions 
+        - Inner functions
+        - Decorator functions
+        - Decorator classes 
+
+
 Materials
 ---------
 
 * `Primer on Python Decorators <https://realpython.com/primer-on-python-decorators/>`_
 * `Python Inner Functions—What Are They Good For? <https://realpython.com/inner-functions-what-are-they-good-for/>`_
 * `Notebook on Decorators <notebooks/Decorators.ipynb>`_
-* `Code from today <../week13/code_from_today/>`_
+
+----------------------------
+Code examples from teachings
+----------------------------
+
+
 
 Exercises
 ---------
@@ -64,9 +67,6 @@ Exercises
 ---------------
 Small Exercises
 ---------------
-
-`Solution <../week13/exercises/solution/add.py>`_
-
 
 With this function as a starting point 
 
@@ -93,7 +93,6 @@ With this function as a starting point
 Ex1: Time it!
 -------------
 
-`Solution <../week13/exercises/solution/timer.py>`_
 
 Next week we will work with *generators*, *generator expressions* and *list comprehensions*. These topics has a lot to do with program efficiency. 
 
@@ -149,8 +148,6 @@ Go to this url https://pypi.org/project/memory-profiler/ and use the module. Not
 -------------------
 Ex3: Slow down code
 ------------------- 
-
-`Solution <../week13/exercises/solution/slow_down_execution.py>`_
 
 The code below counts down from n -> 0. So calling countdown(5) prints: 5 4 3 2 1 Liftoff!
 

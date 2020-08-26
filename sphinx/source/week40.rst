@@ -1,22 +1,10 @@
 Week 40 - The python datamodel
 ==============================
 
-.. note:: 
-
-   Today is the first day of online teachings.  
-   At 8:30 you should log in with your kea credentials at http://teams.microsoft.com. This will be our classroom for the next weeks.  
-
-.. sidebar:: Learning goals
-        
-     Create your own classes, that behave like any other Python Object 
-
-     
 Today we will look at the python data model. 
 
 After this you will be able to implement code in own classes that allow you to use python built-in functions to interact with these object.
 
-
-   
 **Example:**
 
 If you want to be able to use the build in function :code:`len()` on your object you should implement the :code:`__len__` method in your class.  
@@ -26,12 +14,21 @@ If you want to be able to use the :code:`==` operator on your object you should 
 If you want to be able to use the :code:`in` key word on your object you should implement the :code:`__contains__` method in your class. 
 
 
+Learning goals
+--------------
+
+    * Create your own classes, that behave like any other Python Object 
+     
 Materials
 ---------
 
 * `A Guide to Python's Magic Methods <https://rszalski.github.io/magicmethods/>`_
 * `Notebook on Datamodel <notebooks/OOP_Encapsulation_Propeties.ipynb#Datamodel>`_
-* `Code from today <../week12/code_from_today/>`_
+
+----------------------------
+Code examples from teachings
+----------------------------
+
 
 Exercises
 ---------
@@ -39,8 +36,6 @@ Exercises
 ------------------
 Ex1: Deck of cards
 ------------------
-
-`Solution <../week12/exercises/solution/deck_solution.py>`_
 
 Continue with the deck example and implement the 
 
@@ -60,5 +55,5 @@ When you a done, take a look at the 2 exercises below and ask your questions whe
    
    <hr>
 
-* `Linked List <exercises/protocol_linked_list.rst>`_  (`Solution <../week12/exercises/solution/linked_list.py>`_)
-* `Jelly Beans <exercises/JellyBeans.rst>`_ (`Solution <../week12/exercises/solution/jelly.py>`_)
+* `Linked List <exercises/protocol_linked_list.rst>`_  
+* `Jelly Beans <exercises/JellyBeans.rst>`_ 

@@ -1,11 +1,7 @@
 Week 43 - Generators
 ====================
 
-.. sidebar:: Learning goals
-
-   - Create memory and time efficient code using Iterator Classes, generator functions an generator expressoions.
-
-To day you will learn about how to make your classes iterable. You will learn how to create a generator function and how to write this in an easier to read manner using a generator expression. 
+Today you will learn about how to make your classes iterable. You will learn how to create a generator function and how to write this in an easier to read manner using a generator expression. 
 
 We will look at Iterator classes
 
@@ -47,11 +43,23 @@ And write a generator expression.
 
    (i for i in range(10))
 
+Learning goals
+--------------
+
+   - Create memory and time efficient code using 
+      - Iterator Classes
+      - generator functions and 
+      - generator expressoions.
+
 Materials
 ---------
 
 * `Introduction to Python Generators <https://realpython.com/introduction-to-python-generators/>`_ (ex. Using Advanced Generator Methods & Creating Data Pipelines With Generators)
-* `Code from today <../week17/code_from_today/>`_
+
+----------------------------
+Code examples from teachings
+----------------------------
+
 
 Exercises
 ---------
@@ -59,8 +67,6 @@ Exercises
 ---------------------
 ex1:  Python Students
 ---------------------
-
-`Solution <../week17/exercises/solution/python_students.py>`_
 
 Based on the Student class below, create a PythonStudents class that acts as a collection of students. 
 The class should implement the iterations functionality (iter() and next()) 
@@ -106,8 +112,6 @@ in the list.
 ex2: School of students
 -----------------------
 
-`Solution <../week17/exercises/solution/school_of_students.py>`_
-
 In this exercise you start out by having a list of names, and a list of majors.
     
 Your job is to create:
@@ -147,8 +151,6 @@ Both functions should do the same, but one returns a list and one a generator ob
 ex3: Range Mimic
 ----------------
 
-`Solution <../week17/exercises/solution/range_mimic.py>`_
-
 1. Create a "clone" of the build in range() function, by doing an iterator class.
 
 Try this out first in your interpreter to get inspired:
@@ -167,11 +169,9 @@ TypeError: 'range' object is not an iterator
 ex4: List Comp chal as generators
 ---------------------------------
 
-Solution: The solution for all exercises is to put **()** instad of **[]** around the list comprehensions. Try that and measurre the time and memory it takes to run.  
-
 Do the `List Comprehension chalenges`_ from last time but now use generator functions and generatpr expressions where possible.
 
-.. _List Comprehension chalenges: ../week14/exercises/solution/list_comprehensions_challenge.py
+.. _List Comprehension chalenges: 
 
 
 

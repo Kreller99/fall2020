@@ -96,7 +96,11 @@
 <li class="toctree-l1"><a class="reference internal" href="week40.html">Week 40 - The python datamodel</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week41.html">Week 41 - Data Structures: Dicts &amp; Sets</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Week 42 - Functions &amp;  Decorators</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#materials">Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#learning-goals">Learning goals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#materials">Materials</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#code-examples-from-teachings">Code examples from teachings</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#small-exercises">Small Exercises</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#ex1-time-it">Ex1: Time it!</a></li>
@@ -206,20 +210,6 @@
 </style>
 <div class="section" id="week-42-functions-decorators">
 <h1>Week 42 - Functions &amp;  Decorators<a class="headerlink" href="#week-42-functions-decorators" title="Permalink to this headline">¶</a></h1>
-<div class="sidebar">
-<p class="sidebar-title">Learning goals</p>
-<p class="sidebar-subtitle">After this week you will know about:</p>
-<p>Decorators in python that are widely used to add new functionallity to already existing code, and you will be able to understand and explain the inner stucture (implementation)</p>
-<dl class="simple">
-<dt>More specific you will learn about:</dt><dd><ul class="simple">
-<li><p>First class functions</p></li>
-<li><p>Inner functions</p></li>
-<li><p>Decorator functions</p></li>
-<li><p>Decorator classes</p></li>
-</ul>
-</dd>
-</dl>
-</div>
 <p>Decorators in python are widely used to add new functionallity to already existing code.
 You have already used decorators in your code. A <code class="code docutils literal notranslate"><span class="pre">&#64;property</span></code> is an example of this. Here you anotate a method with ‘something’ to make it able to do ‘more’ than the method in it self can do. You also know the concept from the Spring Framework you worked with previous in your education. Here you would add some more functionality (more code) to your already existing code by anotating it with <code class="code docutils literal notranslate"><span class="pre">&#64;Controler</span></code> or <code class="code docutils literal notranslate"><span class="pre">&#64;Autowired</span></code>. In both cases you add extra code to your code and get some new functionality.</p>
 <p><code class="code docutils literal notranslate"><span class="pre">&#64;property</span></code> is a python build in decorator, but today you will be making your own decorators.</p>
@@ -250,14 +240,28 @@ You have already used decorators in your code. A <code class="code docutils lite
 </pre></div>
 </td></tr></table></div>
 <p>By reading the texts in the materials section, doing the 3 exercises, and follow the teachings, you will be able to explain what a decorator is, when to use it, and how the inner parts of a decorator function is made up, and you will be able to create your own, and use others already made decorators.</p>
+<div class="section" id="learning-goals">
+<h2>Learning goals<a class="headerlink" href="#learning-goals" title="Permalink to this headline">¶</a></h2>
+<p>After this week you will know about:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>First class functions</p></li>
+<li><p>Inner functions</p></li>
+<li><p>Decorator functions</p></li>
+<li><p>Decorator classes</p></li>
+</ul>
+</div></blockquote>
+</div>
 <div class="section" id="materials">
 <h2>Materials<a class="headerlink" href="#materials" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://realpython.com/primer-on-python-decorators/">Primer on Python Decorators</a></p></li>
 <li><p><a class="reference external" href="https://realpython.com/inner-functions-what-are-they-good-for/">Python Inner Functions—What Are They Good For?</a></p></li>
 <li><p><a class="reference internal" href="notebooks/Decorators.html"><span class="doc">Notebook on Decorators</span></a></p></li>
-<li><p><a class="reference external" href="../week13/code_from_today/">Code from today</a></p></li>
 </ul>
+<div class="section" id="code-examples-from-teachings">
+<h3>Code examples from teachings<a class="headerlink" href="#code-examples-from-teachings" title="Permalink to this headline">¶</a></h3>
+</div>
 </div>
 <div class="section" id="exercises">
 <h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
@@ -269,7 +273,6 @@ You have already used decorators in your code. A <code class="code docutils lite
 </ul>
 <div class="section" id="small-exercises">
 <span id="exsm"></span><h3>Small Exercises<a class="headerlink" href="#small-exercises" title="Permalink to this headline">¶</a></h3>
-<p><a class="reference external" href="../week13/exercises/solution/add.py">Solution</a></p>
 <p>With this function as a starting point</p>
 <div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
@@ -291,7 +294,6 @@ You have already used decorators in your code. A <code class="code docutils lite
 </div>
 <div class="section" id="ex1-time-it">
 <span id="ex1"></span><h3>Ex1: Time it!<a class="headerlink" href="#ex1-time-it" title="Permalink to this headline">¶</a></h3>
-<p><a class="reference external" href="../week13/exercises/solution/timer.py">Solution</a></p>
 <p>Next week we will work with <em>generators</em>, <em>generator expressions</em> and <em>list comprehensions</em>. These topics has a lot to do with program efficiency.</p>
 <p>For this we will be measuring our code in diffenrent ways and especialy we will <em>‘time it’</em> and <em>‘messure memmory usage’</em>.</p>
 <p>If you want to messure how much time it takes to execute a piece of code you could do the followin:</p>
@@ -326,7 +328,6 @@ You have already used decorators in your code. A <code class="code docutils lite
 </div>
 <div class="section" id="ex3-slow-down-code">
 <span id="ex3"></span><h3>Ex3: Slow down code<a class="headerlink" href="#ex3-slow-down-code" title="Permalink to this headline">¶</a></h3>
-<p><a class="reference external" href="../week13/exercises/solution/slow_down_execution.py">Solution</a></p>
 <p>The code below counts down from n -&gt; 0. So calling countdown(5) prints: 5 4 3 2 1 Liftoff!</p>
 <div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2

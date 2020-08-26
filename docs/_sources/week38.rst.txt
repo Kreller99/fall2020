@@ -6,8 +6,9 @@ Week 38 - OOP
    Before this class you should have read and understood this text `Object-Oriented Programming (OOP) in Python 3 <https://realpython.com/python3-object-oriented-programming/>`_. These are basic OOP concepts, which you have already woorked with in the forst part of your education. You just need to be up to date with how this is done, and how the syntax is done in python.
 
 
-.. sidebar:: Learning goals
-   :subtitle: After having worked with these topics you will be able to:
+Learning goals
+--------------
+After having worked with these topics you will be able to:
       
    - create Classes, Objects, instance and class variables, methods and initializer methods. 
    - make use of single and multiple inheritance.   
@@ -24,7 +25,6 @@ Materials
 * `Object-Oriented Programming (OOP) in Python 3 <https://realpython.com/python3-object-oriented-programming/>`_
 * `Python args and kwargs: Demystified <https://realpython.com/python-kwargs-and-args/>`_
 * `Notebook on classes <notebooks/class_notes.ipynb>`_
-* `Code from teachings <https://github.com/python-elective-kea/fall2020/tree/master/code_from_teachings/week35/>`_
 
 ----------------------------
 Code examples from teachings
