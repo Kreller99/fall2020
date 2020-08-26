@@ -12,8 +12,8 @@ Week 35 - Introduction to python
 .. code::
    
    $ docker run -it --rm ubuntu  // creates and runs a simple ubuntu container with interactive access and removal after use. 
-   $ docker run -it --rm python bach // same as above, but now a python image. starts in a bash terminal.
-   $ docker run -it --rm -v ${PWD}:/docs python bach  // same as above, but now sharing files from the current directory to/from /docs folder in the container.
+   $ docker run -it --rm python bash // same as above, but now a python image. starts in a bash terminal.
+   $ docker run -it --rm -v ${PWD}:/docs python bash  // same as above, but now sharing files from the current directory to/from /docs folder in the container.
  
 
 -----------------------------------------------------
