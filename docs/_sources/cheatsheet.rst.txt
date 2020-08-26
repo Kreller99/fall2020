@@ -5,9 +5,9 @@ In this cheatsheet you will find important and hard to remember terminal command
 Docker Commands
 ---------------
 
----------------------------------
-Week 35 - Introduction to pytohon 
----------------------------------
+--------------------------------
+Week 35 - Introduction to python 
+--------------------------------
 
 .. code::
    

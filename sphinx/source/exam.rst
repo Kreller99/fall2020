@@ -6,58 +6,66 @@ The exam is evaluated based on the 7 step scale and you are evaluated on how goo
 
 .. include:: goals/overall.rst
 
+--------
 The exam
 --------
 
 The exam consist of 2 elements: 
 
-* a hand in of a synopsis, and a 
+* a hand in of a synopsis, and an 
 * oral exam.
 
--------------------
 Hand-in a synopsis:
--------------------
+*******************
+
 Some weeks before the oral examination you should hand in a synopsis on wiseflow. if you fail to do so, you will not be able to attend the oral exam. The synopsis should follow these requirements:
 
 * One A4 page (all topics should be on one page!)
 * Give a short overview of what you will present at your exam.
 
-----------
 Oral exam:
-----------
+**********
+
+
 
 * Same as 3rd semester SWC
 * 6 - 8 topics, where you pick a topic at the beginning of the examination.  
 * Create a 10 minutes presentation and code examples for each topic.
 * After your presentation 15 minutes examination within this topic and other related topics.
 
+-----------
 Exam Topics
 -----------
+
+At your exam you should demonstrate to wich extend you fullfill the learning goals of this elective. 
+This you should do through demonstrating your knowlege, skills and competencies within these topics. 
+
 * Data Structures & functions
 * Pythonic OOP
 * Refactoring Code
 * Generators, Decorators & Context Managers
-* Python modules
-* Efficient Python Code
-  
+* Python modules and the python development environment.
+* Machine learning
+
+-----------
 Exam advice
 -----------
+
 The flow of the exam flow be as:
 
 Some weeks before the oral exam you will have to hand in a synopsis describing what you will present in connection with the different exam topics. The abstract should be maximum one page long and should follow the `Exam Synopsis Template <notebooks/exam_synopsis_template.md>`_
 
----------
 Oral exam
----------
+*********
+
 
 You draw a topic from the topic cards.
 For 6-10 minutes you will present what you have prepared for this specific topic. 
 After that for 15-20 minutes, I (Claus) will ask you questions mainly within the same topic. 
 In the end of the exam, if the censor needs clarifications on your answers, he might ask you to elaborate on an already asked question. 
 
-------------
 Good advice:
-------------
+************
 
 **Talk to your audience**
 

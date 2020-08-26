@@ -24,7 +24,7 @@ Materials
 * `Is Python interpreted or compiled? Yes. <https://nedbatchelder.com/blog/201803/is_python_interpreted_or_compiled_yes.html>`_
 * `Strings and Character Data in Python <https://realpython.com/python-strings/>`_
 * `if Statements <https://docs.python.org/3/tutorial/controlflow.html#if-statements>`_
-* `Docker Commands from today <cheatsheet.rst#week-35-introduction>`_
+* `Docker Commands from today <cheatsheet.rst#week-35-introduction-to-python>`_
 
 ----------------------------
 Code examples from teachings
@@ -41,8 +41,8 @@ This is the **script.py** file:
 Exercises
 ---------
 
-* `Exercise 1: Unix Commands <exercises/unix_commands/unix_commands.md>`_
-* `Exercise 2: Strings1 & Strings2 <exercises/strings/strings.rst>`_
+* `Exercise 1: Unix Commands <exercises/unix_commands/unix_commands.md>`_ (solution (comes monday afternoon))
+* `Exercise 2: Strings1 & Strings2 <exercises/strings/strings.rst>`_  (solution (comes monday afternoon)) 
 
 ------
 Quizes
@@ -50,7 +50,6 @@ Quizes
 * `Python Strings and Character Data Quiz <https://realpython.com/quizzes/python-strings/>`_
 * `Splitting, Concatenating, and Joining Strings in Python Quiz <https://realpython.com/quizzes/python-split-strings/>`_
 * `Command line Crash Course <https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=707190>`_
-* `Unix commands <https://github.com/Python-Elective-Spring-2020/Lesson-01-intro-to-python/tree/master/exercises/unix_commands>`_
 
 
 

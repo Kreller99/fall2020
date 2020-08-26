@@ -1,16 +1,6 @@
 Week 37 - Utilities and Modules
 ===============================
 
-.. sidebar:: Learning goals
-    :subtitle: After this week you will be able to:
-       
-        - Create your own modules.
-        - Use python build in modules.
-        - Find and use 3rd party modules.
-        - Use the requests module to fetch website data.
-        - search a document for patterns.   
-        - Work with the module BeautifullSoup for webscrabing.
-
 Today we will work with modules in python. You will build your own modules and use them, and you will learn how to use pythons build in modules, and how to use 3rd party modules. 
 
 You will furthermore be able to create a simple web crawler, and to search a document for patterns.
@@ -21,6 +11,17 @@ You will on the practical level today work with 4 modules, the:
 * Subprocesses module
 * Requests module
 * BeautifullSoup module
+
+Learning goals
+--------------
+After this week you will be able to:
+       
+        - Create your own modules.
+        - Use python build in modules.
+        - Find and use 3rd party modules.
+        - Use the requests module to fetch website data.
+        - search a document for patterns.   
+        - Work with the module BeautifullSoup for webscrabing.
 
 
 Materials
@@ -39,13 +40,9 @@ Materials
 
 * `Code examples from today <../week09/code_from_today>`_
 
-
-
-
-
 Exercises
 ---------
-* `This weeks exercises <../week09/exercises/>`_
+* `Teaching exercises of today <exercises/util_modules/exercises.rst>`_
 * `Build a Web Scraper With Python <https://realpython.com/beautiful-soup-web-scraper-python/>`_
 
   * When this is done, extend your solution with the ability to download all images (logos) from the Monster website you just worked with. 

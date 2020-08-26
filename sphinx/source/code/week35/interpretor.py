@@ -4,4 +4,12 @@ n 3.7.7 (default, Mar 10 2020, 15:43:33)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> s = 'Hello world'
 >>> s
-'Hello world' 
+'Hello world' >>> s = 'Hello'
+>>> s
+'Hello'
+>>> b = 'World'
+>>> s+b
+'HelloWorld'
+>>> s[-1]
+'o'
+>>> 

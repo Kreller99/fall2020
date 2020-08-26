@@ -1,4 +1,4 @@
-Solutions for OOP String exercises
+Solutions for String exercises
 ==================================
 
 String1.py
