@@ -49,7 +49,7 @@ Quizes
 ------
 * `Python Strings and Character Data Quiz <https://realpython.com/quizzes/python-strings/>`_
 * `Splitting, Concatenating, and Joining Strings in Python Quiz <https://realpython.com/quizzes/python-split-strings/>`_
-* `Command line Crash Course <https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=707190>`_
+* `Command line Crash Course <https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=772484>`_
 
 
 
