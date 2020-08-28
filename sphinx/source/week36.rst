@@ -26,7 +26,7 @@ Materials
 * `Sorting key parameter explained <_static/sorted.png>`_
 * `Reading and Writing Files in Python (Guide) <https://realpython.com/read-write-files-python/>`_
 * `Comprehending Python’s Comprehensions <https://dbader.org/blog/list-dict-set-comprehensions-in-python>`_
-* `NoteBook on List Comprehensions <>`_
+* `NoteBook on List Comprehensions <notebooks/list_comprehensions.ipynb>`_
 * `Code examples from today <>`_
 * `Docker commands from today <cheatsheet.rst#week-36-data-structures-sequences-comprehensions>`_
 
