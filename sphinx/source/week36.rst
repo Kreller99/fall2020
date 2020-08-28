@@ -19,10 +19,11 @@ Materials
 ---------
 
 * `Lists and Tuples in Python <https://realpython.com/python-lists-tuples/>`_
+* `Tuples in Python <https://www.datacamp.com/community/tutorials/python-tuples>`_
 * `Python "for" Loops <https://realpython.com/python-for-loop/>`_
 * `Python "while" Loops <https://realpython.com/python-while-loop/>`_
 * `How to Use sorted() and sort() in Python <https://realpython.com/python-sort/>`_
-* `Sorting key parameter explained <https://github.com/python-elective-fall-2019/Lesson-02-Data-structures/blob/master/img/sorted.png>`_
+* `Sorting key parameter explained <_static/sorted.png>`_
 * `Reading and Writing Files in Python (Guide) <https://realpython.com/read-write-files-python/>`_
 * `Comprehending Python’s Comprehensions <https://dbader.org/blog/list-dict-set-comprehensions-in-python>`_
 * `NoteBook on List Comprehensions <>`_

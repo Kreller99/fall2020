@@ -37,6 +37,7 @@ This is the code we did in the Interpretor:
 This is the **script.py** file:
 
 .. literalinclude:: code/week35/script.py
+        :linenos:
 
 Exercises
 ---------
