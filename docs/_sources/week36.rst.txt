@@ -28,7 +28,7 @@ Materials
 * `Reading and Writing Files in Python (Guide) <https://realpython.com/read-write-files-python/>`_
 * `Comprehending Python’s Comprehensions <https://dbader.org/blog/list-dict-set-comprehensions-in-python>`_
 * `Notebook on List Comprehensions <notebooks/list_comprehensions.ipynb>`_
-* `Teaching notes <notebooks/lists_tuples_sorting_comp_files.ipynb>`_
+* `Teaching notes <notebooks/Untitled2.ipynb>`_
 * `Code examples from teachings <https://github.com/python-elective-kea/fall2020-code-examples-from-teachings/tree/master/w36>`_
   
 Exercises
