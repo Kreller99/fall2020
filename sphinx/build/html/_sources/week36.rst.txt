@@ -29,9 +29,11 @@ Materials
 * `Comprehending Python’s Comprehensions <https://dbader.org/blog/list-dict-set-comprehensions-in-python>`_
 * `Notebook on List Comprehensions <notebooks/list_comprehensions.ipynb>`_
 * `Teaching notes <notebooks/lists_tuples_sorting_comp_files.ipynb>`_
-
+* Download :download:`Code examples from teachings <code/week36/>`
+  
 Exercises
 ---------
+
 
 ---------------------------------
 Ex 1: Build in functions on lists
@@ -45,7 +47,7 @@ Ex 1: Build in functions on lists
 -----------------
 Ex 2: Sort a list
 -----------------
-`Solution <code/week36/ex2_sort_a_list.py>`_
+`Solution <exercises/solution/02_lists/sorted_exercises.rst>`_
 
 1. Create a list of strings with names in it. (l = ['Claus', 'Ib', 'Per'])
 2. Sort this list by using the sorted() build in function.
