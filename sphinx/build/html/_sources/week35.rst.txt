@@ -42,8 +42,8 @@ This is the **script.py** file:
 Exercises
 ---------
 
-* `Exercise 1: Unix Commands <exercises/unix_commands/unix_commands.md>`_ (solution (comes monday afternoon))
-* `Exercise 2: Strings1 & Strings2 <exercises/strings/strings.rst>`_  (solution (comes monday afternoon)) 
+* `Exercise 1: Unix Commands <exercises/unix_commands/unix_commands.md>`_ (`Solution <exercises/solution/01_strings/unix.rst>`_)
+* `Exercise 2: Strings1 & Strings2 <exercises/strings/strings.rst>`_  (`Solution <exercises/solution/01_strings/strings.rst>`_) 
 
 ------
 Quizes
