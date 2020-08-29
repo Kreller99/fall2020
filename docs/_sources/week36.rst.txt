@@ -29,7 +29,7 @@ Materials
 * `Comprehending Python’s Comprehensions <https://dbader.org/blog/list-dict-set-comprehensions-in-python>`_
 * `Notebook on List Comprehensions <notebooks/list_comprehensions.ipynb>`_
 * `Teaching notes <notebooks/lists_tuples_sorting_comp_files.ipynb>`_
-* Download :download:`Code examples from teachings <code/week36/>`
+* `Code examples from teachings <https://github.com/python-elective-kea/fall2020-code-examples-from-teachings/tree/master/w36>`_
   
 Exercises
 ---------
