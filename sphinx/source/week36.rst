@@ -11,8 +11,9 @@ After this week you will be able to:
         
         - Work with lists, tuples
         - Loop over sequences with a for, foreach & while loops.  
-        - Sort sequences using the build in sorted function and use its key function to perform custom sorting.  
+        - Sort sequences using the build in sorted function and use its key parameter to perform custom sorting.  
         - Read from files using the build in "open" function. 
+        - Use List comprehensions instead of list assignment and loops in you python code. 
 
 
 Materials
@@ -26,12 +27,73 @@ Materials
 * `Sorting key parameter explained <_static/sorted.png>`_
 * `Reading and Writing Files in Python (Guide) <https://realpython.com/read-write-files-python/>`_
 * `Comprehending Python’s Comprehensions <https://dbader.org/blog/list-dict-set-comprehensions-in-python>`_
-* `NoteBook on List Comprehensions <notebooks/list_comprehensions.ipynb>`_
-* `Code examples from today <>`_
-* `Docker commands from today <cheatsheet.rst#week-36-data-structures-sequences-comprehensions>`_
+* `Notebook on List Comprehensions <notebooks/list_comprehensions.ipynb>`_
+* `Teaching notes <notebooks/lists_tuples_sorting_comp_files.ipynb>`_
 
 Exercises
 ---------
+
+---------------------------------
+Ex 1: Build in functions on lists
+---------------------------------
+
+| Look at this list of pythons `build in functions <https://docs.python.org/3/library/functions.html>`_.
+| Try all of these in the interpretor (on a list you create). e.g  :code:`len(a)`   
+| Not all will work on lists, but try it out and see what works. 
+
+
+-----------------
+Ex 2: Sort a list
+-----------------
+`Solution <code/week36/ex2_sort_a_list.py>`_
+
+1. Create a list of strings with names in it. (l = ['Claus', 'Ib', 'Per'])
+2. Sort this list by using the sorted() build in function.
+3. Sort the list in reversed order. 
+4. Sort the list on the lenght of the name.
+5. Sort the list based on the last letter in the name.
+6. Sort the list with the names where the letter 'a' is in the name first.
+
+--------------------
+Ex 2: Basic listcomp
+--------------------
+`Solutions <notebooks/list_comprehensions.ipynb>`_
+
+1. Create a list of capital letters from the english alphabet.
+2. Do the same, but exclude the 4 with the Unicode code point of 70, 75, 80 and 85.
+3. Create a list of capital letters, but exclude every second between F & O
+4. Create something that prints 
+
+.. code:: python
+   
+   ['un-even and small', 2, 'un-even and small', 4, 
+   'un-even and large', 6, 'un-even and large', 8, 
+   'un-even and large']
+
+
+-------------------
+Ex 3: Deck of Cards
+-------------------
+
+1. Create a listcomp that produces a list of tuples containing all card in a deck. 
+
+.. code:: python
+
+   [('A','♠'), ('K','♣'), ... ] etc.
+
+..   
+        Solution:
+
+
+        .. code:: python
+   
+                 numbers = list(range(2, 11)) + ['J', 'Q', 'K', 'A']
+                [(i,chr(j)) for i in numbers for j in range(9824, 9828)]
+
+
+-----------------------
+List & Tuples exercises
+-----------------------
 
 * `List & tuple exercises <exercises/lists/lists.rst>`_
 
