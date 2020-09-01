@@ -12,7 +12,7 @@ After this week you will be able to:
         - Work with lists, tuples
         - Loop over sequences with a for, foreach & while loops.  
         - Sort sequences using the build in sorted function and use its key parameter to perform custom sorting.  
-        - Read from files using the build in "open" function. 
+        - Read from files and write to files using the build in "open" function. 
         - Use List comprehensions instead of list assignment and loops in you python code. 
 
 
@@ -24,17 +24,12 @@ Materials
 * `Python "for" Loops <https://realpython.com/python-for-loop/>`_
 * `Python "while" Loops <https://realpython.com/python-while-loop/>`_
 * `How to Use sorted() and sort() in Python <https://realpython.com/python-sort/>`_
-* `Sorting key parameter explained <_static/sorted.png>`_
-* `Reading and Writing Files in Python (Guide) <https://realpython.com/read-write-files-python/>`_
 * `Comprehending Python’s Comprehensions <https://dbader.org/blog/list-dict-set-comprehensions-in-python>`_
-* `Notebook on List Comprehensions <notebooks/list_comprehensions.ipynb>`_
 * `Teaching notes <notebooks/noterlists_tuples.ipynb>`_
 * `Code examples from teachings <https://github.com/python-elective-kea/fall2020-code-examples-from-teachings/tree/master/w36>`_
   
 Exercises
 ---------
-
-
 ---------------------------------
 Ex 1: Build in functions on lists
 ---------------------------------
@@ -45,7 +40,17 @@ Ex 1: Build in functions on lists
 
 
 -----------------
-Ex 2: Sort a list
+Ex 2: Sort a Text
+-----------------
+
+`Solution <exercises/solution/02_lists/sorted_exercises.rst>`_
+
+1. Create a function that takes a string as a parameter and returns a list.
+2. The function should remove all vowels and sort the consonants in alphabetic order, and the return the result.
+
+
+-----------------
+Ex 3: Sort a list
 -----------------
 `Solution <exercises/solution/02_lists/sorted_exercises.rst>`_
 
@@ -56,9 +61,40 @@ Ex 2: Sort a list
 5. Sort the list based on the last letter in the name.
 6. Sort the list with the names where the letter 'a' is in the name first.
 
---------------------
-Ex 2: Basic listcomp
---------------------
+-----------
+Ex 4: Files
+-----------
+
+1. Create a file and call it lyrics.txt (it does not need to have any content)
+2. Create a new file and call it songs.docx and in this file write 3 lines of text to it.
+3. open and read the content and write it to your terminal window.
+   * you should use both the read(), readline(), and readlines() methods for this. (so 3 times the same output).
+
+---------------------------
+Ex 5: Sort a list of tuples
+---------------------------
+
+`Solution <exercises/solution/02_lists/sorted_exercises.rst>`_
+
+1. Based on this list of tuples:     
+:code:`[(1,2),(2,2),(3,2),(2,1),(2,2),(1,5), (10,4), (10, 1), (3, 1)]`    
+
+2. Sort the list so the result looks like this:  
+:code:`[(1, 2), (1, 5), (2, 1), (2, 2), (2, 2), (3, 1), (3, 2), (10, 1), (10, 4)]`   
+
+.. note:: 
+        
+        This is first sorted by the first element in the tuple and the the second element in the tuple. 
+
+
+ 
+
+
+
+
+-------------------------------
+Ex 6: Basic list comprehensions
+-------------------------------
 `Solutions <notebooks/list_comprehensions.ipynb>`_
 
 1. Create a list of capital letters from the english alphabet.
@@ -104,5 +140,3 @@ quizes
 ------
 * `Lists and Tuples Quiz <https://realpython.com/quizzes/python-lists-tuples/>`_
 * `"while" Loops Quiz <https://realpython.com/quizzes/python-while-loop/>`_
-* `Reading and Writing Files in Python Quiz <https://realpython.com/quizzes/read-write-files-python/>`_
-

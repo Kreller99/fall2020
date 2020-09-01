@@ -119,6 +119,34 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
+    "Create a list of capital letter from the english aplhabet, but exclude 4 with the Unicode code point of either 70, 75, 80, 85."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Create a list of capital letter from from the english aplhabet, but exclude every second between F & O"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
     "### if, else, elif "
    ]
   },
@@ -157,7 +185,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 39,
+   "execution_count": 5,
    "metadata": {},
    "outputs": [
     {
@@ -166,7 +194,7 @@
        "[2, 4, 6, 8]"
       ]
      },
-     "execution_count": 39,
+     "execution_count": 5,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -179,41 +207,6 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "### STUDENTS 10 MINUTES TASK"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "Create a list of capital letter from the english aplhabet, but exclude 4 with the Unicode code point of either 70, 75, 80, 85."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "Create a list of capital letter from from the english aplhabet, but exclude every second between F & O"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
     "#### if / else\n",
     "Comprehensions can contain if / else conditions.  \n",
     "The following shows the basic structure of a list comprehension containig an if / else condition:"
@@ -221,7 +214,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 50,
+   "execution_count": 2,
    "metadata": {},
    "outputs": [
     {
@@ -230,7 +223,7 @@
        "['un-even', 2, 'un-even', 4, 'un-even', 6, 'un-even', 8, 'un-even']"
       ]
      },
-     "execution_count": 50,
+     "execution_count": 2,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -274,7 +267,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 63,
+   "execution_count": 4,
    "metadata": {},
    "outputs": [
     {
@@ -283,7 +276,7 @@
        "[(0, 0), (0, 1), (1, 0), (1, 1), (2, 0), (2, 1)]"
       ]
      },
-     "execution_count": 63,
+     "execution_count": 4,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -398,6 +391,16 @@
    "source": [
     "soled_out = [('Black', 'm'), ('White', 's')]\n",
     "# listcomp goes here\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "soled_out = [('Black', 'm'), ('White', 's')]\n",
+    "# listcomp goes here"
    ]
   },
   {
