@@ -25,9 +25,16 @@ Materials
 * `Python "while" Loops <https://realpython.com/python-while-loop/>`_
 * `How to Use sorted() and sort() in Python <https://realpython.com/python-sort/>`_
 * `Comprehending Python’s Comprehensions <https://dbader.org/blog/list-dict-set-comprehensions-in-python>`_
-* `Teaching notes <notebooks/noterlists_tuples.ipynb>`_
+* `Slides <_static/noterlists_tuples.slides.html>`_    (`notebook <notebooks/noterlists_tuples.ipynb>`_)
 * `Code examples from teachings <https://github.com/python-elective-kea/fall2020-code-examples-from-teachings/tree/master/w36>`_
   
+* `How to Learn Python in Five Minutes <https://www.youtube.com/watch?v=ohr6O78jGzs>`_
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/ohr6O78jGzs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 Exercises
 ---------
 ---------------------------------
