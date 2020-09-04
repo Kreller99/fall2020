@@ -72,6 +72,8 @@ Ex 3: Sort a list
 Ex 4: Files
 -----------
 
+`Solution <exercises/solution/02_lists/sorted_exercises.rst>`_
+
 1. Create a file and call it lyrics.txt (it does not need to have any content)
 2. Create a new file and call it songs.docx and in this file write 3 lines of text to it.
 3. open and read the content and write it to your terminal window.
@@ -94,51 +96,10 @@ Ex 5: Sort a list of tuples
         This is first sorted by the first element in the tuple and the the second element in the tuple. 
 
 
- 
-
-
-
-
--------------------------------
-Ex 6: Basic list comprehensions
--------------------------------
-`Solutions <notebooks/list_comprehensions.ipynb>`_
-
-1. Create a list of capital letters from the english alphabet.
-2. Do the same, but exclude the 4 with the Unicode code point of 70, 75, 80 and 85.
-3. Create a list of capital letters, but exclude every second between F & O
-4. Create something that prints 
-
-.. code:: python
-   
-   ['un-even and small', 2, 'un-even and small', 4, 
-   'un-even and large', 6, 'un-even and large', 8, 
-   'un-even and large']
-
-
--------------------
-Ex 3: Deck of Cards
--------------------
-
-1. Create a listcomp that produces a list of tuples containing all card in a deck. 
-
-.. code:: python
-
-   [('A','♠'), ('K','♣'), ... ] etc.
-
-..   
-        Solution:
-
-
-        .. code:: python
-   
-                 numbers = list(range(2, 11)) + ['J', 'Q', 'K', 'A']
-                [(i,chr(j)) for i in numbers for j in range(9824, 9828)]
-
-
 -----------------------
 List & Tuples exercises
 -----------------------
+`Solution <exercises/solution/02_lists/sorted_exercises.rst>`_
 
 * `List & tuple exercises <exercises/lists/lists.rst>`_
 
