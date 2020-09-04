@@ -1,4 +1,4 @@
-Week 43 - Generators
+Week 44 - Generators
 ====================
 
 Today you will learn about how to make your classes iterable. You will learn how to create a generator function and how to write this in an easier to read manner using a generator expression. 

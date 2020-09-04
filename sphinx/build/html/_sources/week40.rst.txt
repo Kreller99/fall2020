@@ -1,4 +1,4 @@
-Week 40 - The python datamodel
+Week 41 - The python datamodel
 ==============================
 
 Today we will look at the python data model. 

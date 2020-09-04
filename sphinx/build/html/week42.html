@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Week 42 - Functions &amp; Decorators &mdash; Introduction to python 1.0.0 documentation</title>
+  <title>Week 43 - Functions &amp; Decorators &mdash; Introduction to python 1.0.0 documentation</title>
   
 
   
@@ -38,8 +38,8 @@
     <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Week 43 - Generators" href="week43.html" />
-    <link rel="prev" title="Week 41 - Data Structures: Dicts &amp; Sets" href="week41.html" /> 
+    <link rel="next" title="Week 44 - Generators" href="week43.html" />
+    <link rel="prev" title="Week 42 - Data Structures: Dicts &amp; Sets" href="week41.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -91,11 +91,11 @@
 <li class="toctree-l1"><a class="reference internal" href="week35.html">Week 35 - Introduction to python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week36.html">Week 36 - Data Structures: Sequences &amp; comprehensions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week37.html">Week 37 - Utilities and Modules</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week38.html">Week 38 - OOP</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week39.html">Week 39 - Encapsulation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week40.html">Week 40 - The python datamodel</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week41.html">Week 41 - Data Structures: Dicts &amp; Sets</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 42 - Functions &amp;  Decorators</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="week38.html">Week 39 - OOP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week39.html">Week 40 - Encapsulation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week40.html">Week 41 - The python datamodel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week41.html">Week 42 - Data Structures: Dicts &amp; Sets</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 43 - Functions &amp;  Decorators</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#learning-goals">Learning goals</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#materials">Materials</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#code-examples-from-teachings">Code examples from teachings</a></li>
@@ -110,13 +110,13 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="week43.html">Week 43 - Generators</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week44.html">Week 44 - Context Managers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week45.html">Week 45 - Introduction to AI</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week46.html">Week 46 - Data Science &amp; Machine Learning</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week47.html">Week 47 - Tensorflow</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week48.html">Week 48 - Tic Tac Toe (the grand finale)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week50.html">Week 49-50 - Recap &amp; Exam preperation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week43.html">Week 44 - Generators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week44.html">Week 45 - Context Managers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week45.html">Week 46 - Introduction to AI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week46.html">Week 47 - Data Science &amp; Machine Learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week47.html">Week 48 - Tensorflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week48.html">Week 49 - Tic Tac Toe (the grand finale)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week50.html">Week 50 - Recap &amp; Exam preperation</a></li>
 </ul>
 
             
@@ -163,7 +163,7 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Week 42 - Functions &amp;  Decorators</li>
+      <li>Week 43 - Functions &amp;  Decorators</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -208,8 +208,8 @@
     text-align: unset;
 }
 </style>
-<div class="section" id="week-42-functions-decorators">
-<h1>Week 42 - Functions &amp;  Decorators<a class="headerlink" href="#week-42-functions-decorators" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="week-43-functions-decorators">
+<h1>Week 43 - Functions &amp;  Decorators<a class="headerlink" href="#week-43-functions-decorators" title="Permalink to this headline">¶</a></h1>
 <p>Decorators in python are widely used to add new functionallity to already existing code.
 You have already used decorators in your code. A <code class="code docutils literal notranslate"><span class="pre">&#64;property</span></code> is an example of this. Here you anotate a method with ‘something’ to make it able to do ‘more’ than the method in it self can do. You also know the concept from the Spring Framework you worked with previous in your education. Here you would add some more functionality (more code) to your already existing code by anotating it with <code class="code docutils literal notranslate"><span class="pre">&#64;Controler</span></code> or <code class="code docutils literal notranslate"><span class="pre">&#64;Autowired</span></code>. In both cases you add extra code to your code and get some new functionality.</p>
 <p><code class="code docutils literal notranslate"><span class="pre">&#64;property</span></code> is a python build in decorator, but today you will be making your own decorators.</p>
@@ -359,10 +359,10 @@ You have already used decorators in your code. A <code class="code docutils lite
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="week43.html" class="btn btn-neutral float-right" title="Week 43 - Generators" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="week43.html" class="btn btn-neutral float-right" title="Week 44 - Generators" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="week41.html" class="btn btn-neutral float-left" title="Week 41 - Data Structures: Dicts &amp; Sets" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="week41.html" class="btn btn-neutral float-left" title="Week 42 - Data Structures: Dicts &amp; Sets" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

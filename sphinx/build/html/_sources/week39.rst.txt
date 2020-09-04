@@ -1,4 +1,4 @@
-Week 39 - Encapsulation
+Week 40 - Encapsulation
 =======================
 
 In todays lectures we will deal with private and public attributes of classes, and how to encasulate data. To solve this in python you will need to use properties.  
