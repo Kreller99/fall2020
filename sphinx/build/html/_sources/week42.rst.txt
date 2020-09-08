@@ -6,7 +6,8 @@ Week 42 - Data Structures: Dicts & Sets
 
 Exercises
 ---------
-
+* `Count words on webpage <>`_
+* `Lotto exercise <> `_
 ..
         --------------------
         Ex 1: Unique letters

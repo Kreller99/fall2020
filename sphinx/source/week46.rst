@@ -1,8 +1,5 @@
 Week 46 - Introduction to AI
 ============================
-
-
-
 Today and the next 3 weeks, we will work within the topic of "AI, Data Science and Machine Learning". 
 
 We start out using the helicopter view and look at what AI are, and what Machine learning and Data Science´s role is in connection with this. 
@@ -15,6 +12,9 @@ Learning Goals
 --------------
 
    * To have an overview of what AI, Data Science and Machine learning is, and how they correlate to each others.
+        * ...
+
+
 
 Materials
 ---------

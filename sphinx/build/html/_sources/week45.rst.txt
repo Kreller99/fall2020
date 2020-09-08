@@ -10,7 +10,6 @@ We start out by introducing a new development environment, the Jupyter Notebook.
 Learning goals
 --------------
 
-        - Setup and run a Virtual Enviroment
         - Install and use Jupyter Notebook
         - Being able to use a Context Manager
         - Creating your own Context Managers

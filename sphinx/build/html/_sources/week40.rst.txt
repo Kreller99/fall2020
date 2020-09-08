@@ -1,8 +1,6 @@
 Week 40 - Encapsulation
 =======================
 
-In todays lectures we will deal with private and public attributes of classes, and how to encasulate data. To solve this in python you will need to use properties.  
-
 The pythonic approach starts out with the quite bold statement that all attributes are public, and unless specificly needed there are not any reason to make them anything else but public. If you think on back on your java development times, it is in reality seldome that you do some coding tasks that could not have been done with public attributes instead of privates with connected getters and setters. The pythonic approach to this problem is: make everything public, and if at some point you need to encapsulate, decorate your attributes and change it into a property. Today we will work with this approach in mind.  
 
 Learning goals

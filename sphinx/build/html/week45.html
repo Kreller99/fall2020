@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Week 46 - Introduction to AI &mdash; Introduction to python 1.0.0 documentation</title>
+  <title>Week 45 - Context Managers &mdash; Introduction to python 1.0.0 documentation</title>
   
 
   
@@ -38,8 +38,8 @@
     <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Week 47 - Data Science &amp; Machine Learning" href="week46.html" />
-    <link rel="prev" title="Week 45 - Context Managers" href="week44.html" /> 
+    <link rel="next" title="Week 46 - Introduction to AI" href="week46.html" />
+    <link rel="prev" title="Week 44 - Generators" href="week44.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -93,21 +93,24 @@
 <li class="toctree-l1"><a class="reference internal" href="week37.html">Week 37 - List comprehensions, Modules</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week38.html">Week 38 - Utilities and Modules</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week39.html">Week 39 - OOP</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week40.html">Week 41 - The python datamodel</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week41.html">Week 42 - Data Structures: Dicts &amp; Sets</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week42.html">Week 43 - Functions &amp;  Decorators</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week43.html">Week 44 - Generators</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week44.html">Week 45 - Context Managers</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 46 - Introduction to AI</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#learning-goals">Learning Goals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week40.html">Week 40 - Encapsulation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week41.html">Week 41 - The python datamodel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week42.html">Week 42 - Data Structures: Dicts &amp; Sets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week43.html">Week 43 - Functions &amp;  Decorators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week44.html">Week 44 - Generators</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 45 - Context Managers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#learning-goals">Learning goals</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#materials">Materials</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#follow-these-tutorials">Follow these tutorials:</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="week46.html">Week 47 - Data Science &amp; Machine Learning</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week47.html">Week 48 - Tensorflow</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week48.html">Week 49 - Tic Tac Toe (the grand finale)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week49.html">Week 49 - Tic Tac Toe (the grand finale)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="week46.html">Week 46 - Introduction to AI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week47.html">Week 47 - Data Science &amp; Machine Learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week48.html">Week 48 - Tensorflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week49.html">Week 49 - Tic Tac Toe</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week50.html">Week 50 - Recap &amp; Exam preperation</a></li>
 </ul>
 
@@ -155,7 +158,7 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Week 46 - Introduction to AI</li>
+      <li>Week 45 - Context Managers</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -200,32 +203,55 @@
     text-align: unset;
 }
 </style>
-<div class="section" id="week-46-introduction-to-ai">
-<h1>Week 46 - Introduction to AI<a class="headerlink" href="#week-46-introduction-to-ai" title="Permalink to this headline">¶</a></h1>
-<p>Today and the next 3 weeks, we will work within the topic of “AI, Data Science and Machine Learning”.</p>
-<p>We start out using the helicopter view and look at what AI are, and what Machine learning and Data Science´s role is in connection with this.</p>
-<p>The next weeks we will work in more details with Machine Learning and Data Science
-since this is in reality where the coding and algorithmic thinking is going on.</p>
+<div class="section" id="week-45-context-managers">
+<h1>Week 45 - Context Managers<a class="headerlink" href="#week-45-context-managers" title="Permalink to this headline">¶</a></h1>
+<p>Today we will work with context managers. Context managers can in short be described as something that takes care of the related tasks of a specific task. An example of this could be when opening a file, the context manager takes care of automaticly closing the file when we are finished using it.</p>
+<p>You will make your own context managers and use already created ones.</p>
+<p>We start out by introducing a new development environment, the Jupyter Notebook. And we will in connection with this look at what a virtual environment is, and how to use it.</p>
 <div class="section" id="learning-goals">
-<h2>Learning Goals<a class="headerlink" href="#learning-goals" title="Permalink to this headline">¶</a></h2>
+<h2>Learning goals<a class="headerlink" href="#learning-goals" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
-<li><p>To have an overview of what AI, Data Science and Machine learning is, and how they correlate to each others.</p></li>
+<li><p>Install and use Jupyter Notebook</p></li>
+<li><p>Being able to use a Context Manager</p></li>
+<li><p>Creating your own Context Managers</p></li>
+<li><p>Working with JSON files</p></li>
+<li><p>Working with the Pickles Module</p></li>
+<li><p>Working with CSV files</p></li>
+<li><p>Working with Pandas</p></li>
+<li><p>Working with SQlite database</p></li>
 </ul>
 </div></blockquote>
 </div>
 <div class="section" id="materials">
 <h2>Materials<a class="headerlink" href="#materials" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://dit.dk/nyheder/2020/podcast-ai-ml?utm_source=DANSK+IT%27s+nyhedsbrev&amp;utm_campaign=3f17f90e92-EMAIL_CAMPAIGN_nyhedsbrev_23_04_2020&amp;utm_medium=email&amp;utm_term=0_a5cccc51e6-3f17f90e92-130405957">(Podcast) Kunstig intelligens og machine learning: Sådan kan du udnytte de nye muligheder</a></p></li>
-<li><p><a class="reference external" href="https://link.springer.com/chapter/10.1007/978-3-319-58487-4_1">Introduction to Artificial Intelligence chp 1</a></p></li>
+<li><p><a class="reference internal" href="notebooks/jupyter_notebook.html"><span class="doc">Getting started with Jupyter Notebook</span></a></p></li>
+<li><p><a class="reference external" href="https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46">Getting Started With Jupyter Notebook for Python</a></p></li>
+<li><p><a class="reference internal" href="notebooks/Context-managers.html"><span class="doc">Context Managers notebook</span></a></p></li>
+<li><p><a class="reference internal" href="notebooks/JSON.html"><span class="doc">JSON notebook</span></a></p></li>
+<li><p><a class="reference internal" href="notebooks/Pickle-Pythonobjectserialization.html"><span class="doc">Pickle notebook</span></a></p></li>
+<li><p><a class="reference internal" href="notebooks/csv.html"><span class="doc">CSV notebook</span></a></p></li>
+<li><p><a class="reference internal" href="notebooks/Sqlite.html"><span class="doc">Sqlite notebook</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="exercises">
 <h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://pair.withgoogle.com/thehardway/">(Podcast) Tic-Tac-Toe the Hard Way</a></p></li>
+<li><p><a class="reference external" href="https://realpython.com/quizzes/python-csv/">CSV Quiz</a></p></li>
+<li><p><a class="reference external" href="notebooks/JSON.html#10-minutes-exercise">JSON 10 minutes exer</a></p></li>
+<li><p><a class="reference external" href="notebooks/Sqlite.html#10-minutes-exercise">SQlite 10 minutes exer</a></p></li>
+<li><p><a class="reference internal" href="notebooks/ConvertCSVtoJSON.html"><span class="doc">ConvertCSVtoJSON</span></a></p></li>
+<li><p><a class="reference internal" href="notebooks/Assignment_Decorator_Context_Manager.html"><span class="doc">Decorator / Context Manager</span></a></p></li>
 </ul>
+<div class="section" id="follow-these-tutorials">
+<h3>Follow these tutorials:<a class="headerlink" href="#follow-these-tutorials" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://stackabuse.com/python-context-managers/">Python Context Managers</a></p></li>
+<li><p><a class="reference external" href="https://realpython.com/python-json/">Working With JSON Data in Python</a></p></li>
+<li><p><a class="reference external" href="https://realpython.com/python-csv/">Reading and Writing CSV Files in Python</a></p></li>
+</ul>
+</div>
 </div>
 </div>
 
@@ -237,10 +263,10 @@ since this is in reality where the coding and algorithmic thinking is going on.<
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="week46.html" class="btn btn-neutral float-right" title="Week 47 - Data Science &amp; Machine Learning" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="week46.html" class="btn btn-neutral float-right" title="Week 46 - Introduction to AI" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="week44.html" class="btn btn-neutral float-left" title="Week 45 - Context Managers" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="week44.html" class="btn btn-neutral float-left" title="Week 44 - Generators" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

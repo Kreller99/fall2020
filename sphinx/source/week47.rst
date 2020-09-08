@@ -10,7 +10,7 @@ Supervised Learning
         In supervised learning we learn from labeled data.
         Supervised learning is a very powerful learning method, but it can be very costly to create labeled data sets.
 
-Reinforcement Learning (Unsupervised Learning)
+Unsupervised Learning (Reinforcement Learning)
         In unsupervised learning we don't have labeled data, so we must learn about data points based on their relation to other data points.
         Unsupervised learning is open for a wider range of problems than supervised learning, but the insights we can gain are less powerfull.
 

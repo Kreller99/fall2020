@@ -53,7 +53,6 @@ Learning goals
 
 Materials
 ---------
-
 * `Introduction to Python Generators <https://realpython.com/introduction-to-python-generators/>`_ (ex. Using Advanced Generator Methods & Creating Data Pipelines With Generators)
 
 ----------------------------

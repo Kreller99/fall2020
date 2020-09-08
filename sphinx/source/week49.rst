@@ -1,4 +1,3 @@
-Week 49 - Tic Tac Toe (the grand finale)
-========================================
+Week 49 - Tic Tac Toe
+=====================
 
-Today we will look at the Tic Tac Toe AI podcast, and the code we have done. 

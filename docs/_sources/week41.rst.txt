@@ -17,7 +17,7 @@ If you want to be able to use the :code:`in` key word on your object you should 
 Learning goals
 --------------
 
-    * Create your own classes, that behave like any other Python Object 
+    * Create your own classes, that behave like any other Python Object, and are able to interact with pythons build in functions. 
      
 Materials
 ---------
