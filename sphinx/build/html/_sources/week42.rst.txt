@@ -11,9 +11,8 @@ End Time: 15:30
 
 
 
-..
 
-        Exercises
+..        Exercises
         ---------
         * `Count words on webpage <>`_
         * `Lotto exercise <> `_
