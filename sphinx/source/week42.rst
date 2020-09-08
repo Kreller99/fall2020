@@ -11,13 +11,13 @@ End Time: 15:30
 
 
 
-
-
-Exercises
----------
-* `Count words on webpage <>`_
-* `Lotto exercise <> `_
 ..
+
+        Exercises
+        ---------
+        * `Count words on webpage <>`_
+        * `Lotto exercise <> `_
+        
         --------------------
         Ex 1: Unique letters
         --------------------
