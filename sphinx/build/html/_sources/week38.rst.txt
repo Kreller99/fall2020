@@ -1,135 +1,52 @@
-Week 39 - OOP
-=============
+Week 37 - Utilities and Modules
+===============================
 
-.. note:: Homework
-   
-   Before this class you should have read and understood this text `Object-Oriented Programming (OOP) in Python 3 <https://realpython.com/python3-object-oriented-programming/>`_. These are basic OOP concepts, which you have already woorked with in the forst part of your education. You just need to be up to date with how this is done, and how the syntax is done in python.
+Today we will work with modules in python. You will build your own modules and use them, and you will learn how to use pythons build in modules, and how to use 3rd party modules. 
 
+You will furthermore be able to create a simple web crawler, and to search a document for patterns.
+
+You will on the practical level today work with 4 modules, the:
+
+* Os module
+* Subprocesses module
+* Requests module
+* BeautifullSoup module
 
 Learning goals
 --------------
-After having worked with these topics you will be able to:
-      
-   - create Classes, Objects, instance and class variables, methods and initializer methods. 
-   - make use of single and multiple inheritance.   
-   - explain when and why to use classes and objects instead of procedural style. 
-   - relate the pythonic OOP style to other languages  (Java e.g) 
-   - create doctests for your python code.
-
-
-Today we will work with the basics of Object oriented programming in python. You will learn how to include tests in you applications, and you will have exercises that deals with Bank accounts, Angry birds. 
+After this week you will be able to:
+       
+        - Create your own modules.
+        - Use python build in modules.
+        - Find and use 3rd party modules.
+        - Use the requests module to fetch website data.
+        - search a document for patterns.   
+        - Work with the module BeautifullSoup for webscrabing.
 
 
 Materials
 ---------
-* `Object-Oriented Programming (OOP) in Python 3 <https://realpython.com/python3-object-oriented-programming/>`_
-* `Python args and kwargs: Demystified <https://realpython.com/python-kwargs-and-args/>`_
-* `Notebook on classes <notebooks/class_notes.ipynb>`_
-
-----------------------------
-Code examples from teachings
-----------------------------
+* `Python Modules and Packages <https://realpython.com/python-modules-packages/>`_
+* `Miscellaneous operating system interfaces <https://docs.python.org/3/library/os.html>`_
+* `Subprocess management <https://docs.python.org/3.7/library/subprocess.html#module-subprocess>`_
+* `Python’s Requests Library <https://realpython.com/python-requests/>`_
+* `Downloading Files from URLs in Python <https://www.codementor.io/aviaryan/downloading-files-from-urls-in-python-77q3bs0un>`_
 
 
+* `Code examples from today <../week09/code_from_today>`_
 
 Exercises
 ---------
+* `Teaching exercises of today <exercises/util_modules/exercises.rst>`_
+* `Build a Web Scraper With Python <https://realpython.com/beautiful-soup-web-scraper-python/>`_
 
+  * When this is done, extend your solution with the ability to download all images (logos) from the Monster website you just worked with. 
 
-.. raw:: html
-   
-   <hr>
+* `How to Build Command Line Interfaces in Python With argparse <https://realpython.com/command-line-interfaces-python-argparse/>`_
 
+------
+quizes
+------
+* `HTTP Requests With the "requests" Library Quiz <https://realpython.com/quizzes/python-requests/>`_
 
--------------------
-EX 1: Bank Exercise 
--------------------
-
-.. `Solution <exercises/solution/oop/solution.rst#bank-exercise>`_
-
-Create a Bank, an Account, and a Customer class.
-
-* All classes should be in a single file. 
-* The bank class should be able to hold many account.
-* You should be able to add new accounts.
-* The Account class should have relevant details.
-* The Customer class Should also have relevant details.
-
-Stick to the techniques we have covered so far, and be sure to create doctests.
-
-
-**Overloading**
-
-Add the abillity in your code to overload one or more init methods
-
-**Hand in on fronter**
-
-When you are done you should hand in you solution on fronter. You should after this assess 2 other students solutions. (code review, what is good, what is not so good etc.). Who you should assess is handled by fronter (hopefully :))  
-
-
-.. raw:: html
-   
-   <hr>
-
-
-
-----------------
-Ex 2: Angry Bird
-----------------
-
-.. `Solution <exercises/solution/oop/solution.rst#angry-bird-exercise>`_
-
-In this exercises you are going to create a simple terminal version of this `Angry Bird online coding teaching tool for kids <https://studio.code.org/hoc/1>`_ .
-
-.. image:: _static/angry_bird.png
-
-You should make this as an OOP application, and your classes could be like this. 
-
-**Bird**
-
-Should know its *current position*, and should know in what *direction* it is moving. It should be able to *move forward*, *turn left*, and *turn right*.
-It should also have an action invoked when it looses the game, and one when it wins. 
-
-
-**Pig**
-
-Should know its *position*. 
-It should also have an action invoked when it looses the game, and one when it wins. 
-
-**Board**
-
-Should initialize a Bird and a Pig object. It should *display* the board with the bird and the pig in starting positions. It should have a *run method*
-
-.. code::
-
-        *  *  *  *  *  *  *  *  *  *
-        *  *  *  *  *  *  *  *  *  *
-        *  *  B  *  *  *  *  *  *  *
-        *  *  *  *  *  *  *  *  *  *
-        *  *  *  *  *  *  *  *  *  *
-        *  *  *  *  *  *  *  *  *  *
-        *  *  *  *  *  *  *  *  *  *
-        *  *  *  *  *  *  P  *  *  *
-        *  *  *  *  *  *  *  *  *  *
-        *  *  *  *  *  *  *  *  *  *
-
-
-**Workspace**
-
-Should have a display method printing out instructions on what to do. It should have a method being responsible of creating a collection of commands from user input. 
-
-
-**Game**
-
-This class is responsible of running the application. It should create objects of Board and Workspace and call their display methods. It should also be responsible for deciding if the bird hit the pig or not. 
-
-**********
-Screencast
-**********
-
-You can see a prototype of this exercise here. You are of cause welcome to improve the game, but this could be a solution. 
-
-.. raw:: html
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/n9Ths1CSCkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

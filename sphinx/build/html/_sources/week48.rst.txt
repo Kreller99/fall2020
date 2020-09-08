@@ -1,4 +1,6 @@
-Week 49 - Tic Tac Toe (the grand finale)
-========================================
+Week 48 - Tensorflow
+====================
 
-Today we will look at the Tic Tac Toe AI podcast, and the code we have done. 
+.. todo::
+
+        TensorFlow Tutorial For Beginners  - https://www.datacamp.com/community/tutorials/tensorflow-tutorial#tensors

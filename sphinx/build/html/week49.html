@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Week 41 - The python datamodel &mdash; Introduction to python 1.0.0 documentation</title>
+  <title>Week 49 - Tic Tac Toe (the grand finale) &mdash; Introduction to python 1.0.0 documentation</title>
   
 
   
@@ -38,8 +38,8 @@
     <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Week 42 - Data Structures: Dicts &amp; Sets" href="week41.html" />
-    <link rel="prev" title="Week 40 - Encapsulation" href="week39.html" /> 
+    <link rel="next" title="Week 50 - Recap &amp; Exam preperation" href="week50.html" />
+    <link rel="prev" title="Week 49 - Tic Tac Toe (the grand finale)" href="week48.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -93,18 +93,7 @@
 <li class="toctree-l1"><a class="reference internal" href="week37.html">Week 37 - Utilities and Modules</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week38.html">Week 39 - OOP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week39.html">Week 40 - Encapsulation</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 41 - The python datamodel</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#learning-goals">Learning goals</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#materials">Materials</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#code-examples-from-teachings">Code examples from teachings</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#ex1-deck-of-cards">Ex1: Deck of cards</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="week40.html">Week 41 - The python datamodel</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week41.html">Week 42 - Data Structures: Dicts &amp; Sets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week42.html">Week 43 - Functions &amp;  Decorators</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week43.html">Week 44 - Generators</a></li>
@@ -113,7 +102,7 @@
 <li class="toctree-l1"><a class="reference internal" href="week46.html">Week 47 - Data Science &amp; Machine Learning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week47.html">Week 48 - Tensorflow</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week48.html">Week 49 - Tic Tac Toe (the grand finale)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week49.html">Week 49 - Tic Tac Toe (the grand finale)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 49 - Tic Tac Toe (the grand finale)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week50.html">Week 50 - Recap &amp; Exam preperation</a></li>
 </ul>
 
@@ -161,14 +150,14 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Week 41 - The python datamodel</li>
+      <li>Week 49 - Tic Tac Toe (the grand finale)</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
             
-              <a href="https://github.com/python-elective-kea/fall2020/blob/master/sphinx/source/week40.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/python-elective-kea/fall2020/blob/master/sphinx/source/week49.rst" class="fa fa-github"> Edit on GitHub</a>
             
           
         
@@ -206,53 +195,9 @@
     text-align: unset;
 }
 </style>
-<div class="section" id="week-41-the-python-datamodel">
-<h1>Week 41 - The python datamodel<a class="headerlink" href="#week-41-the-python-datamodel" title="Permalink to this headline">¶</a></h1>
-<p>Today we will look at the python data model.</p>
-<p>After this you will be able to implement code in own classes that allow you to use python built-in functions to interact with these object.</p>
-<p><strong>Example:</strong></p>
-<p>If you want to be able to use the build in function <code class="code docutils literal notranslate"><span class="pre">len()</span></code> on your object you should implement the <code class="code docutils literal notranslate"><span class="pre">__len__</span></code> method in your class.</p>
-<p>If you want to be able to use the <code class="code docutils literal notranslate"><span class="pre">==</span></code> operator on your object you should implement the <code class="code docutils literal notranslate"><span class="pre">__eq__</span></code> method in your class.</p>
-<p>If you want to be able to use the <code class="code docutils literal notranslate"><span class="pre">in</span></code> key word on your object you should implement the <code class="code docutils literal notranslate"><span class="pre">__contains__</span></code> method in your class.</p>
-<div class="section" id="learning-goals">
-<h2>Learning goals<a class="headerlink" href="#learning-goals" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><ul class="simple">
-<li><p>Create your own classes, that behave like any other Python Object</p></li>
-</ul>
-</div></blockquote>
-</div>
-<div class="section" id="materials">
-<h2>Materials<a class="headerlink" href="#materials" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><a class="reference external" href="https://rszalski.github.io/magicmethods/">A Guide to Python’s Magic Methods</a></p></li>
-<li><p><a class="reference internal" href="notebooks/OOP_Encapsulation_Propeties.html#Datamodel"><span class="std std-ref">Notebook on Datamodel</span></a></p></li>
-</ul>
-<div class="section" id="code-examples-from-teachings">
-<h3>Code examples from teachings<a class="headerlink" href="#code-examples-from-teachings" title="Permalink to this headline">¶</a></h3>
-</div>
-</div>
-<div class="section" id="exercises">
-<h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="ex1-deck-of-cards">
-<h3>Ex1: Deck of cards<a class="headerlink" href="#ex1-deck-of-cards" title="Permalink to this headline">¶</a></h3>
-<p>Continue with the deck example and implement the</p>
-<ul class="simple">
-<li><p><code class="code docutils literal notranslate"><span class="pre">__len__</span></code> method</p></li>
-<li><p><code class="code docutils literal notranslate"><span class="pre">__add__</span></code> method</p></li>
-<li><p><code class="code docutils literal notranslate"><span class="pre">__repr__</span></code> method</p></li>
-<li><p><code class="code docutils literal notranslate"><span class="pre">__str__</span></code> method</p></li>
-<li><p><code class="code docutils literal notranslate"><span class="pre">__setitem__</span></code> method</p></li>
-<li><p><code class="code docutils literal notranslate"><span class="pre">__delitem__</span></code> method</p></li>
-</ul>
-<p>We look at this together in a short while.</p>
-<p>When you a done, take a look at the 2 exercises below and ask your questions when we meet.</p>
-<hr><ul class="simple">
-<li><p><a class="reference internal" href="exercises/protocol_linked_list.html"><span class="doc">Linked List</span></a></p></li>
-<li><p><a class="reference internal" href="exercises/JellyBeans.html"><span class="doc">Jelly Beans</span></a></p></li>
-</ul>
-</div>
-</div>
+<div class="section" id="week-49-tic-tac-toe-the-grand-finale">
+<h1>Week 49 - Tic Tac Toe (the grand finale)<a class="headerlink" href="#week-49-tic-tac-toe-the-grand-finale" title="Permalink to this headline">¶</a></h1>
+<p>Today we will look at the Tic Tac Toe AI podcast, and the code we have done.</p>
 </div>
 
 
@@ -263,10 +208,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="week41.html" class="btn btn-neutral float-right" title="Week 42 - Data Structures: Dicts &amp; Sets" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="week50.html" class="btn btn-neutral float-right" title="Week 50 - Recap &amp; Exam preperation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="week39.html" class="btn btn-neutral float-left" title="Week 40 - Encapsulation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="week48.html" class="btn btn-neutral float-left" title="Week 49 - Tic Tac Toe (the grand finale)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

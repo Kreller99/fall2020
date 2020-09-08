@@ -1,92 +1,135 @@
-Week 40 - Encapsulation
-=======================
+Week 39 - OOP
+=============
 
-In todays lectures we will deal with private and public attributes of classes, and how to encasulate data. To solve this in python you will need to use properties.  
+.. note:: Homework
+   
+   Before this class you should have read and understood this text `Object-Oriented Programming (OOP) in Python 3 <https://realpython.com/python3-object-oriented-programming/>`_. These are basic OOP concepts, which you have already woorked with in the forst part of your education. You just need to be up to date with how this is done, and how the syntax is done in python.
 
-The pythonic approach starts out with the quite bold statement that all attributes are public, and unless specificly needed there are not any reason to make them anything else but public. If you think on back on your java development times, it is in reality seldome that you do some coding tasks that could not have been done with public attributes instead of privates with connected getters and setters. The pythonic approach to this problem is: make everything public, and if at some point you need to encapsulate, decorate your attributes and change it into a property. Today we will work with this approach in mind.  
 
 Learning goals
 --------------
-After this week you will be able to:
-        
-- Understand the pythonic approach to encapsulation. 
-- Use private and public attributes in your code
-- Explain what is meant by private in python 
-- Work with properties to use encapsulation.
-- And explain the pros and cons of properties and public attributes compared to Java´s private attributes with getters and setters. 
+After having worked with these topics you will be able to:
+      
+   - create Classes, Objects, instance and class variables, methods and initializer methods. 
+   - make use of single and multiple inheritance.   
+   - explain when and why to use classes and objects instead of procedural style. 
+   - relate the pythonic OOP style to other languages  (Java e.g) 
+   - create doctests for your python code.
+
+
+Today we will work with the basics of Object oriented programming in python. You will learn how to include tests in you applications, and you will have exercises that deals with Bank accounts, Angry birds. 
+
 
 Materials
 ---------
-* `Private attributes and methods <https://www.bogotobogo.com/python/python_private_attributes_methods.php>`_
-* `Properties vs. Getters and Setters <https://www.python-course.eu/python3_properties.php>`_
-* `Notebook on properties <notebooks/OOP_Encapsulation_Propeties.rst>`_
+* `Object-Oriented Programming (OOP) in Python 3 <https://realpython.com/python3-object-oriented-programming/>`_
+* `Python args and kwargs: Demystified <https://realpython.com/python-kwargs-and-args/>`_
+* `Notebook on classes <notebooks/class_notes.ipynb>`_
 
 ----------------------------
 Code examples from teachings
 ----------------------------
 
 
+
 Exercises
 ---------
 
-------------------------------------
-Encaptiolation & Propeties exercises
-------------------------------------
 
-All following exercises should be done by using **Properties** when needed. The focus should be on encapsulation. 
-
-
-Ex 1:  Car object
-*****************
-
-`Solution <../week11/exercises/solution/car.py>`_
-
-Create a Car class. When instanciated the object should be able to take 4 attributes (Make, Model, bhp, mph). They all 4 should be properties.
+.. raw:: html
+   
+   <hr>
 
 
+-------------------
+EX 1: Bank Exercise 
+-------------------
 
-Ex 2: Bank
+.. `Solution <exercises/solution/oop/solution.rst#bank-exercise>`_
+
+Create a Bank, an Account, and a Customer class.
+
+* All classes should be in a single file. 
+* The bank class should be able to hold many account.
+* You should be able to add new accounts.
+* The Account class should have relevant details.
+* The Customer class Should also have relevant details.
+
+Stick to the techniques we have covered so far, and be sure to create doctests.
+
+
+**Overloading**
+
+Add the abillity in your code to overload one or more init methods
+
+**Hand in on fronter**
+
+When you are done you should hand in you solution on fronter. You should after this assess 2 other students solutions. (code review, what is good, what is not so good etc.). Who you should assess is handled by fronter (hopefully :))  
+
+
+.. raw:: html
+   
+   <hr>
+
+
+
+----------------
+Ex 2: Angry Bird
+----------------
+
+.. `Solution <exercises/solution/oop/solution.rst#angry-bird-exercise>`_
+
+In this exercises you are going to create a simple terminal version of this `Angry Bird online coding teaching tool for kids <https://studio.code.org/hoc/1>`_ .
+
+.. image:: _static/angry_bird.png
+
+You should make this as an OOP application, and your classes could be like this. 
+
+**Bird**
+
+Should know its *current position*, and should know in what *direction* it is moving. It should be able to *move forward*, *turn left*, and *turn right*.
+It should also have an action invoked when it looses the game, and one when it wins. 
+
+
+**Pig**
+
+Should know its *position*. 
+It should also have an action invoked when it looses the game, and one when it wins. 
+
+**Board**
+
+Should initialize a Bird and a Pig object. It should *display* the board with the bird and the pig in starting positions. It should have a *run method*
+
+.. code::
+
+        *  *  *  *  *  *  *  *  *  *
+        *  *  *  *  *  *  *  *  *  *
+        *  *  B  *  *  *  *  *  *  *
+        *  *  *  *  *  *  *  *  *  *
+        *  *  *  *  *  *  *  *  *  *
+        *  *  *  *  *  *  *  *  *  *
+        *  *  *  *  *  *  *  *  *  *
+        *  *  *  *  *  *  P  *  *  *
+        *  *  *  *  *  *  *  *  *  *
+        *  *  *  *  *  *  *  *  *  *
+
+
+**Workspace**
+
+Should have a display method printing out instructions on what to do. It should have a method being responsible of creating a collection of commands from user input. 
+
+
+**Game**
+
+This class is responsible of running the application. It should create objects of Board and Workspace and call their display methods. It should also be responsible for deciding if the bird hit the pig or not. 
+
+**********
+Screencast
 **********
 
-`Solution <../week11/exercises/solution/bank.py>`_
+You can see a prototype of this exercise here. You are of cause welcome to improve the game, but this could be a solution. 
 
-In the exercise from last monday with the bank, account and customer, change the code to use properties instead of the public variables.  
+.. raw:: html
 
-.. code:: python
-   :linenos:
-
-   class Bank:    
-        def __init__(self):
-           self.accounts = []
-
-   class Account:
-        def __init__(self, no, cust):
-           self.no = no
-           self.cust = cust
-
-   class Customer:
-        def __init__(self, name):
-           self.name = name
-
-
-* The bank class should futher be change into not taking any accounts as parameters at initialization. 
-* The accouts should be added afterwards, eithers as a single account one at a time, or as a collection of accounts (many at the sametime).      
-* Somewhere you should change the code so that a customer only can create one account.     
-* The Customer class should make sure that the customer is over 18 year of age.
-
-
-
-
-
-Ex 3: Machine -> printer
-************************
-
-`Solution <../week11/exercises/solution/printer.py>`_
-
-
-* Create a Machine class that takes care of powering on and off a the machine.   
-* Create a printer class that is a subclass of the Machine super class.   
-* The printer should be able to print to console.  
-* The printer should have a papertray, which should be in its own class. The papertray class should keep track of the paper, it should have the abillity to use paper and load new paper in the tray if empty.  
-
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/n9Ths1CSCkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

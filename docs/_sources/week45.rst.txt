@@ -1,27 +1,56 @@
-Week 46 - Introduction to AI
-============================
+Week 45 - Context Managers 
+==========================
 
+Today we will work with context managers. Context managers can in short be described as something that takes care of the related tasks of a specific task. An example of this could be when opening a file, the context manager takes care of automaticly closing the file when we are finished using it.
 
+You will make your own context managers and use already created ones. 
 
-Today and the next 3 weeks, we will work within the topic of "AI, Data Science and Machine Learning". 
+We start out by introducing a new development environment, the Jupyter Notebook. And we will in connection with this look at what a virtual environment is, and how to use it. 
 
-We start out using the helicopter view and look at what AI are, and what Machine learning and Data Science´s role is in connection with this. 
-
-The next weeks we will work in more details with Machine Learning and Data Science 
-since this is in reality where the coding and algorithmic thinking is going on.
-
-
-Learning Goals
+Learning goals
 --------------
 
-   * To have an overview of what AI, Data Science and Machine learning is, and how they correlate to each others.
+        - Setup and run a Virtual Enviroment
+        - Install and use Jupyter Notebook
+        - Being able to use a Context Manager
+        - Creating your own Context Managers
+        - Working with JSON files
+        - Working with the Pickles Module
+        - Working with CSV files
+        - Working with Pandas
+        - Working with SQlite database
 
 Materials
 ---------
 
-* `(Podcast) Kunstig intelligens og machine learning: Sådan kan du udnytte de nye muligheder <https://dit.dk/nyheder/2020/podcast-ai-ml?utm_source=DANSK+IT%27s+nyhedsbrev&utm_campaign=3f17f90e92-EMAIL_CAMPAIGN_nyhedsbrev_23_04_2020&utm_medium=email&utm_term=0_a5cccc51e6-3f17f90e92-130405957>`_
-* `Introduction to Artificial Intelligence chp 1 <https://link.springer.com/chapter/10.1007/978-3-319-58487-4_1>`_
+* `Getting started with Jupyter Notebook <notebooks/jupyter_notebook.md>`_
+* `Getting Started With Jupyter Notebook for Python <https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46>`_ 
+* `Context Managers notebook <notebooks/Context-managers.ipynb>`_
+* `JSON notebook <notebooks/JSON.ipynb>`_
+* `Pickle notebook <notebooks/Pickle-Pythonobjectserialization.ipynb>`_
+* `CSV notebook <notebooks/csv.ipynb>`_
+* `Sqlite notebook <notebooks/Sqlite.ipynb>`_
+
 
 Exercises
 ---------
-* `(Podcast) Tic-Tac-Toe the Hard Way <https://pair.withgoogle.com/thehardway/>`_
+
+* `CSV Quiz <https://realpython.com/quizzes/python-csv/>`_
+
+* `JSON 10 minutes exer <notebooks/JSON.html#10-minutes-exercise>`_
+
+* `SQlite 10 minutes exer <notebooks/Sqlite.html#10-minutes-exercise>`_
+* `ConvertCSVtoJSON <notebooks/ConvertCSVtoJSON.ipynb>`_
+* `Decorator / Context Manager <notebooks/Assignment_Decorator_Context_Manager.ipynb>`_ 
+
+-----------------------
+Follow these tutorials:
+-----------------------
+* `Python Context Managers <https://stackabuse.com/python-context-managers/>`_
+* `Working With JSON Data in Python <https://realpython.com/python-json/>`_
+* `Reading and Writing CSV Files in Python <https://realpython.com/python-csv/>`_
+
+
+
+
+

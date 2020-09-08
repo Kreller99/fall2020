@@ -1,27 +1,27 @@
-Week 47 - Data Science & Machine Learning
-=========================================
+Week 46 - Introduction to AI
+============================
 
 
-Supervised and Unsupervised Learning
-------------------------------------
+
+Today and the next 3 weeks, we will work within the topic of "AI, Data Science and Machine Learning". 
+
+We start out using the helicopter view and look at what AI are, and what Machine learning and Data Science´s role is in connection with this. 
+
+The next weeks we will work in more details with Machine Learning and Data Science 
+since this is in reality where the coding and algorithmic thinking is going on.
 
 
-Supervised Learning
-        In supervised learning we learn from labeled data.
-        Supervised learning is a very powerful learning method, but it can be very costly to create labeled data sets.
+Learning Goals
+--------------
 
-Reinforcement Learning (Unsupervised Learning)
-        In unsupervised learning we don't have labeled data, so we must learn about data points based on their relation to other data points.
-        Unsupervised learning is open for a wider range of problems than supervised learning, but the insights we can gain are less powerfull.
+   * To have an overview of what AI, Data Science and Machine learning is, and how they correlate to each others.
 
+Materials
+---------
 
-..
-        ---------
-        Exercises
-        ---------
-        * `Machine learning tutorials <https://realpython.com/tutorials/machine-learning/>`_
-        * `Build a Recommendation Engine With Collaborative Filtering <https://realpython.com/build-recommendation-engine-collaborative-filtering/>`_
-        * `Three Ways of Storing and Accessing Lots of Images in Python <https://realpython.com/storing-images-in-python/>`_
-        * `Recommender Systems in Python <https://www.datacamp.com/community/tutorials/recommender-systems-python>`_
-        * `Ultimate Guide to Getting Started with TensorFlow <https://www.kdnuggets.com/2018/09/ultimate-guide-tensorflow.html>`_
-        * `TicaTacToe <https://towardsdatascience.com/tic-tac-toe-learner-ai-208813b5261>`_
+* `(Podcast) Kunstig intelligens og machine learning: Sådan kan du udnytte de nye muligheder <https://dit.dk/nyheder/2020/podcast-ai-ml?utm_source=DANSK+IT%27s+nyhedsbrev&utm_campaign=3f17f90e92-EMAIL_CAMPAIGN_nyhedsbrev_23_04_2020&utm_medium=email&utm_term=0_a5cccc51e6-3f17f90e92-130405957>`_
+* `Introduction to Artificial Intelligence chp 1 <https://link.springer.com/chapter/10.1007/978-3-319-58487-4_1>`_
+
+Exercises
+---------
+* `(Podcast) Tic-Tac-Toe the Hard Way <https://pair.withgoogle.com/thehardway/>`_
