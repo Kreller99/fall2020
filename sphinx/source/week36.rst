@@ -13,7 +13,7 @@ After this week you will be able to:
         - Loop over sequences with a for, foreach & while loops.  
         - Sort sequences using the build in sorted function and use its key parameter to perform custom sorting.  
         - Read from files and write to files using the build in "open" function. 
-        - Use List comprehensions instead of list assignment and loops in you python code. 
+..        - Use List comprehensions instead of list assignment and loops in you python code. 
 
 
 Materials
@@ -24,7 +24,9 @@ Materials
 * `Python "for" Loops <https://realpython.com/python-for-loop/>`_
 * `Python "while" Loops <https://realpython.com/python-while-loop/>`_
 * `How to Use sorted() and sort() in Python <https://realpython.com/python-sort/>`_
-* `Comprehending Python’s Comprehensions <https://dbader.org/blog/list-dict-set-comprehensions-in-python>`_
+
+..  * `Comprehending Python’s Comprehensions <https://dbader.org/blog/list-dict-set-comprehensions-in-python>`_
+
 * `Slides <_static/noterlists_tuples.slides.html>`_    (`notebook <notebooks/noterlists_tuples.ipynb>`_)
 * `Code examples from teachings <https://github.com/python-elective-kea/fall2020-code-examples-from-teachings/tree/master/w36>`_
   

@@ -15,8 +15,8 @@ After this week you will be able to:
 
 Materials
 ---------
-* `Private attributes and methods <https://www.bogotobogo.com/python/python_private_attributes_methods.php>`_
 * `Properties vs. Getters and Setters <https://www.python-course.eu/python3_properties.php>`_
+* `Private attributes and methods <https://www.bogotobogo.com/python/python_private_attributes_methods.php>`_
 * `Notebook on properties <notebooks/OOP_Encapsulation_Propeties.rst>`_
 
 ----------------------------
