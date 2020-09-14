@@ -41,6 +41,7 @@ Exercises
 ----------------------------------
 Ex 1: Alphabet List Comprehensions
 ----------------------------------
+`Solution <exercises/solution/03_os_sub_req/solutions.rst#ex-1-alphabet-list-comprehensions>`_
 
 1. Create a list of capital letters in the english alphabet
 2. Create a list of capital letter from the english aplhabet, but exclude 4 with the Unicode code point of either 70, 75, 80, 85.
@@ -49,6 +50,8 @@ Ex 1: Alphabet List Comprehensions
 --------------------------------
 Ex 2: Clothes List Comprehension
 --------------------------------
+
+`Solution <exercises/solution/03_os_sub_req/solutions.rst#ex-2-clothes-list-comprehension>`_
 
 1. From 2 lists, using a list comprehension, create a list containing:
 
@@ -71,10 +74,18 @@ Ex 2: Clothes List Comprehension
 
 2. If the tuple pair is in the following list, it should not be added to the comprehension generated list. 
 
+.. code::
+   :linenos:
+
+        soled_out = [('Black', 'm'), ('White', 's')]
+
 
 -----------------
 Ex 2: Sort a Text
 -----------------
+
+`Solution <exercises/solution/03_os_sub_req/solutions.rst#ex-2-sort-a-text>`_
+
 Based on this exercise from last time sort it by using a list comprehensions instead. 
 
 .. literalinclude:: exercises/solution/02_lists/sort_a_string.py
@@ -83,6 +94,8 @@ Based on this exercise from last time sort it by using a list comprehensions ins
 ----------------------------
 Ex 3: List & tuple exercises
 ----------------------------
+`Solution <exercises/solution/03_os_sub_req/solutions.rst#ex-3-list-tuple-exercises>`_
+
 Based on these exercises from last time, solve the exercises by using list comprehensions instead. 
 
 * `List & tuple exercises <exercises/lists/lists.rst>`_
@@ -94,6 +107,9 @@ Based on these exercises from last time, solve the exercises by using list compr
 -------------------------
 Ex 4: Sys module exercise
 -------------------------
+
+`Solution <exercises/solution/03_os_sub_req/solutions.rst#ex-4-sys-module-exercise>`_
+
 Create a commandline tool that checks if the required aguments are present when you run the program, and if not tells you what is missing to run the program.
 
 If you run python :code:`python script.py` the program should print an error saying :code:`Usage: python script.py [-it]{--rm}` where the **[]** means required and the **{}** means optional.
@@ -102,6 +118,8 @@ If you run python :code:`python script.py` the program should print an error say
 Ex 5: OS Module exercise
 ------------------------
 
+`Solution <exercises/solution/03_os_sub_req/solutions.rst#ex-5-os-module-exercise>`_
+
 .. literalinclude:: exercises/util_modules/os_exercise.py
         :linenos:
 
@@ -109,6 +127,8 @@ Ex 5: OS Module exercise
 -----------------------
 Ex 6: Extract .py files
 -----------------------
+`Solution <exercises/solution/03_os_sub_req/solutions.rst#ex-6-extract-py-files>`_
+
 Create a commandline utillity (program) that when run takes 1-3 commandline arguments where:
 
 | * the first is the name of a directory in play
@@ -129,6 +149,8 @@ Zip all .py files in a given directory and put the zip file in the specified fol
 ----------------------------------
 Ex 7: Simple scraber with requests
 ----------------------------------
+
+`Solution <exercises/solution/03_os_sub_req/solutions.rst#ex-7-simple-scraber-with-requests>`_
 
 | 1. Create an application that asks for an url. 
 | 2. Then Download that html page, and its images, icons etc. and change it so it will work locally on your computer. Locally means that you should be able to cut your internet connection and still have a functionig html page. 
