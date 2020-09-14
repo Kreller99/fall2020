@@ -41,7 +41,7 @@ Exercises
 ----------------------------------
 Ex 1: Alphabet List Comprehensions
 ----------------------------------
-`Solution <exercises/solution/03_os_sub_req/solutions.rst#ex-1-alphabet-list-comprehensions>`_
+`Solution <exercises/solution/03_os_sub_req/solutions#ex-1-alphabet-list-comprehensions>`_
 
 1. Create a list of capital letters in the english alphabet
 2. Create a list of capital letter from the english aplhabet, but exclude 4 with the Unicode code point of either 70, 75, 80, 85.
