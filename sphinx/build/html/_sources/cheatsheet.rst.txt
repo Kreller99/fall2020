@@ -16,18 +16,15 @@ Week 35 - Introduction to python
    $ docker run -it --rm -v ${PWD}:/docs python bash  // same as above, but now sharing files from the current directory to/from /docs folder in the container.
  
 
------------------------------------------------------
-Week 36 - Data Structures: Sequences & comprehensions
------------------------------------------------------
+-------------------------------
+Week 38 - Utilities and Modules
+-------------------------------
 
 
 .. code::
 
-
-
-
-
-
+        $ docker build --tag webscrabing:latest .
+        $ docker run -it --rm -v ${PWD}:/docs webscrabing 
 
 ---------------
 Sphinx commands
