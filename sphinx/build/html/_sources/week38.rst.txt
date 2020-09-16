@@ -16,7 +16,7 @@ After this week you will be able to:
 
 Materials
 ---------
-* `Slides <>`_  `(Notebook) <notebooks/notes_docker_requirements_webscrabing.ipynb>`_
+* `Slides <_static/notes_docker_requirements_webscrabing.slides.html>`_  `(Notebook) <notebooks/notes_docker_requirements_webscrabing.ipynb>`_
 * `Beautiful Soup Documentation <https://www.crummy.com/software/BeautifulSoup/bs4/doc/>`_
 * `Html to markdown <notebooks/html_markdown.rst>`_
 * `Docker Commands <cheatsheet.rst#week-38-utilities-and-modules>`_
