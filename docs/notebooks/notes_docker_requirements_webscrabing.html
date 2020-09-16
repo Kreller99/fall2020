@@ -481,7 +481,7 @@ div.rendered_html tbody tr:hover {
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># the base image</span>
 <span class="n">FROM</span> <span class="n">python</span><span class="p">:</span><span class="mf">3.8</span><span class="o">-</span><span class="n">alpine</span>
 
-<span class="c1"># copy all files from dir with dockerfile to /app folder in image</span>
+<span class="c1"># copy all files from dir with Dockerfile and requirements.txt to /app folder in image</span>
 <span class="n">COPY</span> <span class="o">.</span> <span class="o">/</span><span class="n">app</span>
 
 <span class="c1"># cd into /app folder with (in this case only) the requirements.txt</span>
@@ -490,13 +490,11 @@ div.rendered_html tbody tr:hover {
 <span class="c1"># install python modules</span>
 <span class="n">RUN</span> <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
 
-<span class="c1"># install bash</span>
-<span class="n">RUN</span> <span class="n">apk</span> <span class="n">update</span>
-<span class="n">RUN</span> <span class="n">apk</span> <span class="n">upgrade</span>
-<span class="n">RUN</span> <span class="n">apk</span> <span class="n">add</span> <span class="n">bash</span>
+<span class="c1"># Change into / as startingpoint of container</span>
+<span class="n">WORKDIR</span> <span class="o">/</span>
 
-<span class="c1"># when container is run it should start in a bash terminal</span>
-<span class="n">CMD</span> <span class="p">[</span><span class="s2">&quot;bash&quot;</span><span class="p">]</span>
+<span class="c1"># when container runs it should start in a ash terminal</span>
+<span class="n">CMD</span> <span class="p">[</span><span class="s2">&quot;ash&quot;</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>

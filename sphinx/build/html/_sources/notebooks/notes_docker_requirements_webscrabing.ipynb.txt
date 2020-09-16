@@ -155,7 +155,7 @@
     "    # the base image\n",
     "    FROM python:3.8-alpine\n",
     "    \n",
-    "    # copy all files from dir with dockerfile to /app folder in image\n",
+    "    # copy all files from dir with Dockerfile and requirements.txt to /app folder in image\n",
     "    COPY . /app\n",
     "    \n",
     "    # cd into /app folder with (in this case only) the requirements.txt\n",
@@ -163,14 +163,12 @@
     "    \n",
     "    # install python modules\n",
     "    RUN pip install -r requirements.txt\n",
+    "     \n",
+    "    # Change into / as startingpoint of container\n",
+    "    WORKDIR /\n",
     "    \n",
-    "    # install bash\n",
-    "    RUN apk update\n",
-    "    RUN apk upgrade\n",
-    "    RUN apk add bash\n",
-    "\n",
-    "    # when container is run it should start in a bash terminal\n",
-    "    CMD [\"bash\"]\n",
+    "    # when container runs it should start in a ash terminal\n",
+    "    CMD [\"ash\"]\n",
     "\n",
     "````"
    ]
@@ -229,7 +227,11 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "slideshow": {
+     "slide_type": "skip"
+    }
+   },
    "outputs": [],
    "source": []
   }

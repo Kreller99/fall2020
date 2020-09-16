@@ -10,15 +10,17 @@ After this week you will be able to:
         - Use python build in modules.
         - Find and use 3rd party modules.
         - Save and Share your modules installed in a docker container.   
+        - work with markdown documents.
         - Work with the module BeautifullSoup for webscrabing.
 
 
 Materials
 ---------
-* `Slides <>`_  `(Notebook) <>`_
+* `Slides <>`_  `(Notebook) <notebooks/notes_docker_requirements_webscrabing.ipynb>`_
+* `Beautiful Soup Documentation <https://www.crummy.com/software/BeautifulSoup/bs4/doc/>`_
+* `Html to markdown <notebooks/html_markdown.rst>`_
 * `Docker Commands <cheatsheet.rst#week-38-utilities-and-modules>`_
 * `Code examples from today <https://github.com/python-elective-kea/fall2020-code-examples-from-teachings/tree/master/w38>`_
-* `Docker `_
 
 Exercises
 ---------
@@ -91,7 +93,19 @@ Python
 Ex 5: Build a Web Scraper With Python
 *************************************
 
-* `Build a Web Scraper With Python <https://realpython.com/beautiful-soup-web-scraper-python/>`_
+1. `Build a Web Scraper With Python <https://realpython.com/beautiful-soup-web-scraper-python/>`_
+2. Find all relevant python jobs on this website: `jobnet.dk <https://job.jobnet.dk/CV>`_ or `jobindex.dk <https://www.jobindex.dk/?lang=dk>`_
 
-  * When this is done, extend your solution with the ability to download all images (logos) from the Monster website you just worked with. 
 
+Ex 6: Simple scraber with requests (and BS)
+*******************************************
+
+Do the `Ex 7: Simple scraber with requests <week37.rst#ex-7-simple-scraber-with-requests>`_ exercise from last week but now also by using the BeautifullSoup module.
+
+
+Ex 7: From Html to Markdown
+***************************
+
+Get the html of this `page <https://clbokea.github.io/exam/assignment_2.html>`_ , and change it from a html page to a Markdown page. 
+
+You can read a bit about markdown `here <notebooks/html_markdown.rst>`_
