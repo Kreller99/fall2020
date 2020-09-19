@@ -43,4 +43,13 @@ Jupyter notebook
         $ docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/datascience-notebook
 
 
+-----
+Links
+-----
+
+* `How to Create a Docker Image From a Container <https://www.scalyr.com/blog/create-docker-image/>`_
+
+
+
+
 
