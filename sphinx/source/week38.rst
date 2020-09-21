@@ -52,6 +52,8 @@ Ex 2: Node app and docker
 Ex 3: Create and run a 'Hello world' C application
 ***************************************************
 
+`Solution <exercises/solution/04_modules/solutions.rst>`_
+
 Based on this docker image: https://hub.docker.com/_/gcc create and run a Hello World app, written i the C language.
 
 The code you need is something like this:
@@ -92,6 +94,8 @@ Python
 
 Ex 5: Build a Web Scraper With Python
 *************************************
+
+`Solution <exercises/solution/04_modules/solutions.rst>`_
 
 1. `Build a Web Scraper With Python <https://realpython.com/beautiful-soup-web-scraper-python/>`_
 2. Find all relevant python jobs on this website: `jobnet.dk <https://job.jobnet.dk/CV>`_ or `jobindex.dk <https://www.jobindex.dk/?lang=dk>`_
