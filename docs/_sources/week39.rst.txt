@@ -15,22 +15,13 @@ After having worked with these topics you will be able to:
    - make use of single and multiple inheritance.   
    - explain when and why to use classes and objects instead of procedural style. 
    - relate the pythonic OOP style to other languages  (Java e.g) 
-   - create doctests for your python code.
-
-
-
 
 Materials
 ---------
 * `Object-Oriented Programming (OOP) in Python 3 <https://realpython.com/python3-object-oriented-programming/>`_
 * `Python args and kwargs: Demystified <https://realpython.com/python-kwargs-and-args/>`_
 * `Notebook on classes <notebooks/class_notes.ipynb>`_
-
-----------------------------
-Code examples from teachings
-----------------------------
-
-
+* `Code examples from teachings <https://github.com/python-elective-kea/fall2020-code-examples-from-teachings/tree/master/w39>`_
 
 Exercises
 ---------
@@ -45,7 +36,7 @@ Exercises
 EX 1: Bank Exercise 
 -------------------
 
-.. `Solution <exercises/solution/oop/solution.rst#bank-exercise>`_
+`Solution <exercises/solution/oop/solution.rst#bank-exercise>`_
 
 Create a Bank, an Account, and a Customer class.
 
@@ -55,16 +46,9 @@ Create a Bank, an Account, and a Customer class.
 * The Account class should have relevant details.
 * The Customer class Should also have relevant details.
 
-Stick to the techniques we have covered so far, and be sure to create doctests.
+Stick to the techniques we have covered so far.
 
-
-**Overloading**
-
-Add the abillity in your code to overload one or more init methods
-
-**Hand in on fronter**
-
-When you are done you should hand in you solution on fronter. You should after this assess 2 other students solutions. (code review, what is good, what is not so good etc.). Who you should assess is handled by fronter (hopefully :))  
+* Add the abillity for you __init__ method to handle different inputs (parameters).
 
 
 .. raw:: html
@@ -77,7 +61,7 @@ When you are done you should hand in you solution on fronter. You should after t
 Ex 2: Angry Bird
 ----------------
 
-.. `Solution <exercises/solution/oop/solution.rst#angry-bird-exercise>`_
+`Solution <exercises/solution/oop/solution.rst#angry-bird-exercise>`_
 
 In this exercises you are going to create a simple terminal version of this `Angry Bird online coding teaching tool for kids <https://studio.code.org/hoc/1>`_ .
 

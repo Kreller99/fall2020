@@ -15,7 +15,10 @@ Unsupervised Learning
         In unsupervised learning we don't have labeled data, so we must learn about data points based on their relation to other data points.
         Unsupervised learning is open for a wider range of problems than supervised learning, but the insights we can gain are less powerfull.
 
+Materials
+---------
 
+* `K-Means Clustering in Python: A Practical Guide <https://realpython.com/k-means-clustering-python/>`_
 ..
         ---------
         Exercises
