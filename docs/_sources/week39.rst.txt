@@ -36,7 +36,7 @@ Exercises
 EX 1: Bank Exercise 
 -------------------
 
-`Solution <exercises/solution/04_oop/solution.rst>>`_
+`Solution <exercises/solution/04_oop/solution.rst>`_
 
 Create a Bank, an Account, and a Customer class.
 
