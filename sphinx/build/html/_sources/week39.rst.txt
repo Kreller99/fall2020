@@ -36,7 +36,7 @@ Exercises
 EX 1: Bank Exercise 
 -------------------
 
-.. `Solution <exercises/solution/04_oop/solution.rst>`_
+`Solution <exercises/solution/04_oop/solution.rst>`_
 
 Create a Bank, an Account, and a Customer class.
 
@@ -61,7 +61,7 @@ Stick to the techniques we have covered so far.
 Ex 2: Angry Bird
 ----------------
 
-.. `Solution <exercises/solution/04_oop/solution.rst>`_
+`Solution <exercises/solution/04_oop/solution.rst>`_
 
 In this exercises you are going to create a simple terminal version of this `Angry Bird online coding teaching tool for kids <https://studio.code.org/hoc/1>`_ .
 
