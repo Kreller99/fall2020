@@ -37,7 +37,7 @@ All following exercises should be done by using **Properties** when needed. The 
 Ex 1:  Car object
 *****************
 
-`Solution <../week11/exercises/solution/car.py>`_
+`Solution <exercises/solution/05_encapsulation/solutions.rst>`_
 
 Create a Car class. When instanciated the object should be able to take 4 attributes (Make, Model, bhp, mph). They all 4 should be properties.
 
@@ -46,7 +46,7 @@ Create a Car class. When instanciated the object should be able to take 4 attrib
 Ex 2: Bank
 **********
 
-`Solution <../week11/exercises/solution/bank.py>`_
+`Solution <exercises/solution/05_encapsulation/solutions.rst>`_
 
 In the exercise from last monday with the bank, account and customer, change the code to use properties instead of the public variables.  
 
@@ -79,7 +79,7 @@ In the exercise from last monday with the bank, account and customer, change the
 Ex 3: Machine -> printer
 ************************
 
-`Solution <../week11/exercises/solution/printer.py>`_
+`Solution <exercises/solution/05_encapsulation/solutions.rst>`_
 
 
 * Create a Machine class that takes care of powering on and off a the machine.   

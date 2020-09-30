@@ -17,6 +17,7 @@ Underneath you can see a content overview about this site, and you will by follo
 
    about
    exam
+   cheatsheet
    week35
    week36
    week37

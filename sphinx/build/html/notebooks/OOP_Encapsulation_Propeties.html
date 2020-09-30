@@ -86,6 +86,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../about.html">About this elective</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../exam.html">Exam</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cheatsheet.html">Commandline Cheatsheet</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../week35.html">Week 35 - Introduction to python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../week36.html">Week 36 - Data Structures: Sequences &amp; comprehensions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../week37.html">Week 37 - List comprehensions, Modules</a></li>
@@ -528,7 +529,7 @@ alias :  clbo
 <span class="ansi-red-fg">AttributeError</span>: &#39;P&#39; object has no attribute &#39;__alias&#39;
 </pre></div></div>
 </div>
-<p>You can access an objects private attributes like this</p>
+<p>You can <em>(if you for some reason absolutely want to)</em> access an objects private attributes like this</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[30]:
 </pre></div>
@@ -574,7 +575,7 @@ p2 = P(1000)
 </pre></div>
 </div>
 </div>
-<p>We generally like this clean, intuitive and easy approach</p>
+<p>We like this <strong>clean</strong>, <strong>intuitive</strong> and <strong>easy</strong> approach</p>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[21]:
 </pre></div>
@@ -664,7 +665,6 @@ p2 = P(1000)
 1000
 </pre></div></div>
 </div>
-<p>This is much cleaner and more pythonic</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">p1</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">p1</span><span class="o">.</span><span class="n">x</span> <span class="o">+</span> <span class="n">p2</span><span class="o">.</span><span class="n">x</span>
 </pre></div>
 </div>
@@ -675,13 +675,13 @@ p2 = P(1000)
 <div class="section" id="&#64;properties-solves-the-problem">
 <h2>&#64;properties solves the problem<a class="headerlink" href="#@properties-solves-the-problem" title="Permalink to this headline">¶</a></h2>
 <div class="nbinput nblast docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[42]:
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[1]:
 </pre></div>
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
 <span></span>class P:
     def __init__(self, x):
-        self.x = x # self.x is the @x.setter
+        self.x = x # self.x is now the @x.setter
 
     @property
     def x(self):
@@ -699,7 +699,7 @@ p2 = P(1000)
 </div>
 </div>
 <div class="nbinput nblast docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[43]:
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[2]:
 </pre></div>
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
@@ -709,7 +709,7 @@ p2 = P(1001)
 </div>
 </div>
 <div class="nbinput docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[44]:
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[3]:
 </pre></div>
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
@@ -718,7 +718,7 @@ p2 = P(1001)
 </div>
 </div>
 <div class="nboutput nblast docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[44]:
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[3]:
 </pre></div>
 </div>
 <div class="output_area docutils container">
