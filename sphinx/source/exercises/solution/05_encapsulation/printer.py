@@ -9,7 +9,7 @@
 """
 
 class Machine:
-    """ take care of turning on and off  """
+    """ takes care of turning on and off  """
 
     def __init__(self):
         self.__is_on = False
