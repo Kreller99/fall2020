@@ -1,6 +1,9 @@
 Jelly Beans
 ===========  
 
+
+`Solution <solution/06_datamodel/solutions.rst>`_
+
 Exercise on Python Class, Protocols, Properties, Overload  
 ---------------------------------------------------------
 Imagine a game where different jelly beans are floating around.   

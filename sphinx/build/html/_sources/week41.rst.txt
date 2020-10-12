@@ -37,6 +37,8 @@ Exercises
 Ex1: Deck of cards
 ------------------
 
+`Solution <exercises/solution/06_datamodel/solutions.rst>`_
+
 Continue with the deck example and implement the 
 
 * :code:`__len__` method

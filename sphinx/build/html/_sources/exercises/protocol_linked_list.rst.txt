@@ -1,6 +1,9 @@
 Exercise: Protocol - linked-list
 ================================
 
+
+`Solution <solution/06_datamodel/solutions.rst>`_
+
 In python there is not a build in linked list. If you want to use this datastructure, you either have to make it yourself or import a module (where someone else did it for you.). 
 
 You should chose the first option: create it yourself.

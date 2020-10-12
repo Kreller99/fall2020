@@ -73,16 +73,6 @@ class Jelly:
     def __contains__(self, other):
         pass
 
-    @property
-    def mass(self):
-        return self.__mass
-
-    @mass.setter
-    def mass(self, x):
-        self.__mass = x
-
-        
-
 
 class Jelly_fragment:
 
@@ -95,19 +85,4 @@ class Jelly_fragment:
 
     def __del__(self):
             pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
