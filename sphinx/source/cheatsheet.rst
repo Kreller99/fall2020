@@ -26,6 +26,25 @@ Week 38 - Utilities and Modules
         $ docker build --tag webscrabing:latest .
         $ docker run -it --rm -v ${PWD}:/docs webscrabing 
 
+--------------------------------
+Week 44 - Functions & Decorators
+--------------------------------
+
+.. code::
+
+        $ docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/datascience-notebook 
+
+
+--------------------
+Week 49 - TensorFlow
+--------------------
+
+.. code::
+
+        $ docker run -it --rm -v $(realpath ~/notebooks):/tf/notebooks -p 8888:8888 tensorflow/tensorflow:latest-jupyter 
+
+        
+        
 ---------------
 Sphinx commands
 ---------------
@@ -33,14 +52,6 @@ Sphinx commands
 .. code::
    
    $ docker run --rm -v ${PWD}:/docs sphinx /bin/sh -c 'cd sphinx/; make html'
-
-----------------
-Jupyter notebook 
-----------------
-
-.. code::
-   
-        $ docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/datascience-notebook
 
 
 -----

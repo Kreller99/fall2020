@@ -92,8 +92,9 @@
 <li class="toctree-l2"><a class="reference internal" href="#docker-commands">Docker Commands</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#week-35-introduction-to-python">Week 35 - Introduction to python</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#week-38-utilities-and-modules">Week 38 - Utilities and Modules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#week-44-functions-decorators">Week 44 - Functions &amp; Decorators</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#week-49-tensorflow">Week 49 - TensorFlow</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#sphinx-commands">Sphinx commands</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#jupyter-notebook">Jupyter notebook</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#links">Links</a></li>
 </ul>
 </li>
@@ -108,8 +109,8 @@
 <li class="toctree-l1"><a class="reference internal" href="week41.html">Week 41 - The python datamodel</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week42.html">Week 42 - Mandatory assignment</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week44.html">Week 44 - Functions &amp;  Decorators</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week45.html">Week 45 - Context Managers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="week46.html">Week 46 - Introduction to AI, Data Science &amp; Machine Learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week45.html">Week 45 - Generators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="week46.html">Week 46 - Context Managers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week47.html">Week 47 - Data Science</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week48.html">Week 48 - Machine Learning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="week49.html">Week 49 - Tensorflow</a></li>
@@ -225,15 +226,21 @@ $ docker run -it --rm -v ${PWD}:/docs webscrabing
 </pre></div>
 </div>
 </div>
-<div class="section" id="sphinx-commands">
-<h3>Sphinx commands<a class="headerlink" href="#sphinx-commands" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker run --rm -v ${PWD}:/docs sphinx /bin/sh -c &#39;cd sphinx/; make html&#39;
+<div class="section" id="week-44-functions-decorators">
+<h3>Week 44 - Functions &amp; Decorators<a class="headerlink" href="#week-44-functions-decorators" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker run --rm -p 8888:8888 -v &quot;$PWD&quot;:/home/jovyan/work jupyter/datascience-notebook
 </pre></div>
 </div>
 </div>
-<div class="section" id="jupyter-notebook">
-<h3>Jupyter notebook<a class="headerlink" href="#jupyter-notebook" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker run --rm -p 8888:8888 -v &quot;$PWD&quot;:/home/jovyan/work jupyter/datascience-notebook
+<div class="section" id="week-49-tensorflow">
+<h3>Week 49 - TensorFlow<a class="headerlink" href="#week-49-tensorflow" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker run -it --rm -v $(realpath ~/notebooks):/tf/notebooks -p 8888:8888 tensorflow/tensorflow:latest-jupyter
+</pre></div>
+</div>
+</div>
+<div class="section" id="sphinx-commands">
+<h3>Sphinx commands<a class="headerlink" href="#sphinx-commands" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker run --rm -v ${PWD}:/docs sphinx /bin/sh -c &#39;cd sphinx/; make html&#39;
 </pre></div>
 </div>
 </div>
