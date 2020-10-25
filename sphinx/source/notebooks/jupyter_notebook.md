@@ -1,37 +1,17 @@
-# Jupyter Notebook
+# Getting started with Jupyter Notebook
+Jupyter notebooks can be found in various versions, both online and as local installes. We will the rest of this semester use a [Jupyter Docker image](https://hub.docker.com/r/jupyter/datascience-notebook). 
 
-## Getting started with Jupyter Notebook
-
-## Prequisite
-Before you install Jupyter Notebook on your system, it is a good idea to set up a [Virtual Enviroment
-](virtual_env_setup.md). Jupyter Notebook is a rather large set of files and dependencies, and by putting it in its own enviroment you make it easy for yourself if you at a later point want to change or delete the instalation. 
-
-
-## Installation
-
-```
-    > pip install jupyter
-```
 ## Starting the Jupyter Notebook Server
-To start a Jupyter Notebook instance with the parent folder as root: 
+To start a Jupyter Notebook instance with the parent folder as root run: 
 
 ```
-    > jupyter notebook
+    $ docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/datascience-notebook 
 ```   
 
-A browser window will open and from here on you will work with Jupyter Notebook in the browser. 
-
+Copy and paste the url from your terminal window into your browser and start using Jupiter Notebook.
 
 ![](../_static/jupyter.png)   
 
 ## Stopping the Notebook
-To stop Jupyter Notebook, close your browser window(s), and in terminal press "ctrl+c" and press "Y" and hit enter. 
+To stop Jupyter Notebook, close your browser window(s), and in terminal press "ctrl+c". 
 
-
-## Alternatives
-Jupyter Notebook can also be used through different alternatives. 
-### Anaconda
-Anaconda is a cluster of tolls and functionality, including jupyter notebook. You will not need all the exstra functionality that comes with anaconda, but if you like you can also have jupyter notebook installed through instaling Anaconda.
-
-### Azure Notebooks
-A cloud version of jupyter notebook can be found at https://notebooks.azure.com/ 

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Jupyter Notebook &mdash; Introduction to python 1.0.0 documentation</title>
+  <title>Getting started with Jupyter Notebook &mdash; Introduction to python 1.0.0 documentation</title>
   
 
   
@@ -148,7 +148,7 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Jupyter Notebook</li>
+      <li>Getting started with Jupyter Notebook</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -193,46 +193,21 @@
     text-align: unset;
 }
 </style>
-<div class="section" id="jupyter-notebook">
-<h1>Jupyter Notebook<a class="headerlink" href="#jupyter-notebook" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="getting-started-with-jupyter-notebook">
-<h2>Getting started with Jupyter Notebook<a class="headerlink" href="#getting-started-with-jupyter-notebook" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="prequisite">
-<h2>Prequisite<a class="headerlink" href="#prequisite" title="Permalink to this headline">¶</a></h2>
-<p>Before you install Jupyter Notebook on your system, it is a good idea to set up a <a class="reference external" href="virtual_env_setup">Virtual Enviroment
-</a>. Jupyter Notebook is a rather large set of files and dependencies, and by putting it in its own enviroment you make it easy for yourself if you at a later point want to change or delete the instalation.</p>
-</div>
-<div class="section" id="installation">
-<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="o">&gt;</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">jupyter</span>
-</pre></div>
-</div>
-</div>
+<h1>Getting started with Jupyter Notebook<a class="headerlink" href="#getting-started-with-jupyter-notebook" title="Permalink to this headline">¶</a></h1>
+<p>Jupyter notebooks can be found in various versions, both online and as local installes. We will the rest of this semester use a <a class="reference external" href="https://hub.docker.com/r/jupyter/datascience-notebook">Jupyter Docker image</a>.</p>
 <div class="section" id="starting-the-jupyter-notebook-server">
 <h2>Starting the Jupyter Notebook Server<a class="headerlink" href="#starting-the-jupyter-notebook-server" title="Permalink to this headline">¶</a></h2>
-<p>To start a Jupyter Notebook instance with the parent folder as root:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="o">&gt;</span> <span class="n">jupyter</span> <span class="n">notebook</span>
+<p>To start a Jupyter Notebook instance with the parent folder as root run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    $ docker run --rm -p 8888:8888 -v &quot;$PWD&quot;:/home/jovyan/work jupyter/datascience-notebook 
 </pre></div>
 </div>
-<p>A browser window will open and from here on you will work with Jupyter Notebook in the browser.</p>
+<p>Copy and paste the url from your terminal window into your browser and start using Jupiter Notebook.</p>
 <p><img alt="../_images/jupyter.png" src="../_images/jupyter.png" /></p>
 </div>
 <div class="section" id="stopping-the-notebook">
 <h2>Stopping the Notebook<a class="headerlink" href="#stopping-the-notebook" title="Permalink to this headline">¶</a></h2>
-<p>To stop Jupyter Notebook, close your browser window(s), and in terminal press “ctrl+c” and press “Y” and hit enter.</p>
-</div>
-<div class="section" id="alternatives">
-<h2>Alternatives<a class="headerlink" href="#alternatives" title="Permalink to this headline">¶</a></h2>
-<p>Jupyter Notebook can also be used through different alternatives.</p>
-<div class="section" id="anaconda">
-<h3>Anaconda<a class="headerlink" href="#anaconda" title="Permalink to this headline">¶</a></h3>
-<p>Anaconda is a cluster of tolls and functionality, including jupyter notebook. You will not need all the exstra functionality that comes with anaconda, but if you like you can also have jupyter notebook installed through instaling Anaconda.</p>
-</div>
-<div class="section" id="azure-notebooks">
-<h3>Azure Notebooks<a class="headerlink" href="#azure-notebooks" title="Permalink to this headline">¶</a></h3>
-<p>A cloud version of jupyter notebook can be found at https://notebooks.azure.com/</p>
-</div>
+<p>To stop Jupyter Notebook, close your browser window(s), and in terminal press “ctrl+c”.</p>
 </div>
 </div>
 

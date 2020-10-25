@@ -47,7 +47,7 @@ After this week you will know about:
 
 Materials
 ---------
-* `Getting started with Jupyter Notebook </notebooks/jupyter_notebook.md>`_
+* `Getting started with Jupyter Notebook <notebooks/jupyter_notebook.md>`_
 * `Primer on Python Decorators <https://realpython.com/primer-on-python-decorators/>`_
 * `Python Inner Functions—What Are They Good For? <https://realpython.com/inner-functions-what-are-they-good-for/>`_
 * `Notebook on Decorators <notebooks/Decorators.ipynb>`_
