@@ -42,10 +42,10 @@ This you should do through demonstrating your knowlege, skills and competencies 
 
 * Data Structures & functions
 * Pythonic OOP
-* Refactoring Code
 * Generators, Decorators & Context Managers
 * Python modules and the python development environment.
-* Machine learning
+* Data Science & Machine learning
+
 
 -----------
 Exam advice
