@@ -1,5 +1,5 @@
-Week 46 - Context Managers 
-==========================
+Week 46 - Generators & Context Managers 
+=======================================
 
 Today we will work with context managers. Context managers can in short be described as something that takes care of the related tasks of a specific task. An example of this could be when opening a file, the context manager takes care of automaticly closing the file when we are finished using it.
 
