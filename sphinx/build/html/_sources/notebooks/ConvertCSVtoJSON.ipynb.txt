@@ -11,7 +11,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "> Convert the [Frida20190612da_utf8.csv](Frida20190612da_utf8.csv) file into json\n",
+    "> Convert the [Frida20190612da_utf8.csv](../_static/Frida20190612da_utf8.csv) file into json\n",
     "\n",
     "It should have the same functionallity as this service. https://www.csvjson.com/csv2json"
    ]
@@ -40,7 +40,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.7.7"
+   "version": "3.8.5"
   },
   "toc": {
    "base_numbering": 1,

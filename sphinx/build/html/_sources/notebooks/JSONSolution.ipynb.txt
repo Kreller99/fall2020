@@ -9,7 +9,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 3,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -25,26 +25,13 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 4,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Contextmanagers.ipynb\n",
-      "Sqlite.ipynb\n",
-      "JSON.ipynb\n",
-      "csv.ipynb\n",
-      "Pickle-Pythonobjectserialization.ipynb\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "import json\n",
     "import subprocess\n",
     "import os\n",
-    "# subprocess.run([\"pip\", \"install\", \"requests\"])\n",
     "import requests\n",
     " \n",
     "with requests.get(\"https://api.github.com/orgs/python-elective-fall-2019/repos\") as req:\n",
@@ -88,7 +75,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.7.7"
+   "version": "3.8.5"
   },
   "toc": {
    "base_numbering": 1,

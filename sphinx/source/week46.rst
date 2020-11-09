@@ -1,55 +1,209 @@
 Week 46 - Generators & Context Managers 
 =======================================
 
-Today we will work with context managers. Context managers can in short be described as something that takes care of the related tasks of a specific task. An example of this could be when opening a file, the context manager takes care of automaticly closing the file when we are finished using it.
+Today we will work with two different concepts, **Context Managers** and **Generators**. 
 
-You will make your own context managers and use already created ones. 
+Context managers can in short be described as something that takes care of the related tasks of a specific task. An example of this could be when opening a file, the context manager takes care of automaticly closing the file when we are finished using it. You will make your own context managers and use already created ones. 
 
-We start out by introducing a new development environment, the Jupyter Notebook. And we will in connection with this look at what a virtual environment is, and how to use it. 
+Regarding Generators you will first learn how to make your classes iterable. You will learn how to create a generator function and how to write this in an easier to read manner using a generator expression. 
+
+We will look at Iterator classes like this one:
+
+.. code:: python 
+   :linenos:
+
+   class Compute:
+       def __iter__(self):
+               self.last = 0
+               return self
+
+       def __next__(self):
+               rv = self.last
+               self.last += 1   
+               if self.last > 10:
+                   raise StopIteration()
+               sleep(.5)
+               return rv         
+
+    for i in Compute():
+        print(i)    
+
+
+And see how it can be done in an easier to read and use manner with a generator function
+
+.. code:: python
+   :linenos:
+
+   def compute():
+        for i in range(10):
+           yield i
+
+
+And write a generator expression doing the same thing.
+
+.. code:: python
+   :linenos:
+
+   (i for i in range(10))
 
 Learning goals
 --------------
 
-        - Install and use Jupyter Notebook
         - Being able to use a Context Manager
         - Creating your own Context Managers
-        - Working with JSON files
-        - Working with the Pickles Module
-        - Working with CSV files
-        - Working with Pandas
-        - Working with SQlite database
-
+        - Using a context manager in relation to Working with JSON, Pickles and CSV files.
+        - Using a context manager in relation to working with a SQlite database.
+        - Create memory and time efficient code using 
+                - Iterator Classes
+                - generator functions and 
+                - generator expressoions.
 Materials
 ---------
 
-* `Getting started with Jupyter Notebook <notebooks/jupyter_notebook.md>`_
-* `Getting Started With Jupyter Notebook for Python <https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46>`_ 
+* `Introduction to Python Generators <https://realpython.com/introduction-to-python-generators/>`_ (excl. Using Advanced Generator Methods & Creating Data Pipelines With Generators)
 * `Context Managers notebook <notebooks/Context-managers.ipynb>`_
 * `JSON notebook <notebooks/JSON.ipynb>`_
 * `Pickle notebook <notebooks/Pickle-Pythonobjectserialization.ipynb>`_
 * `CSV notebook <notebooks/csv.ipynb>`_
 * `Sqlite notebook <notebooks/Sqlite.ipynb>`_
 
-
 Exercises
 ---------
 
-* `CSV Quiz <https://realpython.com/quizzes/python-csv/>`_
+---------------------
+ex1:  Python Students
+---------------------
+
+Based on the Student class below, create a PythonStudents class that acts as a collection of students. 
+The class should implement the iterations functionality (iter() and next()) 
+and be able to return an iter object. 
+When iterated the Pythod_students object should return the name of each student 
+in the list.        
+
+.. code:: python
+   :linenos:
+
+     class PythonStudents:
+       pass
+
+
+
+
+     class Student:
+
+        def __init__(self, name, cpr):
+           self.name = name
+           self.cpr = cpr
+
+        @property
+        def name(self):
+                return self.__name
+
+        @name.setter
+        def name(self, name):
+                self.__name = name.capitalize()
+
+        def __add__(self, student):
+                return Student('Anna the daugther', 1234)
+
+        def __str__(self):
+                return f'{self.name}, {self.cpr}'
+
+        def __repr__(self):
+                return f'{self.__dict__}'
+
+
+
+-----------------------
+ex2: School of students
+-----------------------
+
+In this exercise you start out by having a list of names, and a list of majors.
+    
+Your job is to create:
+        
+1. A list of dictionaries of students (ie: students = [{'id': 1,'name': 'Claus', 'major': 'Math'}]), cretated in a normal function that returns the resul.
+
+2. A Generator that "returns" a generator object. So the student is yield instead of returned. 
+   
+Both functions should do the same, but one returns a list and one a generator object.
+
+| **students = [{'id': 1,'name': 'Clasu', 'major': 'Math'}]**
+| The id could be generated by a counter or like in a loop. 
+| The Name should be found by randomly chosing a name from the names list
+| The Major should be found by randomly chosing a major from the major list
+
+.. code:: python
+   :linenos:
+
+   names = ['John', 'Corey', 'Adam', 'Steve', 'Rick', 'Thomas']
+   majors = ['Math', 'Engineering', 'CompSci', 'Arts', 'Business']
+
+   def students_list(num_students):
+       pass
+
+   def students_generator(num_students):
+       pass
+
+   people = students_list(1000000)
+   people = students_generator(1000000)
+
+
+
+
+
+
+----------------
+ex3: Range Mimic
+----------------
+
+1. Create a "clone" of the build in range() function, by doing an iterator class.
+
+Try this out first in your interpreter to get inspired:
+
+>>> r = range(1, 10, 2)
+>>> next(r)
+TypeError: 'range' object is not an iterator
+>>> i = iter(r)
+>>> next(i)
+1
+
+2. Now do the same, but use a generator function instead.
+
+--------------------------
+Context Managers exercises
+--------------------------
 
 * `JSON 10 minutes exer <notebooks/JSON.html#10-minutes-exercise>`_
-
 * `SQlite 10 minutes exer <notebooks/Sqlite.html#10-minutes-exercise>`_
 * `ConvertCSVtoJSON <notebooks/ConvertCSVtoJSON.ipynb>`_
 * `Decorator / Context Manager <notebooks/Assignment_Decorator_Context_Manager.ipynb>`_ 
 
------------------------
-Follow these tutorials:
------------------------
-* `Python Context Managers <https://stackabuse.com/python-context-managers/>`_
-* `Working With JSON Data in Python <https://realpython.com/python-json/>`_
-* `Reading and Writing CSV Files in Python <https://realpython.com/python-csv/>`_
+
+
+
+.. todo::
+
+   * dataclasses - @dataclass - decorator for fast creation of classes
+     * decorator classes. 
+       * __call__() method implementation
+         * show the add() example:q
 
 
 
 
+
+..        -----------------------
+        Follow these tutorials:
+        -----------------------
+        * `Python Context Managers <https://stackabuse.com/python-context-managers/>`_
+        * `Working With JSON Data in Python <https://realpython.com/python-json/>`_
+        * `Reading and Writing CSV Files in Python <https://realpython.com/python-csv/>`_
+
+
+
+
+
+..
+        * `CSV Quiz <https://realpython.com/quizzes/python-csv/>`_
 

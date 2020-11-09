@@ -1,5 +1,7 @@
 Week 45 - Functions &  Decorators  
 =================================
+.. note::
+        Al undervisning foregår i dag via `Teams <https://teams.microsoft.com/l/team/19%3a193897e03bd94e108dd06ec0b96fae45%40thread.tacv2/conversations?groupId=2447ae3d-f23e-40be-aed5-07efa12b18a6&tenantId=d10c3c6e-c228-4944-8b6a-6067c6afe3c9>`_.
 
 Decorators in python are widely used to add new functionallity to already existing code.
 
@@ -49,10 +51,11 @@ You will futhermore be able to install and use a Jupyter Notebook.
 Materials
 ---------
 * `Getting started with Jupyter Notebook <notebooks/jupyter_notebook.md>`_
+* `Getting Started With Jupyter Notebook for Python <https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46>`_  (skip the install part since we do it through docker)
 * `Primer on Python Decorators <https://realpython.com/primer-on-python-decorators/>`_
 * `Python Inner Functions—What Are They Good For? <https://realpython.com/inner-functions-what-are-they-good-for/>`_
 * `Notebook on Decorators <notebooks/Decorators.ipynb>`_
-* `Code examples from teachings <https://github.com/python-elective-kea/fall2020-code-examples-from-teachings/tree/master/w44>`_
+* `Code examples from teachings <https://github.com/python-elective-kea/fall2020-code-examples-from-teachings/tree/master/w45>`_
 
 
 
@@ -68,6 +71,8 @@ Exercises
 ---------------
 Small Exercises
 ---------------
+
+`Solution <exercises/solution/08_decorators/solutions.rst>`_
 
 With this function as a starting point 
 
@@ -94,6 +99,7 @@ With this function as a starting point
 Ex1: Time it!
 -------------
 
+`Solution <exercises/solution/08_decorators/solutions.rst>`_
 
 Next week we will work with *generators*, *generator expressions* and *list comprehensions*. These topics has a lot to do with program efficiency. 
 
@@ -149,6 +155,8 @@ Go to this url https://pypi.org/project/memory-profiler/ and use the module. Not
 -------------------
 Ex3: Slow down code
 ------------------- 
+
+`Solution <exercises/solution/08_decorators/solutions.rst>`_
 
 The code below counts down from n -> 0. So calling countdown(5) prints: 5 4 3 2 1 Liftoff!
 
