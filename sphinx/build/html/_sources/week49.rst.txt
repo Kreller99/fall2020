@@ -1,13 +1,14 @@
-Week 49 - Tensorflow
-====================
+Week 49 - Emnet er ændret
+=========================
+
+.. note:
+        Emnerne Data Science, Machine learning og Tensorflow.
+        Er aflyst, og bliver erstattet af nogle andre. 
+
 
 Learning Goals
 --------------
 
-After this week you will:
-
-        * Understand what TensorFlow is and what you can use it for. 
-        * Use Tensorflow for basic machine learning tasks.
 
 Materials
 ---------
@@ -16,5 +17,4 @@ Materials
 
 Exercises
 ---------
-* `TensorFlow Tutorial For Beginners <https://www.datacamp.com/community/tutorials/tensorflow-tutorial>`_
 

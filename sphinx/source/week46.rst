@@ -1,13 +1,9 @@
-Week 46 - Generators & Context Managers 
-=======================================
+Week 45 - Generators
+====================
 
-Today we will work with two different concepts, **Context Managers** and **Generators**. 
+Today you will learn about how to make your classes iterable. You will learn how to create a generator function and how to write this in an easier to read manner using a generator expression. 
 
-Context managers can in short be described as something that takes care of the related tasks of a specific task. An example of this could be when opening a file, the context manager takes care of automaticly closing the file when we are finished using it. You will make your own context managers and use already created ones. 
-
-Regarding Generators you will first learn how to make your classes iterable. You will learn how to create a generator function and how to write this in an easier to read manner using a generator expression. 
-
-We will look at Iterator classes like this one:
+We will look at Iterator classes
 
 .. code:: python 
    :linenos:
@@ -39,7 +35,8 @@ And see how it can be done in an easier to read and use manner with a generator 
            yield i
 
 
-And write a generator expression doing the same thing.
+And write a generator expression.
+
 
 .. code:: python
    :linenos:
@@ -49,23 +46,16 @@ And write a generator expression doing the same thing.
 Learning goals
 --------------
 
-        - Being able to use a Context Manager
-        - Creating your own Context Managers
-        - Using a context manager in relation to Working with JSON, Pickles and CSV files.
-        - Using a context manager in relation to working with a SQlite database.
-        - Create memory and time efficient code using 
-                - Iterator Classes
-                - generator functions and 
-                - generator expressoions.
+   - Create memory and time efficient code using 
+      - Iterator Classes
+      - generator functions and 
+      - generator expressoions.
+
 Materials
 ---------
+* `Introduction to Python Generators <https://realpython.com/introduction-to-python-generators/>`_ (ex. Using Advanced Generator Methods & Creating Data Pipelines With Generators)
+* `Code examples from teachings <https://github.com/python-elective-kea/fall2020-code-examples-from-teachings/tree/master/w46>`_
 
-* `Introduction to Python Generators <https://realpython.com/introduction-to-python-generators/>`_ (excl. Using Advanced Generator Methods & Creating Data Pipelines With Generators)
-* `Context Managers notebook <notebooks/Context-managers.ipynb>`_
-* `JSON notebook <notebooks/JSON.ipynb>`_
-* `Pickle notebook <notebooks/Pickle-Pythonobjectserialization.ipynb>`_
-* `CSV notebook <notebooks/csv.ipynb>`_
-* `Sqlite notebook <notebooks/Sqlite.ipynb>`_
 
 Exercises
 ---------
@@ -157,9 +147,9 @@ Both functions should do the same, but one returns a list and one a generator ob
 ex3: Range Mimic
 ----------------
 
-1. Create a "clone" of the build in range() function, by doing an iterator class.
+1. Create a "clone" of the build in range() function, by doing an iterator class. Besides implementing the protocol for beeing iterable, this class should also be callable in order for it to be used like this.  
 
-Try this out first in your interpreter to get inspired:
+First try this in your interpreter to get inspired:
 
 >>> r = range(1, 10, 2)
 >>> next(r)
@@ -170,14 +160,14 @@ TypeError: 'range' object is not an iterator
 
 2. Now do the same, but use a generator function instead.
 
---------------------------
-Context Managers exercises
---------------------------
+ 
+..      ---------------------------------
+        ex4: List Comp chal as generators
+        ---------------------------------
 
-* `JSON 10 minutes exer <notebooks/JSON.html#10-minutes-exercise>`_
-* `SQlite 10 minutes exer <notebooks/Sqlite.html#10-minutes-exercise>`_
-* `ConvertCSVtoJSON <notebooks/ConvertCSVtoJSON.ipynb>`_
-* `Decorator / Context Manager <notebooks/Assignment_Decorator_Context_Manager.ipynb>`_ 
+        Do the `List Comprehension chalenges`_ from last time but now use generator functions and generatpr expressions where possible.
+
+        .. _List Comprehension chalenges: 
 
 
 
@@ -188,22 +178,4 @@ Context Managers exercises
      * decorator classes. 
        * __call__() method implementation
          * show the add() example:q
-
-
-
-
-
-..        -----------------------
-        Follow these tutorials:
-        -----------------------
-        * `Python Context Managers <https://stackabuse.com/python-context-managers/>`_
-        * `Working With JSON Data in Python <https://realpython.com/python-json/>`_
-        * `Reading and Writing CSV Files in Python <https://realpython.com/python-csv/>`_
-
-
-
-
-
-..
-        * `CSV Quiz <https://realpython.com/quizzes/python-csv/>`_
 
