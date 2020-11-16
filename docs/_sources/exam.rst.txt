@@ -44,8 +44,8 @@ This you should do through demonstrating your knowlege, skills and competencies 
 * Pythonic OOP
 * Generators, Decorators & Context Managers
 * Python modules and the python development environment.
-* Data Science & Machine learning
 
+You can get inspiration about what to talk about within each topic in your presentation [here](notebooks/exam_topics_inspiration.md).
 
 -----------
 Exam advice
