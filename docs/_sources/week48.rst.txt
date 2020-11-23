@@ -1,37 +1,26 @@
 Week 48 - Problem-Solving with python
 =====================================
-
-
-
-
-.. note: 
-        Øvelse: give kode med python2 fra introduction to Data Science
-.. note:
-        Emnerne Data Science, Machine learning og Tensorflow.
-        Er aflyst, og bliver erstattet af nogle andre. 
-
-
-..
-        Supervised and Unsupervised Learning
-        ------------------------------------
-
-
-        Supervised Learning
-                In supervised learning we learn from labeled data.
-                Supervised learning is a very powerful learning method, but it can be very costly to create labeled data sets.
-
-        Unsupervised Learning 
-                In unsupervised learning we don't have labeled data, so we must learn about data points based on their relation to other data points.
-                Unsupervised learning is open for a wider range of problems than supervised learning, but the insights we can gain are less powerfull.
+Today we solve problems. The code you will use for doing this will primarely be through things you already know. 
 
 Materials
 ---------
+`Solution  </exercises/solution/48_problem_solving/solutions.rst>`_
 
-..
-        * `K-Means Clustering in Python: A Practical Guide <https://realpython.com/k-means-clustering-python/>`_
+.. raw:: html
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XKu_SEDAykw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+* `Google job interview <https://www.youtube.com/watch?v=XKu_SEDAykw>`_
+
 
 Exercises
 ---------
+
+* `Card Challange <>`_
+
+* `Euler Project <>`_
+
 
 ..        -------------------------
         Ex 1: Tjek dit cpr-nummer
@@ -60,11 +49,4 @@ Exercises
         | Kontrolnummeret findes ved at trække denne rest (her 10) fra konstanten 1111 – 10 = 1 
         | Dette nummer - 150949-xxxx
 
-..
-        * `Machine learning tutorials <https://realpython.com/tutorials/machine-learning/>`_
-        * `Build a Recommendation Engine With Collaborative Filtering <https://realpython.com/build-recommendation-engine-collaborative-filtering/>`_
-        * `Three Ways of Storing and Accessing Lots of Images in Python <https://realpython.com/storing-images-in-python/>`_
-        * `Recommender Systems in Python <https://www.datacamp.com/community/tutorials/recommender-systems-python>`_
-        * `Ultimate Guide to Getting Started with TensorFlow <https://www.kdnuggets.com/2018/09/ultimate-guide-tensorflow.html>`_
-        * `TicaTacToe <https://towardsdatascience.com/tic-tac-toe-learner-ai-208813b5261>`_
 
