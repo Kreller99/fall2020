@@ -1,9 +1,5 @@
-Week 49 - Emnet er ændret
-=========================
-
-.. note:
-        Emnerne Data Science, Machine learning og Tensorflow.
-        Er aflyst, og bliver erstattet af nogle andre. 
+Week 49 - Python tips & Tricks
+==============================
 
 
 Learning Goals
@@ -12,7 +8,6 @@ Learning Goals
 
 Materials
 ---------
-
 
 
 Exercises

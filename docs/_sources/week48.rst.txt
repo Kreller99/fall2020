@@ -1,6 +1,11 @@
-Week 48 - Emnet er ændret
-=========================
+Week 48 - Problem-Solving with python
+=====================================
 
+
+
+
+.. note: 
+        Øvelse: give kode med python2 fra introduction to Data Science
 .. note:
         Emnerne Data Science, Machine learning og Tensorflow.
         Er aflyst, og bliver erstattet af nogle andre. 
