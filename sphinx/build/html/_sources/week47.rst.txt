@@ -31,8 +31,8 @@ Exercises
 
 * `JSON 10 minutes exer <notebooks/JSON.html#10-minutes-exercise>`_
 * `SQlite 10 minutes exer <notebooks/Sqlite.html#10-minutes-exercise>`_
-* `ConvertCSVtoJSON <notebooks/ConvertCSVtoJSON.ipynb>`_ ( `Solution </exercises/solution/10_context_managers/SolutionConvertCSVtoJSON.ipynb>`_)
-* `Decorator / Context Manager <notebooks/Assignment_Decorator_Context_Manager.ipynb>`_  (`Solution </exercises/solution/10_context_managers/Assignment_Decorator_Context_Manager.ipynb>`_) 
+* `ConvertCSVtoJSON <notebooks/ConvertCSVtoJSON.ipynb>`_ ( `Solution <exercises/solution/10_context_managers/SolutionConvertCSVtoJSON.ipynb>`_)
+* `Decorator / Context Manager <notebooks/Assignment_Decorator_Context_Manager.ipynb>`_  (`Solution <exercises/solution/10_context_managers/Assignment_Decorator_Context_Manager.ipynb>`_) 
 
 
 
