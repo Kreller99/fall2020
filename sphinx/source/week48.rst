@@ -4,7 +4,7 @@ Today we solve problems. The code you will use for doing this will primarely be 
 
 Materials
 ---------
-`Solution  </exercises/solution/48_problem_solving/solutions.rst>`_
+`Solution  <exercises/solution/48_problem_solving/solutions.rst>`_
 
 .. raw:: html
 
@@ -17,9 +17,10 @@ Materials
 Exercises
 ---------
 
-* `Card Challange <>`_
+* `Card Challange <>`_ (`Solution <exercises/solution/48_problem_solving/solutions.rst>`_)
 
-* `Euler Project <>`_
+* `Euler Project <>`_ (`Solution <exercises/solution/48_problem_solving/solutions.rst>`_)
+
 
 
 ..        -------------------------
