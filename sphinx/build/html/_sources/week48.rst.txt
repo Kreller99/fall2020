@@ -2,6 +2,8 @@ Week 48 - Problem-Solving with python
 =====================================
 Today we solve problems. The code you will use for doing this will primarely be through things you already know. 
 
+We will start out by looking at what we did not manage to do last time ablout Decorators, mostly about what is in the contextlib library. And we will lokk at the SQlite exercise. 
+
 Materials
 ---------
 `Solution  <exercises/solution/48_problem_solving/solutions.rst>`_
@@ -14,12 +16,13 @@ Materials
 * `Google job interview <https://www.youtube.com/watch?v=XKu_SEDAykw>`_
 
 
+* `Code examples from teachings <https://github.com/python-elective-kea/fall2020-code-examples-from-teachings/tree/master/w48>`_
+
 Exercises
 ---------
 
-* `Card Challange <>`_ (`Solution <exercises/solution/48_problem_solving/solutions.rst>`_)
-
-* `Euler Project <>`_ (`Solution <exercises/solution/48_problem_solving/solutions.rst>`_)
+* `Card Challange <>`_  (`Solution <exercises/solution/48_problem_solving/solutions.rst>`_)
+* `Euler Project <>`_  (`Solution <exercises/solution/48_problem_solving/solutions.rst>`_)
 
 
 
