@@ -141,11 +141,45 @@
    ]
   },
   {
-   "cell_type": "code",
-   "execution_count": null,
+   "cell_type": "markdown",
    "metadata": {},
-   "outputs": [],
-   "source": []
+   "source": [
+    "## Swapping values"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a = 42, b = 33\n",
+      "a = 33, b = 42\n",
+      "a = 42, b = 33\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 42\n",
+    "b = 33\n",
+    "\n",
+    "print(f'a = {a}, b = {b}')\n",
+    "\n",
+    "# normal swap\n",
+    "temp = a\n",
+    "a = b\n",
+    "b = temp\n",
+    "\n",
+    "print(f'a = {a}, b = {b}')\n",
+    "\n",
+    "# the pythonic way\n",
+    "a, b = b, a\n",
+    "\n",
+    "print(f'a = {a}, b = {b}')"
+   ]
   },
   {
    "cell_type": "code",

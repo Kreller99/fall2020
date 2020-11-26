@@ -524,6 +524,44 @@ def contact():
 <ol class="arabic simple" start="3">
 <li><p>Add a menu point called exit. This element should exit the loop.</p></li>
 </ol>
+</div>
+</div>
+<div class="section" id="Swapping-values">
+<h2>Swapping values<a class="headerlink" href="#Swapping-values" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[61]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>a = 42
+b = 33
+
+print(f&#39;a = {a}, b = {b}&#39;)
+
+# normal swap
+temp = a
+a = b
+b = temp
+
+print(f&#39;a = {a}, b = {b}&#39;)
+
+# the pythonic way
+a, b = b, a
+
+print(f&#39;a = {a}, b = {b}&#39;)
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+a = 42, b = 33
+a = 33, b = 42
+a = 42, b = 33
+</pre></div></div>
+</div>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
 </pre></div>
@@ -531,16 +569,6 @@ def contact():
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
 <span></span>
 </pre></div>
-</div>
-</div>
-<div class="nbinput nblast docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
-</pre></div>
-</div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span>
-</pre></div>
-</div>
 </div>
 </div>
 </div>

@@ -21,10 +21,19 @@ Materials
 Exercises
 ---------
 
-* `Card Challange <>`_  (`Solution <exercises/solution/48_problem_solving/solutions.rst>`_)
-* `Euler Project <>`_  (`Solution <exercises/solution/48_problem_solving/solutions.rst>`_)
+* `Card Challange <notebooks/CardChallenge.ipynb>`_  (`Solution <exercises/solution/48_problem_solving/CardChallenge_solution.ipynb>`_)
+* `Euler Project <notebooks/project_euler.ipynb>`_  (`Solution <exercises/solution/48_problem_solving/project_euler_solutions.ipynb>`_)
 
+-------------
+Hjemmearbejde
+-------------
+* I har fået et link til en undersøgelse fra forskning og uddannelsesministeriet. Mailen skulle indeholde ordet "uddannelseszome". Det vil være en kæmpe hjælp for KEA hvis i kunne udfylde den derhjemme. Den tager vist ca. en time at udfylde, så vi bruger ikke tid i undervisningen på det. Men hvis i kunne bruge tid på det derehjemme vil det være fedt!
 
+I kan se en præsentationsvideo her:
+
+.. raw:: html
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y9RCt0CL9ps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ..        -------------------------
         Ex 1: Tjek dit cpr-nummer
