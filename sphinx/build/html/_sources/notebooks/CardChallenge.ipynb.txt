@@ -30,6 +30,12 @@
    "outputs": [],
    "source": [
     "# Possible solutions\n",
+    "\n",
+    "a og 7 -> 14\n",
+    "a og 4 -> 3\n",
+    "k -> 0\n",
+    "\n",
+    "\n",
     "\n"
    ]
   },
