@@ -425,6 +425,12 @@ div.rendered_html tbody tr:hover {
 </style>
 <div class="section" id="Notes-on-Tips-&amp;-Tricks">
 <h1>Notes on Tips &amp; Tricks<a class="headerlink" href="#Notes-on-Tips-&-Tricks" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="Sqlite">
+<h2>Sqlite<a class="headerlink" href="#Sqlite" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="Contextlib">
+<h2>Contextlib<a class="headerlink" href="#Contextlib" title="Permalink to this headline">¶</a></h2>
+</div>
 <div class="section" id="Merge-dictionaries">
 <h2>Merge dictionaries<a class="headerlink" href="#Merge-dictionaries" title="Permalink to this headline">¶</a></h2>
 <div class="nbinput docutils container">
@@ -562,12 +568,35 @@ a = 33, b = 42
 a = 42, b = 33
 </pre></div></div>
 </div>
+</div>
+<div class="section" id="http.server">
+<h2>http.server<a class="headerlink" href="#http.server" title="Permalink to this headline">¶</a></h2>
+<p>You can serve files and folders via http over a network by using the http.server command</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[1]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span># python3 -m http.server
+</pre></div>
+</div>
+</div>
+<p>When you work with a docker container it would look like this:</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[2]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span># docker run -it --rm -p 8000:8000 -v $(PWD):/docs python3 -m http.server --bind 0.0.0.0
+</pre></div>
+</div>
+</div>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
 </pre></div>
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span>
+<span></span>### Exercise 1: Flask
 </pre></div>
 </div>
 </div>

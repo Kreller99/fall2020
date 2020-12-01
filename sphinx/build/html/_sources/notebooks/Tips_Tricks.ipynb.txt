@@ -11,6 +11,20 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
+    "## Sqlite"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Contextlib"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
     "## Merge dictionaries"
    ]
   },
@@ -182,11 +196,46 @@
    ]
   },
   {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## http.server\n",
+    "You can serve files and folders via http over a network by using the http.server command"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# python3 -m http.server "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "When you work with a docker container it would look like this:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# docker run -it --rm -p 8000:8000 -v $(PWD):/docs python3 -m http.server --bind 0.0.0.0"
+   ]
+  },
+  {
    "cell_type": "code",
    "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": []
+   "source": [
+    "### Exercise 1: Flask"
+   ]
   }
  ],
  "metadata": {

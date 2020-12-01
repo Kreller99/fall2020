@@ -105,7 +105,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#learning-goals">Learning Goals</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#materials">Materials</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#exercises">Exercises</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#ex1-run-this-code">Ex1: run this code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ex-1-menu-and-dictionaries">Ex 1: Menu and dictionaries</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ex-2-serve-a-flask-website-on-local-network">Ex 2: Serve a Flask website on local network</a></li>
 </ul>
 </li>
 </ul>
@@ -209,23 +210,62 @@
 <h2>Learning Goals<a class="headerlink" href="#learning-goals" title="Permalink to this headline">¶</a></h2>
 <p>After this week you will be able to:</p>
 <ul class="simple">
-<li><p>Work with Data Clases</p></li>
-<li><p>Turn a folder on you local computer into a webserver and share content with others.</p></li>
+<li><p>Understand pythons contextlib functionallity</p></li>
+<li><p>Turn a docker container into a webserver on a local network.</p></li>
 </ul>
 </div>
 <div class="section" id="materials">
 <h2>Materials<a class="headerlink" href="#materials" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://realpython.com/python-data-classes/">Data Classes in Python 3.7+ (Guide)</a></p></li>
+<li><p><a class="reference internal" href="notebooks/Tips_Tricks.html"><span class="doc">Notebook on Tips &amp; Tricks</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="exercises">
 <h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="ex1-run-this-code">
-<h3>Ex1: run this code<a class="headerlink" href="#ex1-run-this-code" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p>Clone this repository and run the code</p></li>
-</ul>
+<div class="section" id="ex-1-menu-and-dictionaries">
+<h3>Ex 1: Menu and dictionaries<a class="headerlink" href="#ex-1-menu-and-dictionaries" title="Permalink to this headline">¶</a></h3>
+<p>In the module below, you should create a register dictionary that has the name of each function as a key and the function itself as a value.</p>
+<p>{‘home’ : home, ‘about’ : about}</p>
+<p>The register should always corospond to the functions that are in the file.</p>
+<p>It would be a good idea to use a decorator for this task. (but be aware that it might be a bit more simple than the decorators we worked with 2 weeks ago)</p>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="n">register</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">def</span> <span class="nf">home</span><span class="p">():</span>
+     <span class="k">return</span> <span class="s1">&#39;I am the Home page&#39;</span>
+<span class="k">def</span> <span class="nf">about</span><span class="p">():</span>
+     <span class="k">return</span> <span class="s1">&#39;I am the About page&#39;</span>
+<span class="k">def</span> <span class="nf">contact</span><span class="p">():</span>
+     <span class="k">return</span> <span class="s1">&#39;I am the Contact page&#39;</span>
+</pre></div>
+</td></tr></table></div>
+<ol class="arabic simple" start="2">
+<li><p>You should simulate a website menu that in a loop asks you what page you want to see and gives you the return value of the functions.</p></li>
+<li><p>Add a menu point called exit. This element should exit the loop.</p></li>
+</ol>
+</div>
+<div class="section" id="ex-2-serve-a-flask-website-on-local-network">
+<h3>Ex 2: Serve a Flask website on local network<a class="headerlink" href="#ex-2-serve-a-flask-website-on-local-network" title="Permalink to this headline">¶</a></h3>
+<p>Based on this app.py file:</p>
+<div class="highlight-python notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s1">&#39;Hello, World!&#39;</span>
+</pre></div>
+</td></tr></table></div>
+<p>Create a docker container that runs and serves the website on a local network. (You should be able to see the website in your phones browser)</p>
+<p>You can read more about Flask in this <a class="reference external" href="https://flask.palletsprojects.com/en/1.1.x/quickstart/">Quickstart Guide</a></p>
 </div>
 </div>
 </div>
