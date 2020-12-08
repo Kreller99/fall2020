@@ -29,7 +29,7 @@ Oral exam:
 
 
 * Same as 3rd semester SWC
-* 6 - 8 topics, where you pick a topic at the beginning of the examination.  
+* 4 topics, where you pick a topic at the beginning of the examination.  
 * Create a 10 minutes presentation and code examples for each topic.
 * After your presentation 15 minutes examination within this topic and other related topics.
 
@@ -45,7 +45,7 @@ This you should do through demonstrating your knowlege, skills and competencies 
 * Generators, Decorators & Context Managers
 * Python modules and the python development environment.
 
-You can get inspiration about what to talk about within each topic in your presentation [here](notebooks/exam_topics_inspiration.md).
+You can get inspiration about what to talk about within each topic in your presentation `here <notebooks/exam_synopsis_template.md>`_.
 
 -----------
 Exam advice
@@ -60,8 +60,8 @@ Oral exam
 
 
 You draw a topic from the topic cards.
-For 6-10 minutes you will present what you have prepared for this specific topic. 
-After that for 15-20 minutes, I (Claus) will ask you questions mainly within the same topic. 
+For 10 minutes you will present what you have prepared for this specific topic. 
+After that for 15 minutes, I (Claus) will ask you questions mainly within the same topic. 
 In the end of the exam, if the censor needs clarifications on your answers, he might ask you to elaborate on an already asked question. 
 
 Good advice:
@@ -89,11 +89,4 @@ The questions you will get at the exam will be focused on the topic you picked a
 For your presentation you should pick a subtopic that is of interest to you, and then use your 10 minutes on this. You do not have to cover every thing within the topic. I (Claus) will then either ask you questions about this or other subtopics within this same topic and related topics.
 
 Some subtopics overlap each other, and can appear multiple places. It is not different topics, but they just relate to the main topic in different ways. 
-
-**What to bring at your exam**
-
-* Computer in open condition
-* An open text editor
-* An open Python interpreter
-* An open instance of Jupyter Notebook
 

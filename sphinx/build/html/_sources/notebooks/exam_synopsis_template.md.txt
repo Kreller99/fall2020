@@ -9,19 +9,10 @@ My presentation for this topic will be about the qualities and difference of the
 ## 2. Pythonic OOP
 In my presentation i will focus on encapsulation and how this is achieved through the use of properties. I will give some pratical examples of first public variables and how to get and set them and then how we without making changes in the user code can add properties in our classes and achive encapsulation through these.
 
+## 3. Generators, Decorators & Context Managers
 
-## 3. Refactoring Code
-
- 
-
-## 4. Generators, Decorators & Context Managers
+## 4. Python modules and the python development environment. 
 
 
-
-## 5. Modules and the development environment.
-
-
-
-## 6. Machine Learning 
 
 
