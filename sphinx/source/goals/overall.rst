@@ -18,7 +18,6 @@ After completing this elective, you will have knowledge of:
 * A range of python-relevant development tools. 
 * Different Pythonic development methods. 
 * Differences between scripting and compiled languages.
-* What AI, Data Science and Machine Learning are and where and how you will be able to work with this in the future. 
 * The topics from the previous semesters of your education, but with a deeper understanding. 
 
 ******
